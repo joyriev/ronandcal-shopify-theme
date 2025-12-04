@@ -43,8 +43,13 @@
           "type": "short_description",
           "settings": {}
         },
+        "reactive_atc_XJwkHm": {
+          "type": "reactive_atc",
+          "settings": {}
+        },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
@@ -188,6 +193,7 @@
         "review_stars_kXbpid",
         "title",
         "short_description_n99kmC",
+        "reactive_atc_XJwkHm",
         "buy_buttons",
         "description",
         "quantity_selector",
