@@ -39,6 +39,10 @@
           "type": "title",
           "settings": {}
         },
+        "short_description_n99kmC": {
+          "type": "short_description",
+          "settings": {}
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -183,6 +187,7 @@
         "price",
         "review_stars_kXbpid",
         "title",
+        "short_description_n99kmC",
         "buy_buttons",
         "description",
         "quantity_selector",
