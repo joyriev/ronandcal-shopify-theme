@@ -243,12 +243,12 @@ a.product__text {
 
 .product__title {
   word-break: break-word;
-  margin-bottom: 1.2rem;
+  margin-bottom: 3rem;
   font-weight: 700;
 }
 
 .product__title h1 {
-  font-size: 22px;
+  font-size: 26px;
 }
 
 .product__title > * {
