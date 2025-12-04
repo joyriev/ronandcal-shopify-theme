@@ -1,0 +1,834 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "review_stars_kXbpid": {
+          "type": "review-stars",
+          "settings": {
+            "rating": 5,
+            "star_color": "#ffcc00",
+            "review_text_color": "#000000",
+            "empty_stars_style": "hidden",
+            "review_text": "Based on over <strong>1000+</strong> Reviews",
+            "review_font_size": 16,
+            "review_alignment": "flex-start"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "shipping_checkpoints_Qb9idz": {
+          "type": "shipping-checkpoints",
+          "disabled": true,
+          "settings": {
+            "icon_1": "shopping_cart",
+            "text_1": "Purchase",
+            "start_date_1": 0,
+            "end_date_1": 0,
+            "icon_2": "local_shipping",
+            "text_2": "Shipped",
+            "start_date_2": 1,
+            "end_date_2": 2,
+            "icon_3": "shopping_bag",
+            "text_3": "Delivered",
+            "start_date_3": 10,
+            "end_date_3": 12,
+            "icon_4": "",
+            "text_4": "",
+            "date_format": "month %e",
+            "day_label": "%a",
+            "month_label": "%b",
+            "date_placement": "col",
+            "icon_color": "#ffffff",
+            "icon_background_color": "#000000",
+            "icon_size": "md",
+            "text_size": 12
+          }
+        },
+        "payment_badges_mrRmGf": {
+          "type": "payment_badges",
+          "settings": {}
+        },
+        "delivery_deadline_M8aRC4": {
+          "type": "delivery_deadline",
+          "settings": {
+            "date_text": "Want it by [DATE]?",
+            "days": 2,
+            "date_format": "day, %e. month",
+            "day_label": "%A",
+            "month_label": "%b",
+            "date_size": 16,
+            "date_color": "#000000",
+            "timer_text": "ORDER WITHIN <strong>[HOURS] HOURS [MINUTES] MINUTES</strong>",
+            "hours": 1,
+            "minutes": 30,
+            "timer_size": 16,
+            "timer_color": "#000000",
+            "text_layout": "col",
+            "text_alignment": "center"
+          }
+        },
+        "icon_with_text_mNdJbt": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical_2",
+            "desktop_icon_size": 40,
+            "desktop_font_size": 16,
+            "mobile_icon_size": 30,
+            "mobile_font_size": 12,
+            "icon_1": "box",
+            "heading_1": "Packed & Secured",
+            "icon_2": "return",
+            "heading_2": "Free & Easy Returns",
+            "icon_3": "truck",
+            "heading_3": "",
+            "icon_4": "check_mark",
+            "heading_4": ""
+          }
+        },
+        "collapsible_tab_pnakVM": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "🔍 Product Details",
+            "icon": "none",
+            "content": "<p>Our razor is precision-machined from aircraft-grade aluminum at an AS9100-certified facility, guaranteeing aerospace-level tolerances for a consistently smooth shave. The blade exposure is locked to 0.0013″, reducing irritation while delivering a close, comfortable result every time.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_9jUktt": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "🚚 Shipping & Delivery",
+            "icon": "none",
+            "content": "<p>We offer free shipping on all orders across the continental US. Orders are processed within 1–2 business days, and you’ll receive tracking information as soon as your package leaves our facility.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_mXtiYD": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "🔄 Return & Refund Policy",
+            "icon": "none",
+            "content": "<p>Not satisfied? No problem. We provide a hassle-free 30-day return policy and a full refund if you’re not completely happy with your shave. Just reach out to our support team to start the process.</p>",
+            "page": ""
+          }
+        },
+        "product_reviews_dVEExJ": {
+          "type": "product_reviews",
+          "settings": {
+            "show_placeholder_image": true,
+            "reviewer_1": "<em>James P. from Seattle, WA</em>",
+            "text_1": "<p>This razor transformed my morning routine—precision engineering delivers the smoothest shave I’ve ever experienced.</p>",
+            "reviewer_2": "<em>Carlos M. from Miami, FL</em>",
+            "text_2": "<p>Incredibly smooth shave and zero nicks. The ultra-lightweight handle is a game changer.</p>",
+            "reviewer_3": "<em>Liam K. from Austin, TX</em>",
+            "text_3": "<p>Durable, high-quality build that still looks brand new after months of use.</p>",
+            "text_color": "#000000",
+            "text_alignment": "center",
+            "text_size": 18,
+            "display_stars": true,
+            "star_color": "#ffcc00",
+            "star_size": 16,
+            "star_placement": "below",
+            "image_shape": "circle",
+            "image_size": 75,
+            "show_card": true,
+            "background_color": "#ffffff",
+            "auto_scroll": true,
+            "side": "right"
+          }
+        }
+      },
+      "block_order": [
+        "variant_picker",
+        "price",
+        "review_stars_kXbpid",
+        "title",
+        "buy_buttons",
+        "description",
+        "quantity_selector",
+        "shipping_checkpoints_Qb9idz",
+        "payment_badges_mrRmGf",
+        "delivery_deadline_M8aRC4",
+        "icon_with_text_mNdJbt",
+        "collapsible_tab_pnakVM",
+        "collapsible_tab_9jUktt",
+        "collapsible_tab_mXtiYD",
+        "product_reviews_dVEExJ"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "small",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "product_info_padding": 5,
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "blocky_product_features_and_icons_cbPGtt": {
+      "type": "blocky-product-features-and-icons",
+      "blocks": {
+        "icon_NAwHiM": {
+          "type": "icon",
+          "settings": {
+            "icon_choice": "icon",
+            "icon_code": "precision_manufacturing",
+            "icon_color": "#000000",
+            "icon_heading": "<h3><b>Aerospace Accuracy</b></h3>",
+            "icon_heading_color": "#000000",
+            "icon_description": "<p>Unmatched precision for irritation-free shaves</p>",
+            "icon_text_color": "#000000"
+          }
+        },
+        "icon_ApGTWq": {
+          "type": "icon",
+          "settings": {
+            "icon_choice": "icon",
+            "icon_code": "cloud",
+            "icon_color": "#000000",
+            "icon_heading": "<h3><b>Feather-Light Feel</b></h3>",
+            "icon_heading_color": "#000000",
+            "icon_description": "<p>Just 1.3 oz for comfortable handling</p>",
+            "icon_text_color": "#000000"
+          }
+        },
+        "icon_bM4GLR": {
+          "type": "icon",
+          "settings": {
+            "icon_choice": "icon",
+            "icon_code": "shield",
+            "icon_color": "#000000",
+            "icon_heading": "<h3><b>Safe Shaving</b></h3>",
+            "icon_heading_color": "#000000",
+            "icon_description": "<p>Blade exposure limited to 0.0013”</p>",
+            "icon_text_color": "#000000"
+          }
+        },
+        "icon_nFVPJ9": {
+          "type": "icon",
+          "settings": {
+            "icon_choice": "icon",
+            "icon_code": "opacity",
+            "icon_color": "#000000",
+            "icon_heading": "<h3><b>Durable Finish</b></h3>",
+            "icon_heading_color": "#000000",
+            "icon_description": "<p>Corrosion-resistant Type II anodizing</p>",
+            "icon_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "icon_NAwHiM",
+        "icon_ApGTWq",
+        "icon_bM4GLR",
+        "icon_nFVPJ9"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/https_3A_2F_2Fhensonshaving.com_2Fcdn_2Fshop_2Fproducts_2Faircraftaluminum-02_1000x_67960dd2-2abf-4026-b0a7-024515b0ace8.jpg",
+        "video_fit": "zoomed",
+        "media_size": 100,
+        "autoplay": true,
+        "play_button_color": "#ffffff",
+        "play_button_background_color": "#000000",
+        "body_text": "<p>Engineered for the modern man’s grooming ritual</p>",
+        "body_color": "#000000",
+        "title": "<strong>Manly Precision, Effortless Shaves</strong>",
+        "title_size": 60,
+        "title_color": "#000000",
+        "text_layout": "body-first",
+        "icon_position": "top",
+        "background_color": "#ffffff",
+        "show_shadow": true,
+        "show_icon_code_shadow": false,
+        "page_width": 1200,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "blocky_floating_image_with_text_hVkz63": {
+      "type": "blocky-floating-image-with-text",
+      "blocks": {
+        "title_mHKJxB": {
+          "type": "title",
+          "settings": {
+            "title": "<b>Aero Alan’s Verdict</b>",
+            "title_size": 60,
+            "title_color": "#ffffff"
+          }
+        },
+        "body_bVCVL7": {
+          "type": "body",
+          "settings": {
+            "body_text": "<p>\"I’ve never felt a razor glide like this—precision meets comfort every time.\"</p>",
+            "body_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "title_mHKJxB",
+        "body_bVCVL7"
+      ],
+      "settings": {
+        "image2": "shopify://shop_images/aircraftaluminum-01_400x_d976bf9e-07e5-4f06-99ea-32fbcecfd359.jpg",
+        "image_size2": 100,
+        "mobile_image_size2": 100,
+        "image_size": 100,
+        "mobile_image_size": 100,
+        "image_size3": 100,
+        "mobile_image_size3": 100,
+        "background_color": "#066fef",
+        "bottom_background_color": "#ffffff",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "mobile_text_alignment": "center",
+        "is_floating_image": true,
+        "page_width": 1200,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "blocky_blocky_image_with_text_LepEWW": {
+      "type": "blocky-image-with-text",
+      "blocks": {
+        "title_WeGmfK": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Aerospace-Grade Precision</strong>",
+            "title_size": 60,
+            "title_color": "#000000"
+          }
+        },
+        "body_VhUrpx": {
+          "type": "body",
+          "settings": {
+            "body_text": "<p>Crafted at an AS9100-certified facility with aerospace-grade aluminum, this razor maintains tolerances of just ±0.00025″. Every component is precision-machined to deliver a shave that’s as consistent as it is comfortable.\n\nWith blade exposure locked at 0.0013″, you get a smooth, irritation-free experience that leaves your face feeling fresh without the nicks or cuts.</p>",
+            "body_size": 16,
+            "body_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "title_WeGmfK",
+        "body_VhUrpx"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/aircraftaluminum-03_400x_a80d4e05-6430-45bc-88b4-f9eb92fc5a80.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "image_fit": "cover",
+        "shadow": true,
+        "layout_style": "1",
+        "background_color": "#ffffff",
+        "layout_2_background_color": "#fcfcfc",
+        "layout": "row",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_layout": "col",
+        "mobile_content_alignment": "left",
+        "text_container_gap": "2rem",
+        "page_width": 1200,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "blocky_blocky_image_with_text_T6YKgq": {
+      "type": "blocky-image-with-text",
+      "blocks": {
+        "title_7zbjHe": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Ultra-Lightweight Design</strong>",
+            "title_size": 60,
+            "title_color": "#000000"
+          }
+        },
+        "body_8AzQwU": {
+          "type": "body",
+          "settings": {
+            "body_text": "<p>Weighing in at just 1.3 ounces, this razor is engineered for effortless handling—no more wrist strain or hand fatigue during your morning routine.\n\nIts balanced construction allows for optimal control with minimal pressure, letting you glide through each stroke with ease and precision.</p>",
+            "body_size": 16,
+            "body_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "title_7zbjHe",
+        "body_8AzQwU"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/bluehensonleg.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "image_fit": "cover",
+        "shadow": true,
+        "layout_style": "1",
+        "background_color": "#ffffff",
+        "layout_2_background_color": "#fcfcfc",
+        "layout": "row-reverse",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_layout": "col",
+        "mobile_content_alignment": "left",
+        "text_container_gap": "2rem",
+        "page_width": 1200,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "blocky_scrolling_image_bar_qgj8VR": {
+      "type": "blocky-scrolling-image-bar",
+      "blocks": {
+        "image_6pJVdb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/forearms.jpg"
+          }
+        },
+        "image_A6D8rA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/https_3A_2F_2Fhensonshaving.com_2Fcdn_2Fshop_2Fproducts_2Faircraftaluminum-03_1000x_aea9fd37-2af5-4b85-91ad-11652ed7bbb0.jpg"
+          }
+        },
+        "image_bPLkDe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/RazorFeaturesBeigeArtboard_1_copy_5_TINY_400x_b6094e4f-240d-40d8-8bdd-9abb70cc6166.jpg"
+          }
+        },
+        "image_cbN3HR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/https_3A_2F_2Fhensonshaving.com_2Fcdn_2Fshop_2Ffiles_2FRazorFeaturesBeigeArtboard_1_copy_2_TINY_1000x_a84dccd0-ab17-4f8a-8187-4b67225ef539.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_6pJVdb",
+        "image_A6D8rA",
+        "image_bPLkDe",
+        "image_cbN3HR"
+      ],
+      "settings": {
+        "image_height": 100,
+        "image_shape": "adapt",
+        "image_spacing": 3,
+        "border_radius": 15,
+        "speed": 1,
+        "background_color": "#ffffff",
+        "show_shadow": true,
+        "show_blur": true,
+        "disable_carousel": false,
+        "title": "",
+        "title_size": 36,
+        "title_color": "#000000",
+        "body_text": "",
+        "body_size": 20,
+        "body_color": "#000000",
+        "text_background_color": "#ffffff",
+        "text_padding": 3,
+        "hide_mobile": false,
+        "desktop_position": "over-text",
+        "mobile_position": "over-text",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "rich_text_CHXVVX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WAReVi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Real Results from Real Men",
+            "heading_size": "h1"
+          }
+        },
+        "text_bb44CB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>How our razor transformed their shave</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WAReVi",
+        "text_bb44CB"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_WNjhgj": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_fMBbmT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/https_3A_2F_2Fhensonshaving.com_2Fcdn_2Fshop_2Ffiles_2FRazorFeaturesBeigeArtboard_1_copy_3_TINY_1000x_0be8a4d2-7a80-4319-87bb-47adf05f32d1.jpg",
+            "title": "Ethan R.",
+            "text": "<p>I’ve tried every razor on the market. This one’s precision-milled build and smooth glide are unmatched.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gmLGG4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/https_3A_2F_2Fhensonshaving.com_2Fcdn_2Fshop_2Ffiles_2FRazorFeaturesBeigeArtboard_1_copy_5_TINY_1000x_ce41fa19-d975-49f9-9c62-15bbf088a670.jpg",
+            "title": "Marcus L.",
+            "text": "<p>The ultra-lightweight handle changed my routine. No more sore hands after shaving.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AMDUmT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/https_3A_2F_2Fhensonshaving.com_2Fcdn_2Fshop_2Ffiles_2Faircraftaluminum-01_1000x_f5655bd3-3634-438b-b9e8-676178b4bc79.jpg",
+            "title": "Noah S.",
+            "text": "<p>Durable anodized finish still looks brand new after months of use.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_fMBbmT",
+        "column_gmLGG4",
+        "column_AMDUmT"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 16
+      }
+    },
+    "blocky_before_after_slider_9rtMUk": {
+      "type": "blocky-before-after-slider",
+      "blocks": {
+        "title_DBGPT7": {
+          "type": "title",
+          "settings": {
+            "title": "<b>From Rough to Refined</b>",
+            "title_size": 60,
+            "title_color": "#000000"
+          }
+        },
+        "body_J66ENt": {
+          "type": "body",
+          "settings": {
+            "body_text": "<p>Witness the transformation a precision shave provides</p>",
+            "body_size": 16,
+            "body_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "title_DBGPT7",
+        "body_J66ENt"
+      ],
+      "settings": {
+        "before_image": "shopify://shop_images/https_3A_2F_2Fhensonshaving.com_2Fcdn_2Fshop_2Ffiles_2FRazorFeaturesBeigeArtboard_1_TINY_1000x_3b20df5f-5bc5-4fdf-a5ee-95ce1be27463.jpg",
+        "before_image_fit": "cover",
+        "after_image": "shopify://shop_images/aircraftaluminum-05_400x_7d9d47b3-626b-487a-ad7c-580c85956a5c.jpg",
+        "after_image_fit": "cover",
+        "slider_size": "medium",
+        "slider_shape": "square",
+        "auto_shape": false,
+        "layout": "slider_first",
+        "before_label": "Before",
+        "after_label": "After",
+        "labels_color": "#000000",
+        "line_color": "#000000",
+        "background_color": "#ffffff",
+        "text_align": "center",
+        "page_width": 1200,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "blocky_image_embedded_U4XKcp": {
+      "type": "blocky-image-embedded",
+      "blocks": {
+        "title_gipi7t": {
+          "type": "title",
+          "settings": {
+            "title": "<b>Elevate Your Grooming Game</b>",
+            "title_size": 60,
+            "title_color": "#000000"
+          }
+        },
+        "body_zE3YAb": {
+          "type": "body",
+          "settings": {
+            "body_text": "<p>Experience aerospace-level shaving at home</p>",
+            "body_size": 16,
+            "body_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "title_gipi7t",
+        "body_zE3YAb"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/RazorFeaturesBeigeArtboard_1_copy_2_TINY_400x_a8b85c6b-10b1-405c-a939-649845ae6978.jpg",
+        "section_height": "550px",
+        "mobile_height": "250px",
+        "image_fit": "cover",
+        "border_radius": 30,
+        "overlay_opacity": 0,
+        "text_align": "vertical-center horizontal-center",
+        "full_screen": false,
+        "page_width": 1200,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "collapsible_content_wQPqNk": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_EkzKfK": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What blades are compatible?",
+            "icon": "question_mark",
+            "row_content": "<p>Our razor works with all standard double-edge blades—no proprietary cartridges or subscriptions needed.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_C7FyMx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long will it last?",
+            "icon": "question_mark",
+            "row_content": "<p>Built from aircraft-grade aluminum with a Type II anodized finish, it’s designed to last a lifetime, backed by our warranty.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_pG6fjz": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is shipping really free?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, we offer free shipping on every order, with delivery estimates provided at checkout.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_kNzFnD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I return it?",
+            "icon": "question_mark",
+            "row_content": "<p>Absolutely. We offer a hassle-free 30-day return policy—if you’re not satisfied, simply reach out for a full refund.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_EkzKfK",
+        "collapsible_row_C7FyMx",
+        "collapsible_row_pG6fjz",
+        "collapsible_row_kNzFnD"
+      ],
+      "settings": {
+        "caption": "We’ve got you covered",
+        "heading": "Need More Answers?",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "section",
+        "color_scheme": "",
+        "container_color_scheme": "scheme-1",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "blocky_lys_multicolumn_with_text_and_icon_yzXfbh": {
+      "type": "blocky-lys-multicolumn-with-text-and-icon",
+      "blocks": {
+        "column_Mezkx3": {
+          "type": "column",
+          "settings": {
+            "icon_code": "lock",
+            "icon_color": "#000000",
+            "heading": "<h4><strong>Secure Checkout</strong></h4>",
+            "heading_color": "#000000",
+            "heading_font_size": 18,
+            "text": "<p>SSL-encrypted payments</p>",
+            "text_color": "#000000",
+            "text_font_size": 13,
+            "background_color": "#ffffff"
+          }
+        },
+        "column_AX4DXT": {
+          "type": "column",
+          "settings": {
+            "icon_code": "verified_user",
+            "icon_color": "#000000",
+            "heading": "<h4><strong>Lifetime Warranty</strong></h4>",
+            "heading_color": "#000000",
+            "heading_font_size": 18,
+            "text": "<p>Coverage for life—no questions asked</p>",
+            "text_color": "#000000",
+            "text_font_size": 13,
+            "background_color": "#ffffff"
+          }
+        },
+        "column_t4GF4b": {
+          "type": "column",
+          "settings": {
+            "icon_code": "local_shipping",
+            "icon_color": "#000000",
+            "heading": "<h4><strong>Free Shipping</strong></h4>",
+            "heading_color": "#000000",
+            "heading_font_size": 18,
+            "text": "<p>On every order, everywhere in the US</p>",
+            "text_color": "#000000",
+            "text_font_size": 13,
+            "background_color": "#ffffff"
+          }
+        },
+        "column_L3D8Uz": {
+          "type": "column",
+          "settings": {
+            "icon_code": "update",
+            "icon_color": "#000000",
+            "heading": "<h4><strong>Easy Returns</strong></h4>",
+            "heading_color": "#000000",
+            "heading_font_size": 18,
+            "text": "<p>30-day hassle-free policy</p>",
+            "text_color": "#000000",
+            "text_font_size": 13,
+            "background_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "column_Mezkx3",
+        "column_AX4DXT",
+        "column_t4GF4b",
+        "column_L3D8Uz"
+      ],
+      "settings": {
+        "columns_desktop": 4,
+        "icon_position": "left",
+        "text_alignment": "left",
+        "icon_size_px": 40,
+        "columns_mobile": 1,
+        "mobile_icon_position": "left",
+        "mobile_text_alignment": "left",
+        "mobile_icon_size_px": 40,
+        "title": "",
+        "title_size": 45,
+        "title_color": "#000000",
+        "title_alignment": "center",
+        "columns_gap": 14,
+        "show_shadow": false,
+        "full_screen": false,
+        "background_color": "#ffffff",
+        "page_width": 1200,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 2,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "blocky_product_features_and_icons_cbPGtt",
+    "blocky_floating_image_with_text_hVkz63",
+    "blocky_blocky_image_with_text_LepEWW",
+    "blocky_blocky_image_with_text_T6YKgq",
+    "blocky_scrolling_image_bar_qgj8VR",
+    "rich_text_CHXVVX",
+    "multicolumn_WNjhgj",
+    "blocky_before_after_slider_9rtMUk",
+    "blocky_image_embedded_U4XKcp",
+    "collapsible_content_wQPqNk",
+    "blocky_lys_multicolumn_with_text_and_icon_yzXfbh",
+    "related-products"
+  ]
+}
