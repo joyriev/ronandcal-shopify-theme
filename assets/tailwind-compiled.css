@@ -21,6 +21,10 @@
     isolation: isolate
 }
 
+.mt-6 {
+    margin-top: 24px
+}
+
 .block {
     display: block
 }
@@ -65,6 +69,36 @@
 
 .border {
     border-width: 1px
+}
+
+.pt-6 {
+    padding-top: 24px
+}
+
+.pt-4 {
+    padding-top: 16px
+}
+
+.pt-2 {
+    padding-top: 8px
+}
+
+.text-xl {
+    font-size: 20px;
+    line-height: 28px
+}
+
+.text-lg {
+    font-size: 18px;
+    line-height: 28px
+}
+
+.font-semibold {
+    font-weight: 600
+}
+
+.font-medium {
+    font-weight: 500
 }
 
 .uppercase {

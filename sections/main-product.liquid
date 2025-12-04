@@ -110,10 +110,6 @@
                 >
                   The Henson AL13 puts an end to shaving irritation and cuts, while also making your skin feel comfortable and smooth. We created this to give you a whole new shaving experience unlike any other. Your skin will feel amazing after using this razor.
                 </div>
-              {% when 'blade_options' %}
-              <div class="blade-options">
-                <!-- Blade options will be rendered here dynamically -->
-              </div>
               {%- when 'text' -%}
                 <p
                   class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
@@ -833,6 +829,8 @@
                     <span class="alert-text-text">{{ block.settings.text }}</span>
                   </div>
                 </div>
+                {% when 'reactive_atc' %}
+                  {% render 'reactive-atc' %}
             {%- endcase -%}
           {%- endfor -%}
           <a href="{{ product.url }}" class="link product__view-details animate-arrow">
@@ -910,6 +908,10 @@
       "type": "short_description",
       "name": "Short Description",
       "limit": 1
+    },
+    {
+      "type": "reactive_atc",
+      "name": "Reactive ATC"
     },
     {
       "type": "text",
