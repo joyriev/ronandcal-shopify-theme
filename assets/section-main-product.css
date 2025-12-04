@@ -247,6 +247,10 @@ a.product__text {
   font-weight: 700;
 }
 
+.product__title h1 {
+  font-size: 22px;
+}
+
 .product__title > * {
   margin: 0;
 }
