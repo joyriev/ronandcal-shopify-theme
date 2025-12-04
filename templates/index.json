@@ -141,6 +141,7 @@
     },
     "featured_collection_VRWrPQ": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "title": "Featured collection",
@@ -181,7 +182,7 @@
         "text_TrT3j4": {
           "type": "text",
           "settings": {
-            "text": "<p>For decades, the world has been promised a “smooth shave.”<br/><br/>Yet most people still walk away with irritation, razor burn, bumps, and ingrown hairs.<br/><br/>The real problem was never the shave itself — it was the tool.</p><p>Ronandal changes that.</p><p>Using precision engineering and advanced blade-support technology, we eliminated the hidden flaws found in mainstream razors: wobbling blades, uneven pressure, and unpredictable drag.<br/><br/>The result? A shave that’s incredibly gentle, remarkably close, and consistently irritation-free.</p><p>At Ronandal, we blend modern design with meticulous craftsmanship to create a razor that doesn’t just shave — it protects your skin.</p><p><strong>No burn. No bumps. No guesswork.<br/><br/>Just your cleanest, calmest shave ever.</strong></p>",
+            "text": "<p>For decades, the world has been promised a “smooth shave.”<br/><br/>Yet most people still walk away with irritation, razor burn, bumps, and ingrown hairs.<br/><br/>The real problem was never the shave itself — it was the tool.</p><p>Ronandal changes that.</p><p>Using precision engineering and advanced blade-support technology, we eliminated the hidden flaws found in mainstream razors: wobbling blades, uneven pressure, and unpredictable drag.</p>",
             "text_style": "body"
           }
         },
