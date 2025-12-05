@@ -1,90 +1,162 @@
-<div class="text-white py-5 modalbackgroundalignfix bg-cover bg-center bg-no-repeat" style="background-image: url('//hensonshaving.com/cdn/shop/files/desktop-backdrop-vFinal.jpg?v=1750776986');">
-  <div class="container mx-auto px-3 lg:px-5 max-w-[1300px]">
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
 
-    <!-- Section Title -->
-    <div class="mb-5">
-      <div class="flex">
-        <div class="poppins-regular-16 mb-3">
-          Unparalleled Standards
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div
+  id="{{ section.id }}"
+  class="section-{{ section.id }}-padding text-white"
+  style="background-color: {{ section.settings.background_color }}; background-image: url('{{ section.settings.background_image }}');">
+  <div class="page-width">
+    <div class="w-1/2">
+      <div class="mb-5">
+        <div class="flex">
+          <div class="poppins-regular-16 mb-3">
+            {{ section.settings.title }}
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Item 01 -->
-    <div class="mb-0">
-      <div class="flex gap-2">
-        <div class="w-auto lg:w-1/12">
-          <div class="poppins-regular-13 my-2">01</div>
-        </div>
 
-        <div class="flex-1 lg:w-5/12">
-          <div class="display-1 mb-3">AS9100</div>
+      <!-- Item 01 -->
+      <div class="mb-0">
+        <div class="flex gap-2">
+          <div class="w-auto lg:w-1/12">
+            <div class="poppins-regular-13 my-2">01</div>
+          </div>
 
-          <div class="poppins-regular-16 mb-5">
-            <p>
-              Manufactured at our aerospace facility in Ontario, Canada, our razor is built         
+          <div class="flex-1 lg:w-5/12">
+            <div class="text-2xl mb-3">AS9100</div>
+
+            <div class="poppins-regular-16 mb-5">
+              <p>
+                Manufactured at our aerospace facility in Ontario, Canada, our razor is built                                             
               with the same AS9100 aerospace standards required to create satellite components.
-            </p>
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Item 02 -->
-    <div class="mb-0">
-      <div class="flex gap-2">
-        <div class="w-auto lg:w-1/12">
-          <div class="poppins-regular-13 my-2">02</div>
-        </div>
+      <!-- Item 02 -->
+      <div class="mb-0">
+        <div class="flex gap-2">
+          <div class="w-auto lg:w-1/12">
+            <div class="poppins-regular-13 my-2">02</div>
+          </div>
 
-        <div class="flex-1 lg:w-5/12">
-          <div class="display-1 mb-3">+/-0.00025"</div>
+          <div class="flex-1 lg:w-5/12">
+            <div class="text-2xl mb-3">+/-0.00025"</div>
 
-          <div class="poppins-regular-16 mb-5">
-            <p>
-              Our blade exposure and blade angle are precisely machined to tolerances         
+            <div class="poppins-regular-16 mb-5">
+              <p>
+                Our blade exposure and blade angle are precisely machined to tolerances                                             
               as tight as +/-0.00025" to provide a close shave with little, if any, irritation.
-            </p>
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Item 03 -->
-    <div class="mb-0">
-      <div class="flex gap-2">
-        <div class="w-auto lg:w-1/12">
-          <div class="poppins-regular-13 my-2">03</div>
-        </div>
+      <!-- Item 03 -->
+      <div class="mb-0">
+        <div class="flex gap-2">
+          <div class="w-auto lg:w-1/12">
+            <div class="poppins-regular-13 my-2">03</div>
+          </div>
 
-        <div class="flex-1 lg:w-5/12">
-          <div class="display-1 mb-3">1.3 oz.</div>
+          <div class="flex-1 lg:w-5/12">
+            <div class="text-2xl mb-3">1.3 oz.</div>
 
-          <div class="poppins-regular-16 mb-5">
-            <p>
-              At 1.3 oz., this razor is ultra-lightweight and extremely agile, yet completely         
+            <div class="poppins-regular-16 mb-5">
+              <p>
+                At 1.3 oz., this razor is ultra-lightweight and extremely agile, yet completely                                             
               proficient, and is a joy to use. It is economically machined and coated with 
               Type II anodize, which gives this razor the looks you want with the protection 
               you need.
-            </p>
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
   </div>
 </div>
-
-
 {% schema %}
   {
     "name": "Unparalleled Standard",
-    "settings": [],
+    "settings": [
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background Color",
+        "default": "#333333"
+      },
+      {
+        "type": "image_picker",
+        "id": "background_image",
+        "label": "Background Image"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Section Title",
+        "default": "Unparalleled Standards"
+      },
+      {
+        "type": "header",
+        "content": "Section Padding"
+      }, {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "Padding Top",
+        "default": 72
+      }, {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "Padding Bottom",
+        "default": 72
+      }
+    ],
+    "blocks": [
+      {
+        "type": "feature",
+        "name": "Feature",
+        "settings": [
+          {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading",
+            "default": "Item Heading"
+          }, {
+            "type": "richtext",
+            "id": "description",
+            "label": "Description"
+          }
+        ]
+      }
+    ],
     "presets": [
       {
         "name": "Unparalleled Standard"
       }
     ]
-
   }
 {% endschema %}

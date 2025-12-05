@@ -142,6 +142,10 @@
     width: auto
 }
 
+.w-1\/2 {
+    width: 50%
+}
+
 .max-w-\[1300px\] {
     max-width: 1300px
 }
