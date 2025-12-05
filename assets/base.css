@@ -1362,6 +1362,11 @@ button.shopify-payment-button__button--unbranded {
   stroke: rgb(var(--color-button-text));
 }
 
+.button {
+  line-height: 50px;
+  border-radius: 999px;
+}
+
 /* Button - social share */
 
 .share-button {
