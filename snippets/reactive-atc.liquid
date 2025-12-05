@@ -1,4 +1,5 @@
 {% liquid
+  assign selected_variant = product.selected_or_first_available_variant
   assign hundred_product = all_products['100-premium-blades']
   assign lifetime_product = all_products['blades-for-life']
 %}
@@ -120,7 +121,6 @@
   x-data
   class="product-form__submit button button--full-width button--primary rounded-full leading-[50px] !mb-8"
   @click="$store.pdpExtra.addToCart()"
-  disabled
   :disabled="$store.pdpExtra.addingToCart">
   <span>
     {{ 'products.product.add_to_cart' | t }}
@@ -143,7 +143,35 @@
   </div>
 </button>
 
-{% assign selected_variant = product.selected_or_first_available_variant %}
+<product-form
+  class="product-form fixed -left-[999px] -top-[999px]"
+  data-hide-errors="{{ gift_card_recipient_feature_active }}"
+  data-section-id="{{ section.id }}">
+  {%- form 'product'
+    , product
+    , id: ''
+    , class: 'form'
+    , novalidate: 'novalidate'
+    , data-type: 'add-to-cart-form'
+  -%}
+    <input
+      x-data
+      type="hidden"
+      name="id"
+      id="product-variant-id"
+      :value="$store.pdpExtra.selectedVariant"
+      class="product-variant-id">
+    <button
+      type="submit"
+      name="add"
+      value="1"
+      class="hidden_product_form_submit"
+      aria-label="Add to cart">
+      <span>Add to cart</span>
+      {%- render 'loading-spinner' -%}
+    </button>
+  {%- endform -%}
+</product-form>
 
 <script>
     document.addEventListener('alpine:init', () => {
@@ -156,13 +184,52 @@
             addingToCart: false,
             addRemoveAccessories (id) {
                 if (this.accessories.includes(id)) {
-                    this.accessories = this.accessories.filter((item) => item !== id)
+                    this.accessories = this.accessories.filter((item) => item !== id);
                 } else {
-                    this.accessories.push(id)
+                    this.accessories.push(id);
                 }
             },
-            addToCart () {
-                this.addingToCart = true
+            async addToCart () {
+                this.addingToCart = true;
+
+                const items = [];
+
+                if(this.bladeOption){
+                  items.push({
+                    id: bladeOption,
+                    quantity: 1
+                  });
+                }
+
+                if (this.accessories.length > 0) {
+                  this.accessories.forEach(item => {
+                    items.push({
+                      id: item,
+                      quantity: 1
+                    });
+                  });
+                }
+
+                try {
+                  await fetch('/cart/add.js', {
+                    method: 'POST',
+                    headers: {
+                      'Content-Type': 'application/json',
+                      'Accept': 'application/json'
+                    },
+                    body: JSON.stringify({ items })
+                  });
+
+                } catch (error) {
+                  console.error('Error adding items to cart:', error);
+                } 
+
+                const hiddenSubmit = document.querySelector('.hidden_product_form_submit');
+                hiddenSubmit.click();
+
+                setTimeout(() => {
+                  this.addingToCart = false;
+                }, 2000);
             }
         })
     })
