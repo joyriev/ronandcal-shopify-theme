@@ -11,13 +11,12 @@
 </style>
 <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
-
 {% if product.variants.size > 1 %}
   <div x-data>
     <div class="flex gap-2 flex-wrap">
       {% for variant in product.variants %}
         <button
-          @click="$store.pdpExtra.selectedVariant = '{{ variant.id }}'; $store.pdpExtra.variantPrice = '{{ variant.price | money }}'; $store.pdpExtra.variantTitle = '{{ variant.title }}'"
+          @click="$store.pdpExtra.selectedVariant = '{{ variant.id }}'; $store.pdpExtra.variantPrice = '{{ variant.price | money }}'; $store.pdpExtra.variantCompareAtPrice = '{{ variant.compare_at_price | money }}'; $store.pdpExtra.variantTitle = '{{ variant.title }}'"
           class="p-0 border-2 border-solid bg-white rounded-full size-14 flex items-center justify-center cursor-pointer"
           :class="$store.pdpExtra.selectedVariant === '{{ variant.id }}' ? 'border-blue-700' : 'border-transparent'">
           <img
@@ -36,64 +35,64 @@
   </div>
 {% endif %}
 
-
 <div x-data class="flex items-center gap-2">
   <div class="text-xl text-black" x-html="$store.pdpExtra.variantPrice">{{ product.price | money }}</div>
   {% if product.price < product.compare_at_price %}
-    <div class="text-gray-500 line-through">
+    <div class="text-gray-500 line-through" x-html="$store.pdpExtra.variantCompareAtPrice">
       {{ product.compare_at_price | money }}
     </div>
   {% endif %}
 </div>
 
-
-<div class="bg-blue-100 p-4 rounded-lg" x-data>
-  <h3 class="text-lg font-semibold !mt-0 !mb-2">Blade Options:</h3>
-  <div class="flex items-center justify-between mb-2">
-    <div class="flex items-center gap-1">
-      <input
-        class="!size-5 m-0"
-        id="5blades"
-        type="checkbox"
-        disabled
-        checked>
-      <label for="5blades">5 Blades</label>
+{% if product.tags contains 'blades' %}
+  <div class="bg-blue-100 p-4 rounded-lg" x-data>
+    <h3 class="text-lg font-semibold !mt-0 !mb-2">Blade Options:</h3>
+    <div class="flex items-center justify-between mb-2">
+      <div class="flex items-center gap-1">
+        <input
+          class="!size-5 m-0"
+          id="5blades"
+          type="checkbox"
+          disabled
+          checked>
+        <label for="5blades">5 Blades</label>
+      </div>
+      <div>
+        <span class="italic text-slate-600">Included Free</span>
+      </div>
     </div>
-    <div>
-      <span class="italic text-slate-600">Included Free</span>
+
+    <div class="flex items-center justify-between mb-2">
+      <div class="flex items-center gap-1">
+        <input
+          class="!size-5 m-0"
+          id="100blades"
+          type="checkbox"
+          :checked="$store.pdpExtra.bladeOption === '{{ hundred_product.selected_or_first_available_variant.id }}'"
+          @change="$store.pdpExtra.bladeOption = ($store.pdpExtra.bladeOption === '{{ hundred_product.selected_or_first_available_variant.id }}') ? '' : '{{ hundred_product.selected_or_first_available_variant.id }}'">
+        <label for="100blades">{{ hundred_product.title }}</label>
+      </div>
+      <div>
+        <span>+{{ hundred_product.price | money }}</span>
+      </div>
+    </div>
+
+    <div class="flex items-center justify-between">
+      <div class="flex items-center gap-1">
+        <input
+          class="!size-5 m-0"
+          id="lifeBlades"
+          type="checkbox"
+          :checked="$store.pdpExtra.bladeOption === '{{ lifetime_product.selected_or_first_available_variant.id }}'"
+          @change="$store.pdpExtra.bladeOption = ($store.pdpExtra.bladeOption === '{{ lifetime_product.selected_or_first_available_variant.id }}') ? '' : '{{ lifetime_product.selected_or_first_available_variant.id }}'">
+        <label for="lifeBlades">{{ lifetime_product.title }}</label>
+      </div>
+      <div>
+        <span>+{{ lifetime_product.price | money }}</span>
+      </div>
     </div>
   </div>
-
-  <div class="flex items-center justify-between mb-2">
-    <div class="flex items-center gap-1">
-      <input
-        class="!size-5 m-0"
-        id="100blades"
-        type="checkbox"
-        :checked="$store.pdpExtra.bladeOption === '{{ hundred_product.selected_or_first_available_variant.id }}'"
-        @change="$store.pdpExtra.bladeOption = ($store.pdpExtra.bladeOption === '{{ hundred_product.selected_or_first_available_variant.id }}') ? '' : '{{ hundred_product.selected_or_first_available_variant.id }}'">
-      <label for="100blades">{{ hundred_product.title }}</label>
-    </div>
-    <div>
-      <span>+{{ hundred_product.price | money }}</span>
-    </div>
-  </div>
-
-  <div class="flex items-center justify-between">
-    <div class="flex items-center gap-1">
-      <input
-        class="!size-5 m-0"
-        id="lifeBlades"
-        type="checkbox"
-        :checked="$store.pdpExtra.bladeOption === '{{ lifetime_product.selected_or_first_available_variant.id }}'"
-        @change="$store.pdpExtra.bladeOption = ($store.pdpExtra.bladeOption === '{{ lifetime_product.selected_or_first_available_variant.id }}') ? '' : '{{ lifetime_product.selected_or_first_available_variant.id }}'">
-      <label for="lifeBlades">{{ lifetime_product.title }}</label>
-    </div>
-    <div>
-      <span>+{{ lifetime_product.price | money }}</span>
-    </div>
-  </div>
-</div>
+{% endif %}
 
 {% assign accessories = product.metafields.custom.accessories.value %}
 {% if accessories %}
@@ -180,6 +179,7 @@
         Alpine.store('pdpExtra', {
             selectedVariant: "{{ selected_variant.id }}",
             variantPrice: "{{ selected_variant.price | money }}",
+            variantCompareAtPrice: "{{ selected_variant.compare_at_price | money }}",
             variantTitle: "{{ selected_variant.title }}",
             bladeOption: "",
             accessories: [],
