@@ -13,7 +13,7 @@
 
 
 <div x-data>
-  <div class="flex gap-2">
+  <div class="flex gap-2 flex-wrap">
     {% for variant in product.variants %}
       <button
         @click="$store.pdpExtra.selectedVariant = '{{ variant.id }}'; $store.pdpExtra.variantPrice = '{{ variant.price | money }}'; $store.pdpExtra.variantTitle = '{{ variant.title }}'"
