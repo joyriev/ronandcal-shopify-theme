@@ -347,6 +347,11 @@
         "padding_bottom": 52
       }
     },
+    "uparallal_standard_qU3WBU": {
+      "type": "uparallal-standard",
+      "name": "Unparalleled Standard",
+      "settings": {}
+    },
     "blocky_product_features_and_icons_cbPGtt": {
       "type": "blocky-product-features-and-icons",
       "blocks": {
@@ -869,6 +874,7 @@
     "main",
     "blocky_lys_multicolumn_with_text_and_icon_yzXfbh",
     "rich_text_7TrCDU",
+    "uparallal_standard_qU3WBU",
     "blocky_product_features_and_icons_cbPGtt",
     "blocky_floating_image_with_text_hVkz63",
     "blocky_blocky_image_with_text_LepEWW",
