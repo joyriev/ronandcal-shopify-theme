@@ -311,6 +311,42 @@
         "padding_bottom": 12
       }
     },
+    "rich_text_7TrCDU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6PeUbT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Holiday bundles are here.",
+            "heading_size": "h1"
+          }
+        },
+        "button_jdDeEh": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_6PeUbT",
+        "button_jdDeEh"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "blocky_product_features_and_icons_cbPGtt": {
       "type": "blocky-product-features-and-icons",
       "blocks": {
@@ -832,6 +868,7 @@
   "order": [
     "main",
     "blocky_lys_multicolumn_with_text_and_icon_yzXfbh",
+    "rich_text_7TrCDU",
     "blocky_product_features_and_icons_cbPGtt",
     "blocky_floating_image_with_text_hVkz63",
     "blocky_blocky_image_with_text_LepEWW",
