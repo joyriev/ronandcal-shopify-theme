@@ -746,6 +746,55 @@
         "padding_bottom": 16
       }
     },
+    "image_with_text_aLmy7j": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_PWk6Hn": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Up to 90% Less Irritation</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_jeBx37": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Before:</strong><br/><br/>Redness, razor bumps, and irritation from daily shaving.</p><p><strong>After – Nordic Blade:</strong><br/><br/>Smoother skin, visibly reduced redness, and a clean shave with significantly less irritation.<br/><br/>Crafted with precision blade geometry for a close shave without the burn.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_Mc77UM": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PWk6Hn",
+        "text_jeBx37",
+        "button_Mc77UM"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/review_02_before_after.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "blocky_before_after_slider_9rtMUk": {
       "type": "blocky-before-after-slider",
       "blocks": {
@@ -908,55 +957,6 @@
         "columns_mobile": "2",
         "padding_top": 0,
         "padding_bottom": 60
-      }
-    },
-    "image_with_text_aLmy7j": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_PWk6Hn": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Up to 90% Less Irritation</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_jeBx37": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Before:</strong><br/><br/>Redness, razor bumps, and irritation from daily shaving.</p><p><strong>After – Nordic Blade:</strong><br/><br/>Smoother skin, visibly reduced redness, and a clean shave with significantly less irritation.</p><p></p><p><strong>Supporting Line:</strong><br/><br/>Crafted with precision blade geometry for a close shave without the burn.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_Mc77UM": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_PWk6Hn",
-        "text_jeBx37",
-        "button_Mc77UM"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/review_02_before_after.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     }
   },
