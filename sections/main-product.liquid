@@ -108,7 +108,7 @@
                   class="product__text inline-richtext"
                   {{ block.shopify_attributes }}
                 >
-                  The Henson AL13 puts an end to shaving irritation and cuts, while also making your skin feel comfortable and smooth. We created this to give you a whole new shaving experience unlike any other. Your skin will feel amazing after using this razor.
+                  {{ product.metafields.custom.short_description | metafield_tag }}
                 </div>
               {%- when 'text' -%}
                 <p

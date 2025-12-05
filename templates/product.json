@@ -14,6 +14,7 @@
       "blocks": {
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
@@ -21,6 +22,7 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {}
         },
         "review_stars_kXbpid": {
@@ -49,7 +51,7 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
-          "disabled": false,
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
