@@ -444,6 +444,7 @@
         "icon_bM4GLR",
         "icon_nFVPJ9"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/https_3A_2F_2Fhensonshaving.com_2Fcdn_2Fshop_2Fproducts_2Faircraftaluminum-02_1000x_67960dd2-2abf-4026-b0a7-024515b0ace8.jpg",
         "video_fit": "zoomed",
@@ -489,6 +490,7 @@
         "title_mHKJxB",
         "body_bVCVL7"
       ],
+      "disabled": true,
       "settings": {
         "image2": "shopify://shop_images/aircraftaluminum-01_400x_d976bf9e-07e5-4f06-99ea-32fbcecfd359.jpg",
         "image_size2": 100,
@@ -630,6 +632,7 @@
         "image_bPLkDe",
         "image_cbN3HR"
       ],
+      "disabled": true,
       "settings": {
         "image_height": 100,
         "image_shape": "adapt",
@@ -676,6 +679,7 @@
         "heading_WAReVi",
         "text_bb44CB"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -724,6 +728,7 @@
         "column_gmLGG4",
         "column_AMDUmT"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -809,6 +814,7 @@
         "title_gipi7t",
         "body_zE3YAb"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/RazorFeaturesBeigeArtboard_1_copy_2_TINY_400x_a8b85c6b-10b1-405c-a939-649845ae6978.jpg",
         "section_height": "550px",
