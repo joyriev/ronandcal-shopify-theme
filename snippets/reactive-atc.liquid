@@ -193,7 +193,6 @@
             },
             async addToCart () {
                 this.addingToCart = true;
-
                 const items = [];
 
                 if(this.bladeOption){
@@ -212,19 +211,21 @@
                   });
                 }
 
-                try {
-                  await fetch('/cart/add.js', {
-                    method: 'POST',
-                    headers: {
-                      'Content-Type': 'application/json',
-                      'Accept': 'application/json'
-                    },
-                    body: JSON.stringify({ items })
-                  });
+                if (items.length > 0) {
+                  try {
+                    await fetch('/cart/add.js', {
+                      method: 'POST',
+                      headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                      },
+                      body: JSON.stringify({ items })
+                    });
 
-                } catch (error) {
-                  console.error('Error adding items to cart:', error);
-                } 
+                  } catch (error) {
+                    console.error('Error adding items to cart:', error);
+                  } 
+                }
 
                 const hiddenSubmit = document.querySelector('.hidden_product_form_submit');
                 hiddenSubmit.click();
