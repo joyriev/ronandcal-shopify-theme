@@ -223,6 +223,94 @@
         "padding_bottom": 60
       }
     },
+    "blocky_lys_multicolumn_with_text_and_icon_yzXfbh": {
+      "type": "blocky-lys-multicolumn-with-text-and-icon",
+      "blocks": {
+        "column_Mezkx3": {
+          "type": "column",
+          "settings": {
+            "icon_code": "lock",
+            "icon_color": "#000000",
+            "heading": "<h4><strong>Secure Checkout</strong></h4>",
+            "heading_color": "#000000",
+            "heading_font_size": 18,
+            "text": "<p>SSL-encrypted payments</p>",
+            "text_color": "#000000",
+            "text_font_size": 13,
+            "background_color": "#ffffff"
+          }
+        },
+        "column_AX4DXT": {
+          "type": "column",
+          "settings": {
+            "icon_code": "verified_user",
+            "icon_color": "#000000",
+            "heading": "<h4><strong>Lifetime Warranty</strong></h4>",
+            "heading_color": "#000000",
+            "heading_font_size": 18,
+            "text": "<p>Coverage for life—no questions asked</p>",
+            "text_color": "#000000",
+            "text_font_size": 13,
+            "background_color": "#ffffff"
+          }
+        },
+        "column_t4GF4b": {
+          "type": "column",
+          "settings": {
+            "icon_code": "local_shipping",
+            "icon_color": "#000000",
+            "heading": "<h4><strong>Free Shipping</strong></h4>",
+            "heading_color": "#000000",
+            "heading_font_size": 18,
+            "text": "<p>On every order, everywhere in the US</p>",
+            "text_color": "#000000",
+            "text_font_size": 13,
+            "background_color": "#ffffff"
+          }
+        },
+        "column_L3D8Uz": {
+          "type": "column",
+          "settings": {
+            "icon_code": "update",
+            "icon_color": "#000000",
+            "heading": "<h4><strong>Easy Returns</strong></h4>",
+            "heading_color": "#000000",
+            "heading_font_size": 18,
+            "text": "<p>30-day hassle-free policy</p>",
+            "text_color": "#000000",
+            "text_font_size": 13,
+            "background_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "column_Mezkx3",
+        "column_AX4DXT",
+        "column_t4GF4b",
+        "column_L3D8Uz"
+      ],
+      "settings": {
+        "columns_desktop": 4,
+        "icon_position": "left",
+        "text_alignment": "left",
+        "icon_size_px": 40,
+        "columns_mobile": 1,
+        "mobile_icon_position": "left",
+        "mobile_text_alignment": "left",
+        "mobile_icon_size_px": 40,
+        "title": "",
+        "title_size": 45,
+        "title_color": "#000000",
+        "title_alignment": "center",
+        "columns_gap": 14,
+        "show_shadow": false,
+        "full_screen": false,
+        "background_color": "#eff0f5",
+        "page_width": 1200,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
     "blocky_product_features_and_icons_cbPGtt": {
       "type": "blocky-product-features-and-icons",
       "blocks": {
@@ -721,94 +809,6 @@
         "padding_bottom": 0
       }
     },
-    "blocky_lys_multicolumn_with_text_and_icon_yzXfbh": {
-      "type": "blocky-lys-multicolumn-with-text-and-icon",
-      "blocks": {
-        "column_Mezkx3": {
-          "type": "column",
-          "settings": {
-            "icon_code": "lock",
-            "icon_color": "#000000",
-            "heading": "<h4><strong>Secure Checkout</strong></h4>",
-            "heading_color": "#000000",
-            "heading_font_size": 18,
-            "text": "<p>SSL-encrypted payments</p>",
-            "text_color": "#000000",
-            "text_font_size": 13,
-            "background_color": "#ffffff"
-          }
-        },
-        "column_AX4DXT": {
-          "type": "column",
-          "settings": {
-            "icon_code": "verified_user",
-            "icon_color": "#000000",
-            "heading": "<h4><strong>Lifetime Warranty</strong></h4>",
-            "heading_color": "#000000",
-            "heading_font_size": 18,
-            "text": "<p>Coverage for life—no questions asked</p>",
-            "text_color": "#000000",
-            "text_font_size": 13,
-            "background_color": "#ffffff"
-          }
-        },
-        "column_t4GF4b": {
-          "type": "column",
-          "settings": {
-            "icon_code": "local_shipping",
-            "icon_color": "#000000",
-            "heading": "<h4><strong>Free Shipping</strong></h4>",
-            "heading_color": "#000000",
-            "heading_font_size": 18,
-            "text": "<p>On every order, everywhere in the US</p>",
-            "text_color": "#000000",
-            "text_font_size": 13,
-            "background_color": "#ffffff"
-          }
-        },
-        "column_L3D8Uz": {
-          "type": "column",
-          "settings": {
-            "icon_code": "update",
-            "icon_color": "#000000",
-            "heading": "<h4><strong>Easy Returns</strong></h4>",
-            "heading_color": "#000000",
-            "heading_font_size": 18,
-            "text": "<p>30-day hassle-free policy</p>",
-            "text_color": "#000000",
-            "text_font_size": 13,
-            "background_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "column_Mezkx3",
-        "column_AX4DXT",
-        "column_t4GF4b",
-        "column_L3D8Uz"
-      ],
-      "settings": {
-        "columns_desktop": 4,
-        "icon_position": "left",
-        "text_alignment": "left",
-        "icon_size_px": 40,
-        "columns_mobile": 1,
-        "mobile_icon_position": "left",
-        "mobile_text_alignment": "left",
-        "mobile_icon_size_px": 40,
-        "title": "",
-        "title_size": 45,
-        "title_color": "#000000",
-        "title_alignment": "center",
-        "columns_gap": 14,
-        "show_shadow": false,
-        "full_screen": false,
-        "background_color": "#ffffff",
-        "page_width": 1200,
-        "padding_top": 12,
-        "padding_bottom": 12
-      }
-    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -831,6 +831,7 @@
   },
   "order": [
     "main",
+    "blocky_lys_multicolumn_with_text_and_icon_yzXfbh",
     "blocky_product_features_and_icons_cbPGtt",
     "blocky_floating_image_with_text_hVkz63",
     "blocky_blocky_image_with_text_LepEWW",
@@ -841,7 +842,6 @@
     "blocky_before_after_slider_9rtMUk",
     "blocky_image_embedded_U4XKcp",
     "collapsible_content_wQPqNk",
-    "blocky_lys_multicolumn_with_text_and_icon_yzXfbh",
     "related-products"
   ]
 }
