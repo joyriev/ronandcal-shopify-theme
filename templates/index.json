@@ -9,6 +9,23 @@
  */
 {
   "sections": {
+    "home_hero_XRfPmi": {
+      "type": "home-hero",
+      "name": "Homepage Hero",
+      "settings": {
+        "background_color": "#fcfbf9",
+        "image": "shopify://shop_images/goldhero-dsk-v03.jpg",
+        "review_text": "LOVED BY 10,000 CUSTOMERS",
+        "title": "Homepage Hero",
+        "subtitle": "Homepage Hero",
+        "button_text": "BUY 3 GET 1 FREE - ENDS SOON!",
+        "button_link": "",
+        "secondary_button_text": "Not sure yet? Explore More →",
+        "secondary_button_link": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "blocky_lys_image_embedded_U9gQQA": {
       "type": "blocky-lys-image-embed",
       "blocks": {
@@ -219,6 +236,7 @@
     }
   },
   "order": [
+    "home_hero_XRfPmi",
     "blocky_lys_image_embedded_U9gQQA",
     "blocky_lys_scrolling_text_bar_Xgnxzm",
     "featured_product_8BhDwR",
