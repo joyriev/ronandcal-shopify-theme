@@ -349,8 +349,42 @@
     },
     "uparallal_standard_qU3WBU": {
       "type": "uparallal-standard",
+      "blocks": {
+        "feature_iRxGWM": {
+          "type": "feature",
+          "settings": {
+            "heading": "AS9100",
+            "description": "<p>Manufactured at our aerospace facility in Ontario, Canada, our razor is built with the same AS9100 aerospace standards required to create satellite components.</p>"
+          }
+        },
+        "feature_qVKknC": {
+          "type": "feature",
+          "settings": {
+            "heading": "AS9100",
+            "description": "<p>Manufactured at our aerospace facility in Ontario, Canada, our razor is built with the same AS9100 aerospace standards required to create satellite components.</p>"
+          }
+        },
+        "feature_G9DLXQ": {
+          "type": "feature",
+          "settings": {
+            "heading": "AS9100",
+            "description": "<p>Manufactured at our aerospace facility in Ontario, Canada, our razor is built with the same AS9100 aerospace standards required to create satellite components.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_iRxGWM",
+        "feature_qVKknC",
+        "feature_G9DLXQ"
+      ],
       "name": "Unparalleled Standard",
-      "settings": {}
+      "settings": {
+        "background_color": "#333333",
+        "background_image": "shopify://shop_images/desktop-backdrop-vFinal.jpg",
+        "title": "Unparalleled Standards",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
     },
     "blocky_product_features_and_icons_cbPGtt": {
       "type": "blocky-product-features-and-icons",
