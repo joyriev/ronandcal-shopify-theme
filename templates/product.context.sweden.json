@@ -12,5 +12,26 @@
   "context": {
     "market": "sweden"
   },
-  "sections": {}
+  "sections": {
+    "uparallal_standard_qU3WBU": {
+      "settings": {},
+      "blocks": {
+        "feature_iRxGWM": {
+          "settings": {
+            "description": "<p><br/>Tillverkad vid vår rymdindustriella anläggning i Ontario, Kanada, är vår rakhyvel byggd enligt samma AS9100-standarder som krävs för att tillverka satellitkomponenter.</p>"
+          }
+        },
+        "feature_qVKknC": {
+          "settings": {
+            "description": "<p><br/>Vår bladexponering och bladvinkel är exakt bearbetade med toleranser så snäva som ±0,00025\" för att ge en nära rakning med mycket liten eller ingen irritation.</p>"
+          }
+        },
+        "feature_G9DLXQ": {
+          "settings": {
+            "description": "<p><br/>Med en vikt på endast 1,3 oz är denna rakhyvel ultralätt och extremt smidig, men ändå helt effektiv och en ren njutning att använda. Den är kostnadseffektivt bearbetad och belagd med Type II-anodisering, vilket ger rakhyveln det utseende du vill ha och det skydd du behöver.</p>"
+          }
+        }
+      }
+    }
+  }
 }

@@ -8,9 +8,12 @@
  * ------------------------------------------------------------
  */
 {
-  "parent": "product.json",
-  "context": {
-    "market": "denmark"
-  },
-  "sections": {}
+  "markets": {
+    "denmark": {
+      "parent": "@default"
+    },
+    "sweden": {
+      "parent": "@default"
+    }
+  }
 }
