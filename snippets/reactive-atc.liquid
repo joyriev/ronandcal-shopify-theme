@@ -70,8 +70,8 @@
         class="!size-5 m-0"
         id="100blades"
         type="checkbox"
-        :checked="$store.pdpExtra.selectedBlade === '{{ hundred_product.selected_or_first_available_variant.id }}'"
-        @change="$store.pdpExtra.selectedBlade = ($store.pdpExtra.selectedBlade === '{{ hundred_product.selected_or_first_available_variant.id }}') ? '' : '{{ hundred_product.selected_or_first_available_variant.id }}'">
+        :checked="$store.pdpExtra.bladeOption === '{{ hundred_product.selected_or_first_available_variant.id }}'"
+        @change="$store.pdpExtra.bladeOption = ($store.pdpExtra.bladeOption === '{{ hundred_product.selected_or_first_available_variant.id }}') ? '' : '{{ hundred_product.selected_or_first_available_variant.id }}'">
       <label for="100blades">{{ hundred_product.title }}</label>
     </div>
     <div>
@@ -85,8 +85,8 @@
         class="!size-5 m-0"
         id="lifeBlades"
         type="checkbox"
-        :checked="$store.pdpExtra.selectedBlade === '{{ lifetime_product.selected_or_first_available_variant.id }}'"
-        @change="$store.pdpExtra.selectedBlade = ($store.pdpExtra.selectedBlade === '{{ lifetime_product.selected_or_first_available_variant.id }}') ? '' : '{{ lifetime_product.selected_or_first_available_variant.id }}'">
+        :checked="$store.pdpExtra.bladeOption === '{{ lifetime_product.selected_or_first_available_variant.id }}'"
+        @change="$store.pdpExtra.bladeOption = ($store.pdpExtra.bladeOption === '{{ lifetime_product.selected_or_first_available_variant.id }}') ? '' : '{{ lifetime_product.selected_or_first_available_variant.id }}'">
       <label for="lifeBlades">{{ lifetime_product.title }}</label>
     </div>
     <div>
@@ -198,7 +198,7 @@
 
                 if(this.bladeOption){
                   items.push({
-                    id: bladeOption,
+                    id: this.bladeOption,
                     quantity: 1
                   });
                 }
