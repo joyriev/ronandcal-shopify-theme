@@ -1,3 +1,113 @@
-<div>
-  reactive ATC
+{% liquid
+  assign hundred_product = all_products['100-premium-blades']
+  assign lifetime_product = all_products['blades-for-life']
+  assign razor_stand = all_products['']
+  assign shave_brush = all_products['']
+  assign shave_cream = all_products['']
+%}
+
+<style>
+  [x-cloak] {
+    display: none !important;
+  }
+</style>
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+<div class="bg-blue-100 p-4 rounded-lg" x-data>
+  <h3 class="text-lg font-semibold !mt-0 !mb-2">Blade Options:</h3>
+
+  <div class="flex items-center justify-between mb-2">
+    <div class="flex items-center">
+      <input
+        class="!size-5 m-0"
+        id="5blades"
+        type="checkbox"
+        disabled
+        checked>
+      <label for="5blades">5 Blades</label>
+    </div>
+    <div>
+      <span class="italic text-slate-600">Included Free</span>
+    </div>
+  </div>
+
+  <div class="flex items-center justify-between mb-2">
+    <div class="flex items-center gap-2">
+      <input
+        class="!size-5 m-0"
+        id="100blades"
+        type="checkbox"
+        :checked="$store.pdpExtra.selectedBlade === '{{ hundred_product.selected_or_first_available_variant.id }}'"
+        @change="$store.pdpExtra.selectedBlade = ($store.pdpExtra.selectedBlade === '{{ hundred_product.selected_or_first_available_variant.id }}') ? '' : '{{ hundred_product.selected_or_first_available_variant.id }}'">
+      <label for="100blades">{{ hundred_product.title }}</label>
+    </div>
+    <div>
+      <span>+{{ hundred_product.price | money }}</span>
+    </div>
+  </div>
+
+  <div class="flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <input
+        class="!size-5 m-0"
+        id="lifeBlades"
+        type="checkbox"
+        :checked="$store.pdpExtra.selectedBlade === '{{ lifetime_product.selected_or_first_available_variant.id }}'"
+        @change="$store.pdpExtra.selectedBlade = ($store.pdpExtra.selectedBlade === '{{ lifetime_product.selected_or_first_available_variant.id }}') ? '' : '{{ lifetime_product.selected_or_first_available_variant.id }}'">
+      <label for="lifeBlades">{{ lifetime_product.title }}</label>
+    </div>
+    <div>
+      <span>+{{ lifetime_product.price | money }}</span>
+    </div>
+  </div>
 </div>
+
+<div x-data class="p-4">
+  <h3 class="text-lg font-semibold !my-0">Accessories:</h3>
+  <p class="text-base mt-0 !mb-3">Accessories 10% off until Dec 12 - Automatically applies in the cart.</p>
+  <div class="flex items-center justify-between mb-2">
+    <div class="flex items-center gap-2">
+      <input
+        class="!size-5 m-0"
+        id="100blades"
+        type="checkbox"
+        :checked="$store.pdpExtra.selectedBlade === '{{ hundred_product.selected_or_first_available_variant.id }}'"
+        @change="$store.pdpExtra.selectedBlade = ($store.pdpExtra.selectedBlade === '{{ hundred_product.selected_or_first_available_variant.id }}') ? '' : '{{ hundred_product.selected_or_first_available_variant.id }}'">
+      <label for="100blades">{{ hundred_product.title }}</label>
+    </div>
+    <div>
+      <span>+{{ hundred_product.price | money }}</span>
+    </div>
+  </div>
+
+  <div class="flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <input
+        class="!size-5 m-0"
+        id="lifeBlades"
+        type="checkbox"
+        :checked="$store.pdpExtra.selectedBlade === '{{ lifetime_product.selected_or_first_available_variant.id }}'"
+        @change="$store.pdpExtra.selectedBlade = ($store.pdpExtra.selectedBlade === '{{ lifetime_product.selected_or_first_available_variant.id }}') ? '' : '{{ lifetime_product.selected_or_first_available_variant.id }}'">
+      <label for="lifeBlades">{{ lifetime_product.title }}</label>
+    </div>
+    <div>
+      <span>+{{ lifetime_product.price | money }}</span>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('alpine:init', () => {
+    Alpine.store('pdpExtra', {
+      bladeOption: "",
+      accessories: [],
+      addRemoveAccessories (id) {
+        if (this.accessories.includes(id)) {
+            this.accessories = this.accessories.filter((item) => item !== id)
+        } else {
+            this.accessories.push(id)
+        }
+      }
+    })
+  })
+</script>
