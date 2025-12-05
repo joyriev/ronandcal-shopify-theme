@@ -12,27 +12,29 @@
 <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
 
-<div x-data>
-  <div class="flex gap-2 flex-wrap">
-    {% for variant in product.variants %}
-      <button
-        @click="$store.pdpExtra.selectedVariant = '{{ variant.id }}'; $store.pdpExtra.variantPrice = '{{ variant.price | money }}'; $store.pdpExtra.variantTitle = '{{ variant.title }}'"
-        class="p-0 border-2 border-solid bg-white rounded-full size-14 flex items-center justify-center cursor-pointer"
-        :class="$store.pdpExtra.selectedVariant === '{{ variant.id }}' ? 'border-blue-700' : 'border-transparent'">
-        <img
-          class="rounded-full"
-          src="{{ variant.image |  image_url: width: 100, height: 100 }}"
-          alt="{{ variant.title }}"
-          height="48"
-          width="48">
-      </button>
-    {% endfor %}
+{% if product.variants.size > 1 %}
+  <div x-data>
+    <div class="flex gap-2 flex-wrap">
+      {% for variant in product.variants %}
+        <button
+          @click="$store.pdpExtra.selectedVariant = '{{ variant.id }}'; $store.pdpExtra.variantPrice = '{{ variant.price | money }}'; $store.pdpExtra.variantTitle = '{{ variant.title }}'"
+          class="p-0 border-2 border-solid bg-white rounded-full size-14 flex items-center justify-center cursor-pointer"
+          :class="$store.pdpExtra.selectedVariant === '{{ variant.id }}' ? 'border-blue-700' : 'border-transparent'">
+          <img
+            class="rounded-full"
+            src="{{ variant.image |  image_url: width: 100, height: 100 }}"
+            alt="{{ variant.title }}"
+            height="48"
+            width="48">
+        </button>
+      {% endfor %}
+    </div>
+    <div class="mt-2">
+      Color:
+      <span x-html="$store.pdpExtra.variantTitle"></span>
+    </div>
   </div>
-  <div class="mt-2">
-    Color:
-    <span x-html="$store.pdpExtra.variantTitle"></span>
-  </div>
-</div>
+{% endif %}
 
 
 <div x-data class="flex items-center gap-2">
