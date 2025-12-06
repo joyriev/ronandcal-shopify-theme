@@ -148,12 +148,23 @@
         "padding_top": 72,
         "padding_bottom": 72
       }
+    },
+    "how_it_works_4t44M9": {
+      "type": "how-it-works",
+      "name": "How It Works",
+      "settings": {
+        "background_color": "#fcfbf9",
+        "title": "How It Works",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
     }
   },
   "order": [
     "home_hero_jjpedA",
     "featured_collection_VRWrPQ",
     "home_bundle_cols_gEJdUQ",
-    "image_with_text_zcjEWQ"
+    "image_with_text_zcjEWQ",
+    "how_it_works_4t44M9"
   ]
 }
