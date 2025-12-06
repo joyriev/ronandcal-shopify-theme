@@ -18,7 +18,7 @@
   style="background-color: {{ section.settings.background_color }}; background-image: url('{{ section.settings.background_image | image_url }}');">
   <div class="page-width">
     <h2 class="text-3xl md:text-4xl font-black mt-0 !mb-12 text-center text-white">{{ section.settings.title }}</h2>
-    <div class="grid grid-cols-1 gap-12 md:grid-cols-3">
+    <div class="grid grid-cols-2 gap-6 md:grid-cols-4">
 
       {% for product in section.settings.collection.products %}
         {% render 'card-product'
