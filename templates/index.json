@@ -415,6 +415,7 @@
         "collapsible_row_w4fWMr",
         "collapsible_row_BGEBDT"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
