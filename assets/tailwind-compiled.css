@@ -614,6 +614,10 @@
         padding-right: 24px
     }
 
+    .md\:text-left {
+        text-align: left
+    }
+
     .md\:text-4xl {
         font-size: 36px;
         line-height: 40px

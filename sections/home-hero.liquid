@@ -14,10 +14,10 @@
 
 <div
   id="{{ section.id }}"
-  class="section-{{ section.id }}-padding bg-cover bg-center"
+  class="section-{{ section.id }}-padding bg-cover bg-right md:bg-center"
   style="background-color: {{ section.settings.background_color }}; background-image: url('{{ section.settings.background_image | image_url }}');">
   <div class="page-width">
-    <div class="ml-auto max-w-[500px] md:px-10">
+    <div class="ml-auto max-w-[500px] md:px-10 text-center md:text-left">
       <h1 class="text-3xl md:text-4xl font-black mt-0">{{ section.settings.title }}</h1>
       <p class="text-lg font-medium">{{ section.settings.subtitle }}</p>
       <a href="{{ section.settings.button_link }}" class="button">{{ section.settings.button_text }}</a>
