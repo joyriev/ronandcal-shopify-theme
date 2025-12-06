@@ -201,10 +201,40 @@
             "row_content": "<p>To shave effectively you want a rigid, precisely controlled blade. Imagine cutting anything with a wobbly knife—it wouldn't work well and shaving is no different.<br/><br/>Your skin is already soft and flexible, so combining it with flexible, wobbly blades like in multi-blade razors causes more tugging and digging when passing through your relatively harder hairs. </p>",
             "page": ""
           }
+        },
+        "collapsible_row_PQkbXX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why is a rigid blade better?",
+            "icon": "none",
+            "row_content": "<p>To shave effectively you want a rigid, precisely controlled blade. Imagine cutting anything with a wobbly knife—it wouldn't work well and shaving is no different.<br/><br/>Your skin is already soft and flexible, so combining it with flexible, wobbly blades like in multi-blade razors causes more tugging and digging when passing through your relatively harder hairs. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_w4fWMr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why is a rigid blade better?",
+            "icon": "none",
+            "row_content": "<p>To shave effectively you want a rigid, precisely controlled blade. Imagine cutting anything with a wobbly knife—it wouldn't work well and shaving is no different.<br/><br/>Your skin is already soft and flexible, so combining it with flexible, wobbly blades like in multi-blade razors causes more tugging and digging when passing through your relatively harder hairs. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_BGEBDT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why is a rigid blade better?",
+            "icon": "none",
+            "row_content": "<p>To shave effectively you want a rigid, precisely controlled blade. Imagine cutting anything with a wobbly knife—it wouldn't work well and shaving is no different.<br/><br/>Your skin is already soft and flexible, so combining it with flexible, wobbly blades like in multi-blade razors causes more tugging and digging when passing through your relatively harder hairs. </p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
-        "collapsible_row_XYKH4n"
+        "collapsible_row_XYKH4n",
+        "collapsible_row_PQkbXX",
+        "collapsible_row_w4fWMr",
+        "collapsible_row_BGEBDT"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
@@ -218,8 +248,8 @@
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 72,
+        "padding_bottom": 72
       }
     }
   },
