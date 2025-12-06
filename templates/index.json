@@ -16,8 +16,8 @@
         "background_color": "#fcfbf9",
         "background_image": "shopify://shop_images/goldhero-dsk-v03.jpg",
         "title": "Buy once, use for life.",
-        "subtitle": "Henson is a modern re-imagining of the classic razor, featuring a design that protects your skin and causes less irritation than multi-blade alternatives.",
-        "button_text": "GET NORDIC GLIDE",
+        "subtitle": "Nordic Glade is a modern re-imagining of the classic razor, featuring a design that protects your skin and causes less irritation than multi-blade alternatives.",
+        "button_text": "GET NORDIC GLADE",
         "button_link": "shopify://collections",
         "padding_top": 100,
         "padding_bottom": 100
@@ -61,7 +61,7 @@
           "settings": {
             "image": "shopify://shop_images/5x4-essentials.jpg",
             "heading": "The Essentials",
-            "description": "The Essentials Bundle contains the full Henson experience. Includes Henson Razor, matching Henson Stand, 100 premium blades and our full shave care line up.",
+            "description": "The Essentials Bundle contains the full Nordic Glade experience. Includes Nordic Glade Razor, matching Nordic Glade Stand, 100 premium blades and our full shave care line up.",
             "button_text": "Shop Now",
             "button_link": "shopify://collections"
           }
@@ -71,7 +71,7 @@
           "settings": {
             "image": "shopify://shop_images/5x4-essentials.jpg",
             "heading": "The Essentials",
-            "description": "The Essentials Bundle contains the full Henson experience. Includes Henson Razor, matching Henson Stand, 100 premium blades and our full shave care line up.",
+            "description": "The Essentials Bundle contains the full Nordic Glade experience. Includes Nordic Glade Razor, matching Nordic Glade Stand, 100 premium blades and our full shave care line up.",
             "button_text": "Shop Now",
             "button_link": "shopify://collections"
           }
@@ -81,7 +81,7 @@
           "settings": {
             "image": "shopify://shop_images/5x4-essentials.jpg",
             "heading": "The Essentials",
-            "description": "The Essentials Bundle contains the full Henson experience. Includes Henson Razor, matching Henson Stand, 100 premium blades and our full shave care line up.",
+            "description": "The Essentials Bundle contains the full Nordic Glade experience. Includes Nordic Glade Razor, matching Nordic Glade Stand, 100 premium blades and our full shave care line up.",
             "button_text": "Shop Now",
             "button_link": "shopify://collections"
           }
@@ -229,21 +229,21 @@
           "type": "item",
           "settings": {
             "heading": "Protects your skin, and your wallet.",
-            "description": "<p>Expect to spend $2-3 per year on blades once you own the Henson. That's the price of a single multi-blade head.</p>"
+            "description": "<p>Expect to spend $2-3 per year on blades once you own the Nordic Glade. That's the price of a single multi-blade head.</p>"
           }
         },
         "item_7bRziE": {
           "type": "item",
           "settings": {
             "heading": "Protects your skin, and your wallet.",
-            "description": "<p>Expect to spend $2-3 per year on blades once you own the Henson. That's the price of a single multi-blade head.</p>"
+            "description": "<p>Expect to spend $2-3 per year on blades once you own the Nordic Glade. That's the price of a single multi-blade head.</p>"
           }
         },
         "item_kH3UBf": {
           "type": "item",
           "settings": {
             "heading": "Protects your skin, and your wallet.",
-            "description": "<p>Expect to spend $2-3 per year on blades once you own the Henson. That's the price of a single multi-blade head.</p>"
+            "description": "<p>Expect to spend $2-3 per year on blades once you own the Nordic Glade. That's the price of a single multi-blade head.</p>"
           }
         }
       },
@@ -257,7 +257,7 @@
         "background_color": "#ffffff",
         "image": "shopify://shop_images/bladecomp-v5apr29.jpg",
         "title": "Bonus Points",
-        "button_text": "GET YOUR NORDIC GLIDE",
+        "button_text": "GET YOUR NORDIC GLADE",
         "button_link": "shopify://collections",
         "padding_top": 72,
         "padding_bottom": 72
