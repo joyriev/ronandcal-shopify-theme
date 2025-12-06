@@ -187,6 +187,7 @@
       ],
       "name": "Blocky Image and Text",
       "settings": {
+        "image": "shopify://shop_images/WhatsApp_Image_2025-12-06_at_19.55.21.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "image_fit": "cover",
@@ -201,8 +202,8 @@
         "mobile_content_alignment": "left",
         "text_container_gap": "1.5rem",
         "page_width": 1200,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "image_with_text_CJgMq4": {
@@ -239,7 +240,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/13_all_models_lineup.png",
+        "image": "shopify://shop_images/nordic_foam.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
