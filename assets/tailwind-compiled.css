@@ -108,6 +108,10 @@
     margin-top: 16px
 }
 
+.ml-auto {
+    margin-left: auto
+}
+
 .block {
     display: block
 }
@@ -146,6 +150,18 @@
     height: auto
 }
 
+.min-h-\[600px\] {
+    min-height: 600px
+}
+
+.min-h-\[400px\] {
+    min-height: 400px
+}
+
+.min-h-\[300px\] {
+    min-height: 300px
+}
+
 .w-auto {
     width: auto
 }
@@ -160,6 +176,14 @@
 
 .max-w-full {
     max-width: 100%
+}
+
+.max-w-\[600px\] {
+    max-width: 600px
+}
+
+.max-w-\[500px\] {
+    max-width: 500px
 }
 
 .flex-1 {
