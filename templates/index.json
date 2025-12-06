@@ -257,8 +257,10 @@
         "background_color": "#ffffff",
         "image": "shopify://shop_images/bladecomp-v5apr29.jpg",
         "title": "Bonus Points",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "button_text": "GET YOUR NORDIC GLIDE",
+        "button_link": "shopify://collections",
+        "padding_top": 72,
+        "padding_bottom": 72
       }
     },
     "collapsible_content_6R3aiG": {
