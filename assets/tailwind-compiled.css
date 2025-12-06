@@ -144,6 +144,10 @@
     margin-bottom: 48px !important
 }
 
+.mt-6 {
+    margin-top: 24px
+}
+
 .block {
     display: block
 }

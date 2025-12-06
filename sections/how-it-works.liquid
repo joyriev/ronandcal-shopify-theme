@@ -17,7 +17,7 @@
   class="section-{{ section.id }}-padding bg-cover bg-center"
   style="background-color: {{ section.settings.background_color }}; background-image: url('{{ section.settings.background_image | image_url }}');">
   <div class="page-width">
-    <h1 class="text-3xl md:text-4xl font-black mt-0 !mb-12 text-center">{{ section.settings.title }}</h1>
+    <h2 class="text-3xl md:text-4xl font-black mt-0 !mb-12 text-center text-white">{{ section.settings.title }}</h2>
     <div class="grid grid-cols-1 gap-12 md:grid-cols-3">
 
       {% for block in section.blocks %}

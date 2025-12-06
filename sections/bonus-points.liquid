@@ -15,29 +15,36 @@
 <div
   id="{{ section.id }}"
   class="section-{{ section.id }}-padding bg-cover bg-center"
-  style="background-color: {{ section.settings.background_color }}; background-image: url('{{ section.settings.background_image | image_url }}');">
+  style="background-color: {{ section.settings.background_color }};">
   <div class="page-width">
-    <h2 class="text-3xl md:text-4xl font-black mt-0 !mb-12 text-center text-white">{{ section.settings.title }}</h2>
     <div class="grid grid-cols-1 gap-12 md:grid-cols-2">
-
-      {% for block in section.blocks %}
-        <a
-          href="{{ block.settings.collection_url }}"
-          class="rounded-xl overflow-hidden h-full flex no-underline"
-          style="background-image: url('{{ block.settings.image |  image_url  }}');">
-          <div class="w-full min-h-[200px] p-6 flex flex-col justify-end bg-black/50">
-            <h3 class="text-3xl font-bold text-white !my-0">{{ block.settings.heading }}</h3>
+      <div>
+        <h2 class="text-3xl md:text-4xl font-black mt-0 !mb-12 text-center text-white">{{ section.settings.title }}</h2>
+        {% for block in section.blocks %}
+          <div class="mt-6">
+            <h3 class="text-2xl mb-2 font-bold">{{ block.settings.heading }}</h3>
+            <div class="mb-4">
+              {{ block.settings.description }}
+            </div>
           </div>
-        </a>
-      {% endfor %}
+        {% endfor %}
+      </div>
+      <div>
+        <img
+          class="w-full rounded-xl h-auto"
+          src="{{ section.settings.image |  image_url  }}"
+          alt="{{ section.settings.title }}"
+          height="{{ section.settings.image.height }}"
+          width="{{ section.settings.image.width }}">
+      </div>
     </div>
   </div>
 </div>
 
 {% schema %}
   {
-    "name": "Home Category",
-    "class": "home-category",
+    "name": "Bonus Points",
+    "class": "bonus-points",
     "settings": [
       {
         "type": "color",
@@ -47,14 +54,14 @@
       },
       {
         "type": "image_picker",
-        "id": "background_image",
-        "label": "Background Image"
+        "id": "image",
+        "label": "Image"
       },
       {
         "type": "text",
         "id": "title",
         "label": "Title",
-        "default": "Homepage Hero"
+        "default": "Bonus Points"
       },
       {
         "type": "header",
@@ -85,24 +92,20 @@
         "name": "Item",
         "settings": [
           {
-            "type": "image_picker",
-            "id": "image",
-            "label": "Image"
-          }, {
             "type": "text",
             "id": "heading",
             "label": "Heading"
           }, {
-            "type": "url",
-            "id": "collection_url",
-            "label": "Collection Url"
+            "type": "richtext",
+            "id": "description",
+            "label": "Description"
           }
         ]
       }
     ],
     "presets": [
       {
-        "name": "Home Category"
+        "name": "Bonus Points"
       }
     ]
   }
