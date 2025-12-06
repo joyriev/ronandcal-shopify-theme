@@ -120,6 +120,18 @@
     margin-top: auto
 }
 
+.mb-6 {
+    margin-bottom: 24px
+}
+
+.mb-4 {
+    margin-bottom: 16px
+}
+
+.\!mb-12 {
+    margin-bottom: 48px !important
+}
+
 .block {
     display: block
 }
@@ -280,6 +292,10 @@
     border-radius: 4px
 }
 
+.rounded-xl {
+    border-radius: 12px
+}
+
 .border {
     border-width: 1px
 }
@@ -369,6 +385,14 @@
 
 .p-4 {
     padding: 16px
+}
+
+.p-3 {
+    padding: 12px
+}
+
+.p-6 {
+    padding: 24px
 }
 
 .px-3 {
@@ -464,6 +488,10 @@
 
 .font-black {
     font-weight: 900
+}
+
+.font-bold {
+    font-weight: 700
 }
 
 .uppercase {
