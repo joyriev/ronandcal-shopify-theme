@@ -33,6 +33,18 @@
     top: -999px
 }
 
+.left-0 {
+    left: 0px
+}
+
+.top-2 {
+    top: 8px
+}
+
+.top-0 {
+    top: 0px
+}
+
 .isolate {
     isolation: isolate
 }
@@ -508,6 +520,10 @@
     padding-bottom: 4px
 }
 
+.pl-8 {
+    padding-left: 32px
+}
+
 .text-center {
     text-align: center
 }
@@ -622,6 +638,11 @@
 
 .text-white\/90 {
     color: rgb(255 255 255 / 0.9)
+}
+
+.text-blue-700 {
+    --tw-text-opacity: 1;
+    color: rgb(29 78 216 / var(--tw-text-opacity, 1))
 }
 
 .line-through {

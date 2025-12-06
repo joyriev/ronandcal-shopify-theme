@@ -19,10 +19,13 @@
   <div class="page-width">
     <div class="grid grid-cols-1 gap-12 md:grid-cols-2">
       <div>
-        <h2 class="text-3xl md:text-4xl font-black mt-0 !mb-12 text-center text-white">{{ section.settings.title }}</h2>
+        <h2 class="text-3xl md:text-4xl font-black mt-0">{{ section.settings.title }}</h2>
         {% for block in section.blocks %}
-          <div class="mt-6">
-            <h3 class="text-2xl mb-2 font-bold">{{ block.settings.heading }}</h3>
+          <div class="mt-6 relative pl-8">
+            <div class="text-blue-700 absolute left-0 top-0">
+              ✓
+            </div>
+            <h3 class="text-lg !mb-0 font-bold">{{ block.settings.heading }}</h3>
             <div class="mb-4">
               {{ block.settings.description }}
             </div>
@@ -37,6 +40,9 @@
           height="{{ section.settings.image.height }}"
           width="{{ section.settings.image.width }}">
       </div>
+    </div>
+    <div class="text-center">
+      <a href="{{ section.settings.button_link }}" class="button">{{ section.settings.button_text }}</a>
     </div>
   </div>
 </div>
@@ -64,6 +70,14 @@
         "default": "Bonus Points"
       },
       {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Text"
+      }, {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Link"
+      }, {
         "type": "header",
         "content": "Section Padding"
       }, {
