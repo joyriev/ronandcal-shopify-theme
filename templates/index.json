@@ -167,7 +167,7 @@
         "title_apEgNb": {
           "type": "title",
           "settings": {
-            "title": "<strong>Image with Text</strong>",
+            "title": "The Invisible, Visible.",
             "title_size": 40,
             "title_color": "#000000"
           }
@@ -175,7 +175,7 @@
         "body_Rb3zdB": {
           "type": "body",
           "settings": {
-            "body_text": "<p>Showcase your chosen product with a image and text. Add a detailed description to capture the customer's attention</p>",
+            "body_text": "<p>In our groundbreaking shaving study, participants shaved one side of their face with a Nordic Glade precision razor, and the other with a leading multi-blade brand. Using an advanced medical imaging system, we were able to measure irritation beneath the skin and visualize how each shaving method affected the body at a biological level.</p><p>The results were unmistakable:<br/><br/>❖ The side shaved with Nordic Glade showed a dramatically lower irritation response,<br/>❖ While the multi-blade razor produced a far stronger reaction commonly associated with razor burn, inflammation, and post-shave redness.</p>",
             "body_size": 16,
             "body_color": "#000000"
           }
@@ -193,8 +193,8 @@
         "image_fit": "cover",
         "shadow": true,
         "layout_style": "1",
-        "background_color": "#FFFFFF",
-        "layout_2_background_color": "#FCFCFC",
+        "background_color": "#ffffff",
+        "layout_2_background_color": "#fcfcfc",
         "layout": "row-reverse",
         "desktop_content_position": "center",
         "desktop_content_alignment": "left",
