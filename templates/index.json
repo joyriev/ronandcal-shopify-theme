@@ -38,12 +38,12 @@
       "settings": {
         "background_color": "#fcfbf9",
         "background_image": "shopify://shop_images/goldhero-dsk-v03.jpg",
-        "title": "Homepage Hero",
-        "subtitle": "Homepage Hero",
+        "title": "Buy once, use for life.",
+        "subtitle": "Henson is a modern re-imagining of the classic razor, featuring a design that protects your skin and causes less irritation than multi-blade alternatives.",
         "button_text": "GET NORDIC GLIDE",
-        "button_link": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "button_link": "shopify://collections",
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "featured_product_8BhDwR": {
