@@ -157,7 +157,7 @@
           "settings": {
             "image": "shopify://shop_images/bladecomp-v5apr29.jpg",
             "heading": "Blade rigidity.",
-            "description": "Cartridge blades are built with a lot of spring and movement allowed. This causes drastically more tugging that only gets worse as the blade dulls."
+            "description": "<p>Cartridge blades are built with a lot of spring and movement allowed. This causes drastically more tugging that only gets worse as the blade dulls.</p>"
           }
         }
       },
