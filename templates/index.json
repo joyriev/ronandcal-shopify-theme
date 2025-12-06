@@ -161,6 +161,55 @@
         "padding_bottom": 72
       }
     },
+    "image_with_text_CJgMq4": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_khV96K": {
+          "type": "heading",
+          "settings": {
+            "heading": "Beyond an effortless shave.",
+            "heading_size": "h1"
+          }
+        },
+        "text_rcathb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For decades, the world has been promised a “smooth shave.”<br/><br/>Yet most people still walk away with irritation, razor burn, bumps, and ingrown hairs.<br/><br/>The real problem was never the shave itself — it was the tool.</p><p>Ronandal changes that.</p><p>Using precision engineering and advanced blade-support technology, we eliminated the hidden flaws found in mainstream razors: wobbling blades, uneven pressure, and unpredictable drag.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_PeyBje": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_khV96K",
+        "text_rcathb",
+        "button_PeyBje"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/13_all_models_lineup.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
     "how_it_works_4t44M9": {
       "type": "how-it-works",
       "blocks": {
@@ -344,6 +393,7 @@
     "home_bundle_cols_gEJdUQ",
     "popular_products_WBHJW6",
     "image_with_text_zcjEWQ",
+    "image_with_text_CJgMq4",
     "how_it_works_4t44M9",
     "home_category_C4RfEt",
     "bonus_points_gJN4mG",
