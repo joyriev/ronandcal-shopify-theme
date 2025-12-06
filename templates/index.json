@@ -190,6 +190,38 @@
         "padding_bottom": 72
       }
     },
+    "home_category_C4RfEt": {
+      "type": "home-category",
+      "blocks": {
+        "item_Eec3m8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/brush-slider-holiday_800x_1c0c6b7d-c1a5-4d1d-a708-585b0368d01f.jpg",
+            "heading": "For Him",
+            "collection_url": "shopify://collections"
+          }
+        },
+        "item_yxij9F": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/brush-slider-holiday_800x_1c0c6b7d-c1a5-4d1d-a708-585b0368d01f.jpg",
+            "heading": "For Him",
+            "collection_url": "shopify://collections"
+          }
+        }
+      },
+      "block_order": [
+        "item_Eec3m8",
+        "item_yxij9F"
+      ],
+      "name": "Home Category",
+      "settings": {
+        "background_color": "#e6f1ff",
+        "title": "Homepage Hero",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "collapsible_content_6R3aiG": {
       "type": "collapsible-content",
       "blocks": {
@@ -259,6 +291,7 @@
     "home_bundle_cols_gEJdUQ",
     "image_with_text_zcjEWQ",
     "how_it_works_4t44M9",
+    "home_category_C4RfEt",
     "collapsible_content_6R3aiG"
   ]
 }
