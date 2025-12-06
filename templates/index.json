@@ -9,46 +9,6 @@
  */
 {
   "sections": {
-    "blocky_lys_image_embedded_U9gQQA": {
-      "type": "blocky-lys-image-embed",
-      "blocks": {
-        "title_kxx7Ay": {
-          "type": "title",
-          "settings": {
-            "title": "Introducing...",
-            "title_size": 70,
-            "title_color": "#000000"
-          }
-        },
-        "button_zXCDwy": {
-          "type": "button",
-          "settings": {
-            "button_label": "SHOP NOW",
-            "button_link": "shopify://collections/all",
-            "button_border_radius": "extra-round",
-            "button_style": "regular",
-            "button_background_color": "#066fef",
-            "button_text_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "title_kxx7Ay",
-        "button_zXCDwy"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/RazorFeaturesBeigeArtboard_1_copy_4_TINY_400x_5073dd72-457e-432e-8506-c2cab634ae6b.jpg",
-        "section_height": "650px",
-        "mobile_height": "300px",
-        "image_fit": "cover",
-        "overlay_opacity": 0,
-        "text_align": "vertical-bottom horizontal-left",
-        "full_screen": true,
-        "page_width": 1200,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "blocky_lys_scrolling_text_bar_Xgnxzm": {
       "type": "blocky-lys-scrolling-text-bar",
       "blocks": {
@@ -70,6 +30,20 @@
         "text_spacing": 3,
         "padding_top": 16,
         "padding_bottom": 16
+      }
+    },
+    "home_hero_jjpedA": {
+      "type": "home-hero",
+      "name": "Homepage Hero",
+      "settings": {
+        "background_color": "#fcfbf9",
+        "background_image": "shopify://shop_images/goldhero-dsk-v03.jpg",
+        "title": "Homepage Hero",
+        "subtitle": "Homepage Hero",
+        "button_text": "GET NORDIC GLIDE",
+        "button_link": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_product_8BhDwR": {
@@ -220,8 +194,8 @@
     }
   },
   "order": [
-    "blocky_lys_image_embedded_U9gQQA",
     "blocky_lys_scrolling_text_bar_Xgnxzm",
+    "home_hero_jjpedA",
     "featured_product_8BhDwR",
     "featured_collection_VRWrPQ",
     "image_with_text_zcjEWQ"
