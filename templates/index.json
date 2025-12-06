@@ -23,73 +23,6 @@
         "padding_bottom": 100
       }
     },
-    "featured_product_8BhDwR": {
-      "type": "featured-product",
-      "blocks": {
-        "review_stars_hftQ83": {
-          "type": "review-stars",
-          "settings": {
-            "rating": 5,
-            "star_color": "#ffcc00",
-            "review_text_color": "#000000",
-            "empty_stars_style": "hidden",
-            "review_text": "Based on over <strong>1000+</strong> Reviews",
-            "review_font_size": 16,
-            "review_alignment": "flex-start"
-          }
-        },
-        "title_aJKq6B": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_94hMhQ": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_qYxpCY": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector_TyyYp4": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_RRxELV": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        }
-      },
-      "block_order": [
-        "review_stars_hftQ83",
-        "title_aJKq6B",
-        "price_94hMhQ",
-        "variant_picker_qYxpCY",
-        "quantity_selector_TyyYp4",
-        "buy_buttons_RRxELV"
-      ],
-      "settings": {
-        "product": "manly-shaving-co",
-        "color_scheme": "",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "none",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_collection_VRWrPQ": {
       "type": "featured-collection",
       "disabled": true,
@@ -118,6 +51,53 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "home_bundle_cols_gEJdUQ": {
+      "type": "home-bundle-cols",
+      "blocks": {
+        "item_qxfwQh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/5x4-essentials.jpg",
+            "heading": "The Essentials",
+            "description": "The Essentials Bundle contains the full Henson experience. Includes Henson Razor, matching Henson Stand, 100 premium blades and our full shave care line up.",
+            "button_text": "Shop Now",
+            "button_link": "shopify://collections"
+          }
+        },
+        "item_7mCAtG": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/5x4-essentials.jpg",
+            "heading": "The Essentials",
+            "description": "The Essentials Bundle contains the full Henson experience. Includes Henson Razor, matching Henson Stand, 100 premium blades and our full shave care line up.",
+            "button_text": "Shop Now",
+            "button_link": "shopify://collections"
+          }
+        },
+        "item_UDfkCP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/5x4-essentials.jpg",
+            "heading": "The Essentials",
+            "description": "The Essentials Bundle contains the full Henson experience. Includes Henson Razor, matching Henson Stand, 100 premium blades and our full shave care line up.",
+            "button_text": "Shop Now",
+            "button_link": "shopify://collections"
+          }
+        }
+      },
+      "block_order": [
+        "item_qxfwQh",
+        "item_7mCAtG",
+        "item_UDfkCP"
+      ],
+      "name": "Home Bundle Cols",
+      "settings": {
+        "background_color": "#306ee6",
+        "title": "Homepage Hero",
+        "padding_top": 72,
+        "padding_bottom": 72
       }
     },
     "image_with_text_zcjEWQ": {
@@ -172,8 +152,8 @@
   },
   "order": [
     "home_hero_jjpedA",
-    "featured_product_8BhDwR",
     "featured_collection_VRWrPQ",
+    "home_bundle_cols_gEJdUQ",
     "image_with_text_zcjEWQ"
   ]
 }
