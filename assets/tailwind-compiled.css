@@ -112,6 +112,14 @@
     margin-left: auto
 }
 
+.mb-1 {
+    margin-bottom: 4px
+}
+
+.mt-auto {
+    margin-top: auto
+}
+
 .block {
     display: block
 }
@@ -168,6 +176,10 @@
 
 .w-1\/2 {
     width: 50%
+}
+
+.w-full {
+    width: 100%
 }
 
 .max-w-\[1300px\] {
@@ -244,6 +256,10 @@
 
 .gap-6 {
     gap: 24px
+}
+
+.gap-12 {
+    gap: 48px
 }
 
 .truncate {
@@ -400,6 +416,10 @@
     padding-left: 8px
 }
 
+.pb-1 {
+    padding-bottom: 4px
+}
+
 .text-center {
     text-align: center
 }
@@ -516,6 +536,11 @@
     text-decoration-line: none
 }
 
+.antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
 .shadow {
     --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
     --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -569,6 +594,10 @@
 
     .md\:grid-cols-2 {
         grid-template-columns: repeat(2, minmax(0, 1fr))
+    }
+
+    .md\:grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr))
     }
 
     .md\:bg-center {
