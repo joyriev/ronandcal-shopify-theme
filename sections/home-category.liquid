@@ -17,15 +17,15 @@
   class="section-{{ section.id }}-padding bg-cover bg-center"
   style="background-color: {{ section.settings.background_color }}; background-image: url('{{ section.settings.background_image | image_url }}');">
   <div class="page-width">
-    <h1 class="text-3xl md:text-4xl font-black mt-0 !mb-12 text-center text-white">{{ section.settings.title }}</h1>
+    <h1 class="text-3xl md:text-4xl font-black mt-0 !mb-12 text-center">{{ section.settings.title }}</h1>
     <div class="grid grid-cols-1 gap-12 md:grid-cols-2">
 
       {% for block in section.blocks %}
         <a
           href="{{ block.settings.collection_url }}"
-          class="rounded-xl overflow-hidden h-full flex"
-          style="background-image: url('{{ block.settings.image }}');">
-          <div class="w-full min-[300px] p-6 flex flex-col justify-end">
+          class="rounded-xl overflow-hidden h-full flex no-underline"
+          style="background-image: url('{{ block.settings.image |  image_url  }}');">
+          <div class="w-full min-h-[200px] p-6 flex flex-col justify-end bg-black/50">
             <h3 class="text-2xl font-bold text-white">{{ block.settings.heading }}</h3>
           </div>
         </a>
