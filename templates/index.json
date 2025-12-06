@@ -92,6 +92,7 @@
         "item_7mCAtG",
         "item_UDfkCP"
       ],
+      "disabled": true,
       "name": "Home Bundle Cols",
       "settings": {
         "background_color": "#306ee6",
@@ -104,7 +105,7 @@
       "type": "popular-products",
       "name": "Popular Products",
       "settings": {
-        "background_color": "#fcfbf9",
+        "background_color": "#306ee6",
         "title": "Popular Products",
         "collection": "best-seller",
         "padding_top": 72,
