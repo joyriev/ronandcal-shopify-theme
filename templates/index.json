@@ -222,6 +222,45 @@
         "padding_bottom": 60
       }
     },
+    "bonus_points_gJN4mG": {
+      "type": "bonus-points",
+      "blocks": {
+        "item_VyWawg": {
+          "type": "item",
+          "settings": {
+            "heading": "Protects your skin, and your wallet.",
+            "description": "<p>Expect to spend $2-3 per year on blades once you own the Henson. That's the price of a single multi-blade head.</p>"
+          }
+        },
+        "item_7bRziE": {
+          "type": "item",
+          "settings": {
+            "heading": "Protects your skin, and your wallet.",
+            "description": "<p>Expect to spend $2-3 per year on blades once you own the Henson. That's the price of a single multi-blade head.</p>"
+          }
+        },
+        "item_kH3UBf": {
+          "type": "item",
+          "settings": {
+            "heading": "Protects your skin, and your wallet.",
+            "description": "<p>Expect to spend $2-3 per year on blades once you own the Henson. That's the price of a single multi-blade head.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_VyWawg",
+        "item_7bRziE",
+        "item_kH3UBf"
+      ],
+      "name": "Bonus Points",
+      "settings": {
+        "background_color": "#ffffff",
+        "image": "shopify://shop_images/bladecomp-v5apr29.jpg",
+        "title": "Bonus Points",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collapsible_content_6R3aiG": {
       "type": "collapsible-content",
       "blocks": {
@@ -292,6 +331,7 @@
     "image_with_text_zcjEWQ",
     "how_it_works_4t44M9",
     "home_category_C4RfEt",
+    "bonus_points_gJN4mG",
     "collapsible_content_6R3aiG"
   ]
 }
