@@ -151,6 +151,18 @@
     },
     "how_it_works_4t44M9": {
       "type": "how-it-works",
+      "blocks": {
+        "item_wPTj6i": {
+          "type": "item",
+          "settings": {
+            "heading": "Blade rigidity.",
+            "description": "Cartridge blades are built with a lot of spring and movement allowed. This causes drastically more tugging that only gets worse as the blade dulls."
+          }
+        }
+      },
+      "block_order": [
+        "item_wPTj6i"
+      ],
       "name": "How It Works",
       "settings": {
         "background_color": "#fcfbf9",
