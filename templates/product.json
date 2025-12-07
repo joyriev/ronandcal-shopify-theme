@@ -192,6 +192,10 @@
             "auto_scroll": true,
             "side": "right"
           }
+        },
+        "judge_me_reviews_review_snippet_widget_kHeppm": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_snippet_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         }
       },
       "block_order": [
@@ -212,7 +216,8 @@
         "collapsible_tab_pnakVM",
         "collapsible_tab_9jUktt",
         "collapsible_tab_mXtiYD",
-        "product_reviews_dVEExJ"
+        "product_reviews_dVEExJ",
+        "judge_me_reviews_review_snippet_widget_kHeppm"
       ],
       "settings": {
         "enable_sticky_info": true,
