@@ -510,6 +510,17 @@
         "padding_bottom": 36
       }
     },
+    "comparison_section_bWqpcM": {
+      "type": "comparison-section",
+      "name": "Comparison Section",
+      "settings": {
+        "background_color": "#fcfbf9",
+        "image": "shopify://shop_images/WhatsApp_Image_2025-12-07_at_19.34.15.jpg",
+        "title": "How We Compare",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "blocky_blocky_image_with_text_LepEWW": {
       "type": "blocky-image-with-text",
       "blocks": {
@@ -998,6 +1009,7 @@
     "uparallal_standard_qU3WBU",
     "blocky_product_features_and_icons_cbPGtt",
     "blocky_floating_image_with_text_hVkz63",
+    "comparison_section_bWqpcM",
     "blocky_blocky_image_with_text_LepEWW",
     "comparison_section_PpLwJj",
     "blocky_blocky_image_with_text_T6YKgq",
