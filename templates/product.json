@@ -565,17 +565,6 @@
         "padding_bottom": 72
       }
     },
-    "comparison_section_PpLwJj": {
-      "type": "comparison-section",
-      "name": "Comparison Section",
-      "settings": {
-        "background_color": "#fcfbf9",
-        "image": "shopify://shop_images/WhatsApp_Image_2025-12-07_at_19.34.15.jpg",
-        "title": "How We Compare",
-        "padding_top": 72,
-        "padding_bottom": 72
-      }
-    },
     "blocky_blocky_image_with_text_T6YKgq": {
       "type": "blocky-image-with-text",
       "blocks": {
@@ -901,6 +890,26 @@
         "padding_bottom": 50
       }
     },
+    "176512095098e60ed3": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_fW89jX": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_fW89jX"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "collapsible_content_wQPqNk": {
       "type": "collapsible-content",
       "blocks": {
@@ -980,26 +989,6 @@
         "padding_top": 0,
         "padding_bottom": 60
       }
-    },
-    "176512095098e60ed3": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_fW89jX": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "review_data": "sample_data",
-            "max_width": 1200,
-            "show_shop_reviews": false,
-            "empty_state": "empty_widget"
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_fW89jX"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -1011,7 +1000,6 @@
     "blocky_floating_image_with_text_hVkz63",
     "comparison_section_bWqpcM",
     "blocky_blocky_image_with_text_LepEWW",
-    "comparison_section_PpLwJj",
     "blocky_blocky_image_with_text_T6YKgq",
     "blocky_scrolling_image_bar_qgj8VR",
     "rich_text_CHXVVX",
