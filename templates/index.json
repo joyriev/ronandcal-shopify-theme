@@ -341,15 +341,15 @@
         "item_7bRziE": {
           "type": "item",
           "settings": {
-            "heading": "Protects your skin, and your wallet.",
-            "description": "<p>Expect to spend $2-3 per year on blades once you own the Nordic Glade. That's the price of a single multi-blade head.</p>"
+            "heading": "Designed to last, not to upsell.",
+            "description": "<p>Nordic Glade razors are built for long-term performance, so you’re not constantly forced into expensive cartridge subscriptions or plastic replacements.</p>"
           }
         },
         "item_kH3UBf": {
           "type": "item",
           "settings": {
-            "heading": "Protects your skin, and your wallet.",
-            "description": "<p>Expect to spend $2-3 per year on blades once you own the Nordic Glade. That's the price of a single multi-blade head.</p>"
+            "heading": "A smarter shave at a smarter price.",
+            "description": "<p>The precise blade exposure means you get a smooth, irritation-free shave <strong>without burning through blades</strong>, skincare products, or aftershave treatments.</p>"
           }
         }
       },
