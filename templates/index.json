@@ -431,6 +431,121 @@
         "padding_top": 72,
         "padding_bottom": 72
       }
+    },
+    "blocky_image_video_slider_g6m4NP": {
+      "type": "blocky-image-video-slider",
+      "blocks": {
+        "video_tzxJVH": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "autoplay": false,
+            "text": "",
+            "text_alignment": "center"
+          }
+        },
+        "video_CkyUaL": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "autoplay": false,
+            "text": "",
+            "text_alignment": "center"
+          }
+        },
+        "video_qkmzBX": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "autoplay": false,
+            "text": "",
+            "text_alignment": "center"
+          }
+        },
+        "image_eVinyE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Dec_7_2025_07_11_09_PM.png",
+            "link": "",
+            "text": "",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "background_color": "#FFFFFF"
+          }
+        },
+        "image_NgctDY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Dec_7_2025_07_13_09_PM.png",
+            "link": "",
+            "text": "",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "background_color": "#FFFFFF"
+          }
+        },
+        "image_NaeieK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Dec_7_2025_07_20_02_PM.png",
+            "link": "",
+            "text": "",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "background_color": "#FFFFFF"
+          }
+        },
+        "image_yrXpyD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Dec_7_2025_07_15_16_PM.png",
+            "link": "",
+            "text": "",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "background_color": "#FFFFFF"
+          }
+        }
+      },
+      "block_order": [
+        "video_tzxJVH",
+        "video_CkyUaL",
+        "video_qkmzBX",
+        "image_eVinyE",
+        "image_NgctDY",
+        "image_NaeieK",
+        "image_yrXpyD"
+      ],
+      "name": "Blocky Image/Video Slider",
+      "settings": {
+        "title": "Over 20,000 people are enjoying the benefits.",
+        "title_size": 60,
+        "title_color": "#000000",
+        "body_text": "",
+        "body_color": "#000000",
+        "auto_scroll": true,
+        "arrow-background-color": "#000000",
+        "arrow-carot-color": "#FFFFFF",
+        "dot-color": "#000000",
+        "play_button_color": "#FFFFFF",
+        "play_button_background_color": "#000000",
+        "media_size": "long",
+        "slides_desktop": 3,
+        "full_screen": false,
+        "desktop_content_alignment": "center",
+        "mobile_media_size": "long",
+        "slides_mobile": 2,
+        "mobile_content_alignment": "center",
+        "media_spacing": 28,
+        "arrows_position": "hidden",
+        "dots_position": "under",
+        "background_color": "#FFFFFF",
+        "show_blur": false,
+        "show_shadow": true,
+        "page_width": 1200,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -444,6 +559,7 @@
     "how_it_works_4t44M9",
     "home_category_C4RfEt",
     "bonus_points_gJN4mG",
-    "collapsible_content_6R3aiG"
+    "collapsible_content_6R3aiG",
+    "blocky_image_video_slider_g6m4NP"
   ]
 }
