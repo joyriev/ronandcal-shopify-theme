@@ -31,6 +31,7 @@
         },
         "review_stars_kXbpid": {
           "type": "review-stars",
+          "disabled": true,
           "settings": {
             "rating": 5,
             "star_color": "#ffcc00",
