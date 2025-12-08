@@ -34,12 +34,12 @@
               {% else %}
                 <video
                   class="w-full rounded-lg h-auto"
-                  src="{{ block.settings.video | file_url }}"
-                  alt="{{ block.settings.heading }}"
                   autoplay
                   muted
                   loop
-                  playsinline></video>
+                  playsinline>
+                  <source src="{{ block.settings.video.sources[0].url }}" type="video/mp4">
+                </video>
               {% endif %}
             </div>
           </a>
