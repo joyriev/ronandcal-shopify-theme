@@ -261,7 +261,7 @@
         "item_wPTj6i": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Dec_7_2025_09_18_36_PM.png",
+            "image": "shopify://shop_images/nordic_comparison_hp_3.png",
             "heading": "Blade rigidity.",
             "description": "<p>Less Tugging. Less Irritation. Smoother Skin.</p><ul><li>Most razors flex and pull — especially as they dull</li></ul><p>With Nordic Glade:</p><ul><li>The blade stays firm from the first stroke</li><li>No bending, no flexing, no chatter<br/></li></ul><p>👉 Result: A smooth, predictable shave with far less irritation.</p>"
           }
@@ -269,7 +269,7 @@
         "item_pLNdxh": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Dec_7_2025_09_18_36_PM.png",
+            "image": "shopify://shop_images/nordic_comparison_hp_3.png",
             "heading": "Blade Support.",
             "description": "<p>Every Stroke Feels Calm and Controlled</p><ul><li>Thick or coarse hair makes cartridge blades bend and dig in</li></ul><p>Nordic Glade solves it by:</p><ul><li>Supporting the entire cutting edge. Eliminating blade wobble and bounce</li></ul><p>Your skin feels calmer and smoother with fewer passes.</p>"
           }
@@ -277,7 +277,7 @@
         "item_NhWTb8": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Dec_7_2025_09_18_36_PM.png",
+            "image": "shopify://shop_images/nordic_comparison_hp_3.png",
             "heading": "Blade Control.",
             "description": "<p>More Precision With Fewer Strokes</p><ul><li>Most razors struggle to maintain it, especially with pressure<br/></li></ul><p>Nordic Glade is engineered to:</p><ul><li>Hold the correct angle automatically and deliver accuracy with less pressure and fewer strokes</li></ul><p>Balanced efficiency and skin comfort — every time.</p>"
           }
@@ -470,7 +470,7 @@
             "text": "",
             "text_alignment": "center",
             "text_color": "#000000",
-            "background_color": "#FFFFFF"
+            "background_color": "#ffffff"
           }
         },
         "image_NgctDY": {
@@ -481,7 +481,7 @@
             "text": "",
             "text_alignment": "center",
             "text_color": "#000000",
-            "background_color": "#FFFFFF"
+            "background_color": "#ffffff"
           }
         },
         "image_NaeieK": {
@@ -492,7 +492,7 @@
             "text": "",
             "text_alignment": "center",
             "text_color": "#000000",
-            "background_color": "#FFFFFF"
+            "background_color": "#ffffff"
           }
         },
         "image_yrXpyD": {
@@ -503,7 +503,7 @@
             "text": "",
             "text_alignment": "center",
             "text_color": "#000000",
-            "background_color": "#FFFFFF"
+            "background_color": "#ffffff"
           }
         }
       },
@@ -525,9 +525,9 @@
         "body_color": "#000000",
         "auto_scroll": true,
         "arrow-background-color": "#000000",
-        "arrow-carot-color": "#FFFFFF",
+        "arrow-carot-color": "#ffffff",
         "dot-color": "#000000",
-        "play_button_color": "#FFFFFF",
+        "play_button_color": "#ffffff",
         "play_button_background_color": "#000000",
         "media_size": "long",
         "slides_desktop": 3,
@@ -539,7 +539,7 @@
         "media_spacing": 28,
         "arrows_position": "hidden",
         "dots_position": "under",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "show_blur": false,
         "show_shadow": true,
         "page_width": 1200,
