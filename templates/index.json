@@ -263,7 +263,7 @@
           "settings": {
             "video": "shopify://files/videos/nordic comparison hp 1.mp4",
             "heading": "Blade rigidity.",
-            "description": "<p>Less Tugging. Less Irritation. Smoother Skin.</p><ul><li>Most razors flex and pull — especially as they dull</li></ul><p>With Nordic Glade:</p><ul><li>The blade stays firm from the first stroke</li><li>No bending, no flexing, no chatter<br/></li></ul><p>👉 Result: A smooth, predictable shave with far less irritation.</p>"
+            "description": "<p>No tugging. No chatter. Just calm, predictable strokes.</p><ul><li>Most razors bend and pull — especially as they dull</li><li>Nordic Glade keeps the blade firm</li><li>No bending, flexing, or wobbling</li></ul><p>👉 Result: irritation drops dramatically</p>"
           }
         },
         "item_pLNdxh": {
@@ -271,7 +271,7 @@
           "settings": {
             "video": "shopify://files/videos/nordic comparison hp 2.mp4",
             "heading": "Blade Support.",
-            "description": "<p>Every Stroke Feels Calm and Controlled</p><ul><li>Thick or coarse hair makes cartridge blades bend and dig in</li></ul><p>Nordic Glade solves it by:</p><ul><li>Supporting the entire cutting edge. Eliminating blade wobble and bounce</li></ul><p>Your skin feels calmer and smoother with fewer passes.</p>"
+            "description": "<p>Every stroke feels smooth and controlled.</p><ul><li>Thick or coarse hair usually makes blades bend and dig in</li><li>Nordic Glade supports the entire cutting edge</li><li>Eliminates blade bounce and harshness</li></ul><p>👉 Your skin stays calmer with fewer passes</p>"
           }
         },
         "item_NhWTb8": {
@@ -279,7 +279,7 @@
           "settings": {
             "image": "shopify://shop_images/nordic_comparison_hp_3.png",
             "heading": "Blade Control.",
-            "description": "<p>More Precision With Fewer Strokes</p><ul><li>Most razors struggle to maintain it, especially with pressure<br/></li></ul><p>Nordic Glade is engineered to:</p><ul><li>Hold the correct angle automatically and deliver accuracy with less pressure and fewer strokes</li></ul><p>Balanced efficiency and skin comfort — every time.</p>"
+            "description": "<p>Precision, automatically. No pressure needed.</p><ul><li>Most razors lose angle accuracy once you apply force</li><li>Nordic Glade maintains the perfect cutting angle</li><li>Less pressure = fewer strokes = calmer skin</li></ul><p>👉 Balanced efficiency with maximum comfort</p>"
           }
         }
       },
@@ -362,7 +362,7 @@
       "name": "Bonus Points",
       "settings": {
         "background_color": "#ffffff",
-        "image": "shopify://shop_images/ChatGPT_Image_Dec_7_2025_09_18_36_PM.png",
+        "image": "shopify://shop_images/nordic_comparison_hp_3.png",
         "title": "Bonus Points",
         "button_text": "GET YOUR NORDIC GLADE",
         "button_link": "shopify://collections",
