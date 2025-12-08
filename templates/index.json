@@ -15,9 +15,9 @@
       "settings": {
         "background_color": "#fcfbf9",
         "background_image": "shopify://shop_images/nordic_header_3.png",
-        "title": "Buy once, use for life.",
-        "subtitle": "Nordic Glade is a modern re-imagining of the classic razor, featuring a design that protects your skin and causes less irritation than multi-blade alternatives.",
-        "button_text": "GET NORDIC GLADE",
+        "title": "Goodbye razor burn. Hello calmer skin.",
+        "subtitle": "A precision-engineered razor built for smooth shaves, fewer passes, and zero tugging — even on sensitive skin.",
+        "button_text": "GET YOUR NORDIC GLADE",
         "button_link": "shopify://collections",
         "padding_top": 100,
         "padding_bottom": 100
@@ -106,7 +106,7 @@
       "name": "Popular Products",
       "settings": {
         "background_color": "#306ee6",
-        "title": "Popular Products",
+        "title": "Choose your style. Get the same irritation-free shave.",
         "collection": "best-seller",
         "padding_top": 72,
         "padding_bottom": 72
@@ -118,14 +118,14 @@
         "heading_rTr8qb": {
           "type": "heading",
           "settings": {
-            "heading": "Beyond an effortless shave.",
+            "heading": "The problem wasn’t shaving — it was the tool.",
             "heading_size": "h1"
           }
         },
         "text_TrT3j4": {
           "type": "text",
           "settings": {
-            "text": "<p>For decades, the world has been promised a “smooth shave.”<br/><br/>Yet most people still walk away with irritation, razor burn, bumps, and ingrown hairs.<br/><br/>The real problem was never the shave itself — it was the tool.</p><p>Ronandal changes that.</p><p>Using precision engineering and advanced blade-support technology, we eliminated the hidden flaws found in mainstream razors: wobbling blades, uneven pressure, and unpredictable drag.</p>",
+            "text": "<p>For years, shaving has promised “smooth results”… yet most people end up with:</p><ul><li>Razor burn, Redness & Ingrown hairs</li></ul><p>Not because shaving is hard — because cartridge blades flex, wobble, dig in, and irritate skin.</p><p><strong>Solution</strong></p><p>Nordic Glade fixes that using precision blade-support technology that keeps the blade:</p><ul><li>Firm and stable, Evenly pressurized &  Controlled with fewer strokes</li></ul><p><strong>Result</strong></p><p>A calm, predictable shave that feels smooth from the first pass — without redness, bumps, or discomfort.</p>",
             "text_style": "body"
           }
         },
@@ -167,7 +167,7 @@
         "title_apEgNb": {
           "type": "title",
           "settings": {
-            "title": "The Invisible, Visible.",
+            "title": "What you can’t feel, science can see.",
             "title_size": 40,
             "title_color": "#000000"
           }
@@ -175,7 +175,7 @@
         "body_Rb3zdB": {
           "type": "body",
           "settings": {
-            "body_text": "<p>Most razors make irritation feel like a mystery — you only notice razor burn <em>after</em> the shave.</p><p>So we ran a simple but groundbreaking study:<br/><br/>Participants shaved one side of their face with <strong>Nordic Glade</strong>, and the other with a popular multi-blade razor.</p><p>Using an advanced imaging system, we could <strong>see irritation beneath the skin</strong> and measure how each shave affected the body on a biological level.</p><p>The results were crystal clear:</p><p><strong>✔ Nordic Glade created dramatically lower irritation</strong></p><p>Skin stayed calmer and cooler beneath the surface.</p><p><strong>✘ The multi-blade razor caused strong irritation</strong></p><p>The skin lit up with signs of razor burn, inflammation, and post-shave redness — even when it looked “normal” on the outside.</p>",
+            "body_text": "<p>We ran a simple study comparing Nordic Glade vs a popular multi-blade razor.</p><p><strong>Bullets (scannable)</strong></p><ul><li>Nordic Glade showed dramatically lower irritation</li><li>Skin stayed calmer beneath the surface</li><li>Fewer inflammatory hotspot</li><li>Less post-shave redness</li></ul><p>Contrast statement</p><p>❌ Multi-blade razors caused strong irritation<br/>✔ Nordic Glade kept skin cooler and calmer</p>",
             "body_size": 16,
             "body_color": "#000000"
           }
