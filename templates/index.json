@@ -320,6 +320,7 @@
         "item_Eec3m8",
         "item_yxij9F"
       ],
+      "disabled": true,
       "name": "Home Category",
       "settings": {
         "background_color": "#e6f1ff",
