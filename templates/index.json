@@ -277,6 +277,7 @@
         "item_NhWTb8": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/nordic_comparison_hp_3.png",
             "heading": "Blade Control.",
             "description": "<p>More Precision With Fewer Strokes</p><ul><li>Most razors struggle to maintain it, especially with pressure<br/></li></ul><p>Nordic Glade is engineered to:</p><ul><li>Hold the correct angle automatically and deliver accuracy with less pressure and fewer strokes</li></ul><p>Balanced efficiency and skin comfort — every time.</p>"
           }
