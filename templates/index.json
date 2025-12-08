@@ -261,7 +261,7 @@
         "item_wPTj6i": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/nordic_comparison_hp_3.png",
+            "video": "shopify://files/videos/nordic comparison hp 1.mp4",
             "heading": "Blade rigidity.",
             "description": "<p>Less Tugging. Less Irritation. Smoother Skin.</p><ul><li>Most razors flex and pull — especially as they dull</li></ul><p>With Nordic Glade:</p><ul><li>The blade stays firm from the first stroke</li><li>No bending, no flexing, no chatter<br/></li></ul><p>👉 Result: A smooth, predictable shave with far less irritation.</p>"
           }
@@ -269,7 +269,7 @@
         "item_pLNdxh": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/nordic_comparison_hp_3.png",
+            "video": "shopify://files/videos/nordic comparison hp 2.mp4",
             "heading": "Blade Support.",
             "description": "<p>Every Stroke Feels Calm and Controlled</p><ul><li>Thick or coarse hair makes cartridge blades bend and dig in</li></ul><p>Nordic Glade solves it by:</p><ul><li>Supporting the entire cutting edge. Eliminating blade wobble and bounce</li></ul><p>Your skin feels calmer and smoother with fewer passes.</p>"
           }
@@ -277,7 +277,6 @@
         "item_NhWTb8": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/nordic_comparison_hp_3.png",
             "heading": "Blade Control.",
             "description": "<p>More Precision With Fewer Strokes</p><ul><li>Most razors struggle to maintain it, especially with pressure<br/></li></ul><p>Nordic Glade is engineered to:</p><ul><li>Hold the correct angle automatically and deliver accuracy with less pressure and fewer strokes</li></ul><p>Balanced efficiency and skin comfort — every time.</p>"
           }
