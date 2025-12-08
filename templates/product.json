@@ -197,11 +197,11 @@
           "type": "videos",
           "settings": {
             "video1": "shopify://files/videos/nordic ugc 1_4e838395-4855-4fce-89bd-528e44b96228.mp4",
-            "video_poster_1": "shopify://shop_images/videoframe_1135.png",
+            "video_poster_1": "shopify://shop_images/videoframe_1135_39be58dc-8747-4f77-8255-7d450e1eb896.png",
             "video2": "shopify://files/videos/nordic ugc 2.mp4",
-            "video_poster_2": "shopify://shop_images/videoframe_1283.png",
+            "video_poster_2": "shopify://shop_images/videoframe_1283_b065757a-f479-4a91-ad2c-68a2d5418c14.png",
             "video3": "shopify://files/videos/nordic ugc 3.mp4",
-            "video_poster_3": "shopify://shop_images/videoframe_1115.png"
+            "video_poster_3": "shopify://shop_images/videoframe_1115_64558019-00e7-4286-821c-27dbfd0779ad.png"
           }
         }
       },
