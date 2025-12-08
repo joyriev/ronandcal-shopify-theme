@@ -24,14 +24,23 @@
         <div>
           <a class="block mb-3" href="{{ block.settings.button_link }}">
             <div class="ratio bg-light mb-2 ratio-5x4 shadow">
-              <video
-                class="w-full rounded-lg h-auto"
-                src="{{ block.settings.video | file_url }}"
-                alt="{{ block.settings.heading }}"
-                autoplay
-                muted
-                loop
-                playsinline></video>
+              {% if block.settings.image %}
+                <img
+                  class="w-full rounded-lg h-auto"
+                  src="{{ block.settings.image |  image_url }}"
+                  alt="{{ block.settings.heading }}"
+                  height=""
+                  width="">
+              {% else %}
+                <video
+                  class="w-full rounded-lg h-auto"
+                  src="{{ block.settings.video | file_url }}"
+                  alt="{{ block.settings.heading }}"
+                  autoplay
+                  muted
+                  loop
+                  playsinline></video>
+              {% endif %}
             </div>
           </a>
           <h3 class="text-2xl mb-2 font-bold">{{ block.settings.heading }}</h3>
@@ -40,30 +49,6 @@
           </div>
         </div>
       {% endfor %}
-      <div>
-        <a class="block mb-3" href="">
-          <div class="ratio bg-light mb-2 ratio-5x4 shadow">
-            <img
-              class="w-full rounded-lg h-auto"
-              src="http://ronandcal.com/cdn/shop/files/nordic_comparison_hp_3.png?v=1765159717"
-              alt="Blade Control."
-              height=""
-              width="">
-          </div>
-        </a>
-        <h3 class="text-2xl mb-2 font-bold">Blade Control.</h3>
-        <div class="mb-4">
-          <p>More Precision With Fewer Strokes</p>
-          <ul>
-            <li>Most razors struggle to maintain it, especially with pressure<br></li>
-          </ul>
-          <p>Nordic Glade is engineered to:</p>
-          <ul>
-            <li>Hold the correct angle automatically and deliver accuracy with less pressure and fewer strokes</li>
-          </ul>
-          <p>Balanced efficiency and skin comfort — every time.</p>
-        </div>
-      </div>
     </div>
   </div>
 </div>
@@ -122,6 +107,10 @@
             "type": "video",
             "id": "video",
             "label": "Video"
+          }, {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
           }, {
             "type": "text",
             "id": "heading",
