@@ -175,7 +175,7 @@
         "body_Rb3zdB": {
           "type": "body",
           "settings": {
-            "body_text": "<p>We ran a simple study comparing Nordic Glade vs a popular multi-blade razor.</p><p><strong>Bullets (scannable)</strong></p><ul><li>Nordic Glade showed dramatically lower irritation</li><li>Skin stayed calmer beneath the surface</li><li>Fewer inflammatory hotspot</li><li>Less post-shave redness</li></ul><p>Contrast statement</p><p>❌ Multi-blade razors caused strong irritation<br/>✔ Nordic Glade kept skin cooler and calmer</p>",
+            "body_text": "<p>We ran a simple study comparing Nordic Glade vs a popular multi-blade razor.</p><ul><li>Nordic Glade showed dramatically lower irritation</li><li>Skin stayed calmer beneath the surface</li><li>Fewer inflammatory hotspot</li><li>Less post-shave redness</li></ul><p>Contrast statement</p><p>❌ Multi-blade razors caused strong irritation<br/>✔ Nordic Glade kept skin cooler and calmer</p>",
             "body_size": 16,
             "body_color": "#000000"
           }
@@ -212,14 +212,14 @@
         "heading_khV96K": {
           "type": "heading",
           "settings": {
-            "heading": "Beyond an effortless shave.",
+            "heading": "The calmer shave you can feel — and see.",
             "heading_size": "h1"
           }
         },
         "text_rcathb": {
           "type": "text",
           "settings": {
-            "text": "<p>For decades, we’ve all been promised a “smooth shave.”<br/>Yet most people still end up with redness, razor burn, bumps, and ingrown hairs — even with premium razors.</p><p>The problem was never shaving itself.<br/><strong>It was the tool.</strong></p><p>Nordic Glade changes that.</p><p>Using precision engineering and advanced blade-support technology, Nordic Glade eliminates the hidden flaws inside mainstream razors:</p><ul><li>Wobbling blades</li><li>Uneven skin pressure</li><li>Unpredictable drag and pull</li></ul><p>The result?<br/>A calmer, smoother shave with less irritation, fewer passes, and more comfort every time.</p>",
+            "text": "<ul><li>Less tugging from the very first stroke</li><li>No flexing, wobbling, or unpredictable drag</li><li>Skin feels smoother with fewer passes</li><li>No need for aggressive pressure</li></ul>",
             "text_style": "body"
           }
         },
