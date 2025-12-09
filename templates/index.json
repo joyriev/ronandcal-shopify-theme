@@ -483,6 +483,28 @@
     "blocky_image_video_slider_g6m4NP": {
       "type": "blocky-image-video-slider",
       "blocks": {
+        "image_8Mfca4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/nordic_review_6.png",
+            "link": "",
+            "text": "",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "background_color": "#ffffff"
+          }
+        },
+        "image_T4JpaX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/nordic_review_1.png",
+            "link": "",
+            "text": "",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "background_color": "#ffffff"
+          }
+        },
         "video_tzxJVH": {
           "type": "video",
           "disabled": true,
@@ -513,7 +535,7 @@
         "image_eVinyE": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Dec_7_2025_07_11_09_PM.png",
+            "image": "shopify://shop_images/nordic_review_3.png",
             "link": "",
             "text": "",
             "text_alignment": "center",
@@ -524,7 +546,7 @@
         "image_NgctDY": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Dec_7_2025_07_13_09_PM.png",
+            "image": "shopify://shop_images/nordic_review_4.png",
             "link": "",
             "text": "",
             "text_alignment": "center",
@@ -535,7 +557,7 @@
         "image_NaeieK": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Dec_7_2025_07_20_02_PM.png",
+            "image": "shopify://shop_images/nordic_review_5.png",
             "link": "",
             "text": "",
             "text_alignment": "center",
@@ -546,7 +568,7 @@
         "image_yrXpyD": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Dec_7_2025_07_15_16_PM.png",
+            "image": "shopify://shop_images/nordic_review_2.png",
             "link": "",
             "text": "",
             "text_alignment": "center",
@@ -556,6 +578,8 @@
         }
       },
       "block_order": [
+        "image_8Mfca4",
+        "image_T4JpaX",
         "video_tzxJVH",
         "video_CkyUaL",
         "video_qkmzBX",
