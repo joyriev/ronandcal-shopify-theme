@@ -31,9 +31,9 @@
         <img
             class="w-full rounded-lg h-auto"
             src="{{ section.settings.image |  image_url }}"
-            alt="{{ block.settings.heading }}"
-            height="{{ block.settings.image.hei }}"
-            width=""
+            alt="{{ section.settings.alt }}"
+            height="{{ section.settings.image.height }}"
+            width="{{ section.settings.image.width }}"
             fetchpriority="{{  fetch_priority }}"
         >
       </div>
