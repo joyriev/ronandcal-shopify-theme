@@ -29,18 +29,16 @@
     <div class="grid grid-cols-2 gap-3 md:gap-6 md:grid-cols-4">
 
       {% for product in section.settings.collection.products %}
-        {% render 'card-product'
-          , card_product: product
-          , media_aspect_ratio: 'square'
-          , image_shape: 'default'
-          , show_secondary_image: true
-          , show_vendor: false
-          , show_rating: false
-          , lazy_load: true
-          , skip_styles: true
-          , quick_add: 'standard'
-          , section_id: section.id
-        %}
+        <div class="p-3 rounded-xl bg-white">
+          <a href="{{ product.url }}" class="flex">
+            <img
+              class="w-full h-auto"
+              src="{{ product.images.first |  image_url: width: 300 }}"
+              alt="{{ product.title }}"
+              height="{{ product.images.first.height }}"
+              width="{{ product.images.first.width }}">
+          </a>
+        </div>
       {% endfor %}
     </div>
   </div>

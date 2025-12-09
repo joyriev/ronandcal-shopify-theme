@@ -344,6 +344,10 @@
     background-position: right
 }
 
+.bg-right-top {
+    background-position: right top
+}
+
 .p-0 {
     padding: 0px
 }
@@ -492,6 +496,10 @@
     filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)
 }
 
+.\[background-size\:400\%\] {
+    background-size: 400%
+}
+
 .\[grid-area\:search\] {
     grid-area: search
 }
@@ -568,6 +576,10 @@
 
     .md\:gap-6 {
         gap: 24px
+    }
+
+    .md\:bg-cover {
+        background-size: cover
     }
 
     .md\:bg-center {
