@@ -6,6 +6,7 @@
     background-image: url('{{ section.settings.bg_mobile_image | image_url }}');
     background-size: cover;
     background-position: center;
+
   }
 
   @media screen and (min-width: 750px) {
@@ -26,10 +27,10 @@
 
 <div class="section-{{ section.id }}">
   <div class="page-width">
-    <div class="[display:grid] grid-cols-1 md:grid-cols-2 gap-12 gap-y-12">
-      <div
-        style="order: {{ section.settings.image_placement }};"
-      >
+    <div
+    style="column-gap: {{ section.settings.columns_gap }}px; row-gap: {{ section.settings.rows_gap }}px;"
+    class="[display:grid] grid-cols-1 md:grid-cols-2">
+      <div>
         <img
             class="w-full rounded-lg h-auto {% if section.settings.rounded_image %} rounded-xl{% endif %}"
             src="{{ section.settings.image |  image_url }}"
@@ -39,7 +40,7 @@
             fetchpriority="{{  fetch_priority }}"
         >
       </div>
-      <div>
+      <div class="{% if section.settings.image_placement == '1' %} md:-order-1 {% endif %}">
         helo this is the content, working on this section
       </div>
     </div>
@@ -71,13 +72,6 @@
         "content": "Contents"
       },
       {
-        "type": "select",
-        "options": [{ "value": "0", "label": "Image First"}, {"value": "1", "label": "Image Second"}],
-        "id": "image_placement",
-        "label": "Image Placement",
-        "default": "0"
-      },
-      {
         "type": "image_picker",
         "id": "image",
         "label": "Section Image",
@@ -86,7 +80,38 @@
       "type": "checkbox",
         "id": "rounded_image",
         "label": "Rounded Image",
-        "default": true,
+        "default": true
+      },
+      {
+        "type": "header",
+        "content": "Layout Settings"
+      },
+      {
+        "type": "select",
+        "options": [{ "value": "0", "label": "Image First"}, {"value": "1", "label": "Image Second"}],
+        "id": "image_placement",
+        "label": "Image Placement",
+        "default": "0"
+      },
+      {
+        "type": "range",
+        "id": "columns_gap",
+        "label": "Columns Gap",
+        "default": 40,
+        "min": 0,
+        "max": 200,
+        "step": 4,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "rows_gap",
+        "label": "Rows Gap (Mobile)",
+        "default": 40,
+        "min": 0,
+        "max": 200,
+        "step": 4,
+        "unit": "px"
       },
       {
         "type": "header",

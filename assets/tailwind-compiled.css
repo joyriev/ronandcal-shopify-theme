@@ -41,6 +41,18 @@
     isolation: isolate
 }
 
+.order-none {
+    order: 0
+}
+
+.-order-1 {
+    order: -1
+}
+
+.order-1 {
+    order: 1
+}
+
 .m-0 {
     margin: 0px
 }
@@ -512,6 +524,10 @@
 }
 
 @media (min-width: 768px) {
+
+    .md\:-order-1 {
+        order: -1
+    }
 
     .md\:hidden {
         display: none
