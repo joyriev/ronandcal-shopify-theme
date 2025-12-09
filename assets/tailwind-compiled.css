@@ -278,6 +278,10 @@
     gap: 12px
 }
 
+.gap-y-12 {
+    row-gap: 48px
+}
+
 .overflow-hidden {
     overflow: hidden
 }
@@ -526,6 +530,10 @@
     background-size: 400%
 }
 
+.\[display\:grid\] {
+    display: grid
+}
+
 .\[grid-area\:search\] {
     grid-area: search
 }
@@ -598,6 +606,10 @@
 
     .md\:grid-cols-4 {
         grid-template-columns: repeat(4, minmax(0, 1fr))
+    }
+
+    .md\:grid-cols-1 {
+        grid-template-columns: repeat(1, minmax(0, 1fr))
     }
 
     .md\:gap-6 {
