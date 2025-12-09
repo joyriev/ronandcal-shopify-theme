@@ -15,7 +15,6 @@
       "settings": {
         "background_color": "#fcfbf9",
         "background_image": "shopify://shop_images/nordic_header_3.png",
-        "mobile_background_image": "shopify://shop_images/nordic-glade-home-mobile-bg.jpg",
         "title": "Goodbye razor burn. Hello calmer skin.",
         "subtitle": "A precision-engineered razor built for smooth shaves, fewer passes, and zero tugging — even on sensitive skin.",
         "button_text": "GET YOUR NORDIC GLADE",
@@ -113,20 +112,51 @@
         "padding_bottom": 72
       }
     },
-    "image_and_text_N4jxUF": {
-      "type": "image-and-text",
-      "name": "Image and Text",
+    "image_with_text_DKjREE": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_W3EFH9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_Qmm6i9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_7LRwmd": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_W3EFH9",
+        "text_Qmm6i9",
+        "button_7LRwmd"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "background_color": "#ffffff",
-        "image": "shopify://shop_images/13_all_models_lineup.png",
-        "rounded_image": true,
-        "image_placement": "0",
-        "columns_gap": 40,
-        "rows_gap": 16,
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "mobile_padding_top": 40,
-        "mobile_padding_bottom": 40
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_with_text_zcjEWQ": {
@@ -142,7 +172,7 @@
         "text_TrT3j4": {
           "type": "text",
           "settings": {
-            "text": "<p>Traditional razors flex and wobble—digging into skin with every pass.</p><ul><li>Razor burn & redness</li><li>Ingrown hairs</li><li>Multiple painful passes</li></ul><p>The Nordic Glade Difference<br/><br/>Our blade-support tech keeps the razor firm, stable, and pressurized.<br/>✓ Fewer strokes needed<br/>✓ No tugging or dragging<br/>✓ Smooth from pass one</p>",
+            "text": "<p><br/>Traditional razors flex and wobble—digging into your skin with every pass. The result? Razor burn, ingrown hairs, and multiple painful strokes just to get smooth.<br/><br/>Our blade-support tech keeps the razor firm and stable. You'll feel it immediately: fewer strokes needed, zero tugging, and calm skin from pass one.<br/></p>",
             "text_style": "body"
           }
         },
@@ -257,7 +287,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/rename-nordic.jpg",
+        "image": "shopify://shop_images/nordic_foam.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -595,7 +625,7 @@
     "featured_collection_VRWrPQ",
     "home_bundle_cols_gEJdUQ",
     "popular_products_WBHJW6",
-    "image_and_text_N4jxUF",
+    "image_with_text_DKjREE",
     "image_with_text_zcjEWQ",
     "blocky_image_with_text_mKU9dn",
     "image_with_text_CJgMq4",
