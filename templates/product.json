@@ -372,21 +372,21 @@
           "type": "feature",
           "settings": {
             "heading": "AS9100",
-            "description": "<p>Manufactured at our aerospace facility in Ontario, Canada, our razor is built with the same AS9100 aerospace standards required to create satellite components.</p>"
+            "description": "<p>Built in our Swedish aerospace facility using AS9100 standards—the same quality required for satellite components.</p>"
           }
         },
         "feature_qVKknC": {
           "type": "feature",
           "settings": {
             "heading": "+/-0.00025\"",
-            "description": "<p>Our blade exposure and blade angle are precisely machined to tolerances as tight as +/-0.00025\" to provide a close shave with little, if any, irritation.</p>"
+            "description": "<p>Blade exposure and angle machined to tolerances of +/-0.00025\". The result? A close shave with virtually zero irritation.</p>"
           }
         },
         "feature_G9DLXQ": {
           "type": "feature",
           "settings": {
             "heading": "1.3 oz.",
-            "description": "<p>At 1.3 oz., this razor is ultra-lightweight and extremely agile, yet completely proficient, and is a joy to use. It is economically machined and coated with Type II anodize, which gives this razor the looks you want with the protection you need.</p>"
+            "description": "<p>Ultra-lightweight at 1.3 oz, yet completely stable. Agile enough for precision, solid enough for comfort. Protected with Type II anodizing for durability and premium looks.</p>"
           }
         }
       },
@@ -545,7 +545,7 @@
         "title_WeGmfK": {
           "type": "title",
           "settings": {
-            "title": "<strong>Aerospace-Grade Precision</strong>",
+            "title": "Diamond-Cut Grip",
             "title_size": 40,
             "title_color": "#000000"
           }
@@ -553,7 +553,7 @@
         "body_VhUrpx": {
           "type": "body",
           "settings": {
-            "body_text": "<p>Crafted at an AS9100-certified facility with aerospace-grade aluminum, this razor maintains tolerances of just ±0.00025″. Every component is precision-machined to deliver a shave that’s as consistent as it is comfortable.<br/><br/>With blade exposure locked at 0.0013″, you get a smooth, irritation-free experience that leaves your face feeling fresh without the nicks or cuts.</p>",
+            "body_text": "<p><br/>No slipping mid-shave, even with soapy hands. Our precision-machined diamond knurling provides superior grip in any condition. Feel total control in every stroke. Shave with confidence—your razor stays exactly where you need it.<br/><br/></p>",
             "body_size": 16,
             "body_color": "#000000"
           }
