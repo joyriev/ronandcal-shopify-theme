@@ -29,7 +29,7 @@
     <div class="[display:grid] grid-cols-1 md:grid-cols-1 gap-12 gap-y-12">
       <div>
         <img
-            class="w-full rounded-lg h-auto"
+            class="w-full rounded-lg h-auto {% if section.settings.rounded_image %} rounded-xl{% endif %}"
             src="{{ section.settings.image |  image_url }}"
             alt="{{ section.settings.alt }}"
             height="{{ section.settings.image.height }}"
@@ -37,7 +37,9 @@
             fetchpriority="{{  fetch_priority }}"
         >
       </div>
-      <div></div>
+      <div>
+
+      </div>
     </div>
   </div>
 </div>
