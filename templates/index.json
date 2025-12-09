@@ -214,7 +214,7 @@
         "title_apEgNb": {
           "type": "title",
           "settings": {
-            "title": "What you can’t feel, science can see.",
+            "title": "Proven Calmer",
             "title_size": 40,
             "title_color": "#000000"
           }
@@ -222,7 +222,7 @@
         "body_Rb3zdB": {
           "type": "body",
           "settings": {
-            "body_text": "<p>We ran a simple study comparing Nordic Glade vs a popular multi-blade razor.</p><ul><li>Nordic Glade showed dramatically lower irritation</li><li>Skin stayed calmer beneath the surface</li><li>Fewer inflammatory hotspot</li><li>Less post-shave redness</li></ul><p>Contrast statement</p><p>❌ Multi-blade razors caused strong irritation<br/>✔ Nordic Glade kept skin cooler and calmer</p>",
+            "body_text": "<p>Thermal imaging shows 67% less irritation vs. multi-blade razors.<br/>What you can't feel, science can see.<br/>Feel the Difference</p><ul><li>Less tugging from stroke one</li><li>No flexing or unpredictable drag</li><li>Smoother skin, fewer passes</li></ul>",
             "body_size": 16,
             "body_color": "#000000"
           }
