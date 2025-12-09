@@ -545,7 +545,7 @@
         "title_WeGmfK": {
           "type": "title",
           "settings": {
-            "title": "<strong>Aerospace-Grade Precision</strong>",
+            "title": "Diamond-Cut Grip",
             "title_size": 40,
             "title_color": "#000000"
           }
@@ -553,7 +553,7 @@
         "body_VhUrpx": {
           "type": "body",
           "settings": {
-            "body_text": "<p>Crafted at an AS9100-certified facility with aerospace-grade aluminum, this razor maintains tolerances of just ±0.00025″. Every component is precision-machined to deliver a shave that’s as consistent as it is comfortable.<br/><br/>With blade exposure locked at 0.0013″, you get a smooth, irritation-free experience that leaves your face feeling fresh without the nicks or cuts.</p>",
+            "body_text": "<p><br/>No slipping mid-shave, even with soapy hands. Our precision-machined diamond knurling provides superior grip in any condition. Feel total control in every stroke. Shave with confidence—your razor stays exactly where you need it.<br/><br/></p>",
             "body_size": 16,
             "body_color": "#000000"
           }
