@@ -41,7 +41,12 @@
         >
       </div>
       <div class="{% if section.settings.image_placement == '1' %} md:-order-1 {% endif %}">
-        helo this is the content, working on this section
+        {% for block in section.blocks %}
+            {% case block.type %}
+                {% when 'heading' %}
+                    
+            {% endcase %}
+        {% endfor %}
       </div>
     </div>
   </div>
@@ -158,6 +163,60 @@
       }
     ],
     "blocks": [
+        {
+            "type": "heading", 
+            "name": "Heading", 
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "content",
+                    "label": "Content",
+                    "default": "This the Heading"
+                },
+                {
+                    "type": "select",
+                    "id": "heading_type",
+                    "options": [
+                        {
+                            "label": "H1",
+                            "value": "h1"
+                        },
+                        {
+                            "label": "H2",
+                            "value": "h2"
+                        },
+                        {
+                            "label": "H3",
+                            "value": "h3"
+                        },
+                        {
+                            "label": "H4",
+                            "value": "h4"
+                        },
+                        {
+                            "label": "H5",
+                            "value": "h5"
+                        },
+                        {
+                            "label": "H6",
+                            "value": "h6"
+                        }
+                    ],
+                    "label": "Heading type",
+                    "default": "h2"
+                },
+                {
+                    "type": "range",
+                    "id": "font_size",
+                    "label": "Font Size",
+                    "default": 24,
+                    "min": 8,
+                    "max": 120,
+                    "step": 1,
+                    "unit": "px"
+                }
+            ]
+        }
     ],
     "presets": [
       {
