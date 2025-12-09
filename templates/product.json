@@ -372,21 +372,21 @@
           "type": "feature",
           "settings": {
             "heading": "AS9100",
-            "description": "<p>Manufactured at our aerospace facility in Sweden, our razor is built with the same AS9100 aerospace standards required to create satellite components.</p>"
+            "description": "<p>Built in our Swedish aerospace facility using AS9100 standards—the same quality required for satellite components.</p>"
           }
         },
         "feature_qVKknC": {
           "type": "feature",
           "settings": {
             "heading": "+/-0.00025\"",
-            "description": "<p>Our blade exposure and blade angle are precisely machined to tolerances as tight as +/-0.00025\" to provide a close shave with little, if any, irritation.</p>"
+            "description": "<p>Blade exposure and angle machined to tolerances of +/-0.00025\". The result? A close shave with virtually zero irritation.</p>"
           }
         },
         "feature_G9DLXQ": {
           "type": "feature",
           "settings": {
             "heading": "1.3 oz.",
-            "description": "<p>At 1.3 oz., this razor is ultra-lightweight and extremely agile, yet completely proficient, and is a joy to use. It is economically machined and coated with Type II anodize, which gives this razor the looks you want with the protection you need.</p>"
+            "description": "<p>Ultra-lightweight at 1.3 oz, yet completely stable. Agile enough for precision, solid enough for comfort. Protected with Type II anodizing for durability and premium looks.</p>"
           }
         }
       },
