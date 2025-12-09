@@ -30,9 +30,9 @@
       <div>
         <img
             class="w-full rounded-lg h-auto"
-            src="{{ block.settings.image |  image_url }}"
+            src="{{ section.settings.image |  image_url }}"
             alt="{{ block.settings.heading }}"
-            height=""
+            height="{{ block.settings.image.hei }}"
             width=""
             fetchpriority="{{  fetch_priority }}"
         >
@@ -63,10 +63,13 @@
         "label": "Background Mobile Image"
       },
       {
-        "type": "text",
-        "id": "title",
-        "label": "Title",
-        "default": "How It Works"
+        "type": "header",
+        "content": "Contents"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Section Image",
       },
       {
         "type": "header",
