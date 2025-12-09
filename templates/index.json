@@ -112,6 +112,36 @@
         "padding_bottom": 72
       }
     },
+    "image_and_text_zPPtVf": {
+      "type": "image-and-text",
+      "blocks": {
+        "heading_6W4pcq": {
+          "type": "heading",
+          "settings": {
+            "content": "This the Heading",
+            "heading_type": "h2",
+            "font_size": 40,
+            "mobile_font_size": 24
+          }
+        }
+      },
+      "block_order": [
+        "heading_6W4pcq"
+      ],
+      "name": "Image and Text",
+      "settings": {
+        "background_color": "#fcfbf9",
+        "image": "shopify://shop_images/rename-nordic.jpg",
+        "rounded_image": true,
+        "image_placement": "0",
+        "columns_gap": 40,
+        "rows_gap": 8,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
     "image_with_text_zcjEWQ": {
       "type": "image-with-text",
       "blocks": {
@@ -578,6 +608,7 @@
     "featured_collection_VRWrPQ",
     "home_bundle_cols_gEJdUQ",
     "popular_products_WBHJW6",
+    "image_and_text_zPPtVf",
     "image_with_text_zcjEWQ",
     "blocky_image_with_text_mKU9dn",
     "image_with_text_CJgMq4",
