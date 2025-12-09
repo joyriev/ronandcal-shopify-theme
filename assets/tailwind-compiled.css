@@ -64,6 +64,11 @@
     margin-bottom: 8px
 }
 
+.my-3 {
+    margin-top: 12px;
+    margin-bottom: 12px
+}
+
 .\!mb-0 {
     margin-bottom: 0px !important
 }
@@ -130,6 +135,17 @@
 
 .mt-6 {
     margin-top: 24px
+}
+
+.mt-auto {
+    margin-top: auto
+}
+
+.line-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3
 }
 
 .block {
@@ -364,6 +380,11 @@
     padding: 12px
 }
 
+.\!px-0 {
+    padding-left: 0px !important;
+    padding-right: 0px !important
+}
+
 .pb-0 {
     padding-bottom: 0px
 }
@@ -415,6 +436,11 @@
 .text-xl {
     font-size: 20px;
     line-height: 28px
+}
+
+.text-sm {
+    font-size: 14px;
+    line-height: 20px
 }
 
 .font-black {
@@ -623,4 +649,12 @@
     .lg\:pb-0 {
         padding-bottom: 0px
     }
+}
+
+.\[\&\>br\]\:hidden>br {
+    display: none
+}
+
+.\[\&_br\]\:hidden br {
+    display: none
 }

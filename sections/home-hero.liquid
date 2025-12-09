@@ -1,21 +1,21 @@
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: 40px;
+    padding-bottom: 400px;
     background-image: url('{{ section.settings.mobile_background_image | image_url }}');
     background-color: {{ section.settings.background_color }};
   }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
+      padding-top: 120px;
+      padding-bottom: 120px;
       background-image: url('{{ section.settings.background_image | image_url }}');
     }
   }
 {%- endstyle -%}
 
-<div id="{{ section.id }}" class="section-{{ section.id }}-padding bg-right-top [background-size:400%] md:bg-cover md:bg-center">
+<div id="{{ section.id }}" class="section-{{ section.id }}-padding bg-center-top bg-cover">
   <div class="page-width">
     <div class="ml-auto max-w-[500px] md:px-10 text-center md:text-left">
       <h1 class="text-3xl md:text-4xl font-black mt-0">{{ section.settings.title }}</h1>
