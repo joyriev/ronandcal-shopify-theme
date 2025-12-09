@@ -55,7 +55,7 @@
                         }
                     }
                 </style>
-                <{{ block.settings.heading_type }} class="block-{{ block.id }}-class">{{ block.settings.content }}</{{ block.settings.heading_type }}>
+                <{{ block.settings.heading_type }} class="block-{{ block.id }}-class" {{ block.shopify_attributes }}>{{ block.settings.content }}</{{ block.settings.heading_type }}>
             {% endcase %}
         {% endfor %}
       </div>
@@ -220,7 +220,7 @@
                     "type": "range",
                     "id": "font_size",
                     "label": "Font Size",
-                    "default": 24,
+                    "default": 40,
                     "min": 8,
                     "max": 120,
                     "step": 2,
@@ -230,7 +230,7 @@
                     "type": "range",
                     "id": "mobile_font_size",
                     "label": "Mobile Font Size",
-                    "default": 18,
+                    "default": 24,
                     "min": 8,
                     "max": 60,
                     "step": 2,
