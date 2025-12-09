@@ -29,7 +29,7 @@
     <div class="[display:grid] grid-cols-1 md:grid-cols-1 gap-12 gap-y-12">
       <div>
         <img
-          style="order: {{ section.settings.image_placement }}"
+          style="order: {{ section.settings.image_placement }};"
             class="w-full rounded-lg h-auto {% if section.settings.rounded_image %} rounded-xl{% endif %}"
             src="{{ section.settings.image |  image_url }}"
             alt="{{ section.settings.alt }}"
