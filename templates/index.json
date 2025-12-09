@@ -113,6 +113,20 @@
         "padding_bottom": 72
       }
     },
+    "image_and_text_N4jxUF": {
+      "type": "image-and-text",
+      "name": "Image and Text",
+      "settings": {
+        "background_color": "#ffffff",
+        "image_placement": "0",
+        "image": "shopify://shop_images/13_all_models_lineup.png",
+        "rounded_image": true,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
     "image_with_text_zcjEWQ": {
       "type": "image-with-text",
       "blocks": {
@@ -579,6 +593,7 @@
     "featured_collection_VRWrPQ",
     "home_bundle_cols_gEJdUQ",
     "popular_products_WBHJW6",
+    "image_and_text_N4jxUF",
     "image_with_text_zcjEWQ",
     "blocky_image_with_text_mKU9dn",
     "image_with_text_CJgMq4",
