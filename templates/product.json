@@ -530,11 +530,10 @@
     },
     "comparison_section_bWqpcM": {
       "type": "comparison-section",
-      "disabled": true,
       "name": "Comparison Section",
       "settings": {
         "background_color": "#fcfbf9",
-        "image": "shopify://shop_images/WhatsApp_Image_2025-12-07_at_19.34.15.jpg",
+        "image": "shopify://shop_images/nordic_comparison_english.png",
         "title": "How We Compare",
         "padding_top": 60,
         "padding_bottom": 60
