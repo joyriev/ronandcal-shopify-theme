@@ -136,6 +136,7 @@
         "image": "shopify://shop_images/rename-nordic.jpg",
         "rounded_image": true,
         "image_placement": "0",
+        "mobile_image_placement": "under_heading",
         "columns_gap": 40,
         "rows_gap": 8,
         "content_alignment": "center",
@@ -177,6 +178,7 @@
         "image": "shopify://shop_images/13_all_models_lineup.png",
         "rounded_image": true,
         "image_placement": "0",
+        "mobile_image_placement": "under_heading",
         "columns_gap": 40,
         "rows_gap": 20,
         "content_alignment": "center",
@@ -218,6 +220,7 @@
         "image": "shopify://shop_images/nordic_comparison_square.png",
         "rounded_image": true,
         "image_placement": "1",
+        "mobile_image_placement": "under_heading",
         "columns_gap": 40,
         "rows_gap": 20,
         "content_alignment": "center",
@@ -259,6 +262,7 @@
         "image": "shopify://shop_images/rename-nordic.jpg",
         "rounded_image": true,
         "image_placement": "0",
+        "mobile_image_placement": "under_heading",
         "columns_gap": 40,
         "rows_gap": 20,
         "content_alignment": "center",
@@ -277,7 +281,8 @@
           "settings": {
             "video": "shopify://files/videos/nordic comparison hp 1.mp4",
             "heading": "Blade rigidity.",
-            "description": "<p>No tugging. No chatter. Just calm, predictable strokes.</p><ul><li>Most razors bend and pull — especially as they dull</li><li>Nordic Glade keeps the blade firm</li><li>No bending, flexing, or wobbling</li></ul><p></p>"
+            "description": "<p>No tugging. No chatter. Just calm, predictable strokes.</p><ul><li>Most razors bend and pull — especially as they dull</li><li>Nordic Glade keeps the blade firm</li><li>No bending, flexing, or wobbling</li></ul><p></p>",
+            "mobile_description": "<p>No tugging. No chatter. Just calm, predictable strokes.</p>"
           }
         },
         "item_pLNdxh": {
@@ -285,7 +290,8 @@
           "settings": {
             "video": "shopify://files/videos/nordic comparison hp 2.mp4",
             "heading": "Blade Support.",
-            "description": "<p>Every stroke feels smooth and controlled.</p><ul><li>Thick or coarse hair usually makes blades bend and dig in</li><li>Nordic Glade supports the entire cutting edge</li><li>Eliminates blade bounce and harshness</li></ul>"
+            "description": "<p>Every stroke feels smooth and controlled.</p><ul><li>Thick or coarse hair usually makes blades bend and dig in</li><li>Nordic Glade supports the entire cutting edge</li><li>Eliminates blade bounce and harshness</li></ul>",
+            "mobile_description": "<p>Every stroke feels smooth and controlled.</p>"
           }
         },
         "item_NhWTb8": {
@@ -293,7 +299,8 @@
           "settings": {
             "image": "shopify://shop_images/nordic_comparison_hp_3.png",
             "heading": "Blade Control.",
-            "description": "<p>Precision, automatically. No pressure needed.</p><ul><li>Most razors lose angle accuracy once you apply force</li><li>Nordic Glade maintains the perfect cutting angle</li><li>Less pressure = fewer strokes = calmer skin</li></ul>"
+            "description": "<p>Precision, automatically. No pressure needed.</p><ul><li>Most razors lose angle accuracy once you apply force</li><li>Nordic Glade maintains the perfect cutting angle</li><li>Less pressure = fewer strokes = calmer skin</li></ul>",
+            "mobile_description": "<p>Precision, automatically. No pressure needed.</p>"
           }
         }
       },

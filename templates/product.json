@@ -539,48 +539,46 @@
         "padding_bottom": 60
       }
     },
-    "blocky_blocky_image_with_text_LepEWW": {
-      "type": "blocky-image-with-text",
+    "image_and_text_CNHWYm": {
+      "type": "image-and-text",
       "blocks": {
-        "title_WeGmfK": {
-          "type": "title",
+        "heading_4WqGGQ": {
+          "type": "heading",
           "settings": {
-            "title": "Diamond-Cut Grip",
-            "title_size": 40,
-            "title_color": "#000000"
+            "content": "Diamond-Cut Grip",
+            "heading_type": "h2",
+            "font_size": 40,
+            "mobile_font_size": 24
           }
         },
-        "body_VhUrpx": {
-          "type": "body",
+        "text_Ka9wJ8": {
+          "type": "text",
           "settings": {
-            "body_text": "<p><br/>No slipping mid-shave, even with soapy hands. Our precision-machined diamond knurling provides superior grip in any condition. Feel total control in every stroke. Shave with confidence—your razor stays exactly where you need it.<br/><br/></p>",
-            "body_size": 16,
-            "body_color": "#000000"
+            "content": "<p>No slipping mid-shave, even with soapy hands. Our precision-machined diamond knurling provides superior grip in any condition. Feel total control in every stroke. Shave with confidence—your razor stays exactly where you need it.</p>",
+            "mobile_content": "",
+            "font_size": 18
           }
         }
       },
       "block_order": [
-        "title_WeGmfK",
-        "body_VhUrpx"
+        "heading_4WqGGQ",
+        "text_Ka9wJ8"
       ],
+      "name": "Image and Text",
       "settings": {
-        "image": "shopify://shop_images/usp_04_diamond_knurling_1.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "image_fit": "cover",
-        "shadow": true,
-        "layout_style": "1",
         "background_color": "#ffffff",
-        "layout_2_background_color": "#fcfcfc",
-        "layout": "row",
-        "desktop_content_position": "center",
-        "desktop_content_alignment": "left",
-        "mobile_layout": "col",
-        "mobile_content_alignment": "left",
-        "text_container_gap": "2rem",
-        "page_width": 1200,
+        "image": "shopify://shop_images/usp_04_diamond_knurling_1.png",
+        "rounded_image": true,
+        "image_placement": "0",
+        "mobile_image_placement": "under_heading",
+        "columns_gap": 40,
+        "rows_gap": 20,
+        "content_alignment": "center",
+        "blocks_gap": 24,
         "padding_top": 72,
-        "padding_bottom": 72
+        "padding_bottom": 72,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
       }
     },
     "blocky_blocky_image_with_text_T6YKgq": {
@@ -1017,7 +1015,7 @@
     "blocky_product_features_and_icons_cbPGtt",
     "blocky_floating_image_with_text_hVkz63",
     "comparison_section_bWqpcM",
-    "blocky_blocky_image_with_text_LepEWW",
+    "image_and_text_CNHWYm",
     "blocky_blocky_image_with_text_T6YKgq",
     "blocky_scrolling_image_bar_qgj8VR",
     "rich_text_CHXVVX",
