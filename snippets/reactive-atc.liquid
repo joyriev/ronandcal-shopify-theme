@@ -16,7 +16,7 @@
     <div class="flex gap-2 flex-wrap">
       {% for variant in product.variants %}
         <button
-          @click="$store.pdpExtra.selectedVariant = '{{ variant.id }}'; $store.pdpExtra.variantPrice = '{{ variant.price | money }}'; $store.pdpExtra.variantCompareAtPrice = '{{ variant.compare_at_price | money }}'; $store.pdpExtra.variantTitle = '{{ variant.title }}'"
+          @click="$store.pdpExtra.selectedVariant = '{{ variant.id }}'; $store.pdpExtra.variantPrice = '{{ variant.price | money }}'; $store.pdpExtra.variantCompareAtPrice = '{{ variant.compare_at_price | money }}'; $store.pdpExtra.variantTitle = '{{ variant.title }}'; $store.pdpExtra.updateVariantImage('{{ variant.image |  image_url: width: 520, height: 520 }}')"
           class="p-0 border-2 border-solid bg-white rounded-full size-14 flex items-center justify-center cursor-pointer"
           :class="$store.pdpExtra.selectedVariant === '{{ variant.id }}' ? 'border-blue-700' : 'border-transparent'">
           <img
@@ -190,6 +190,11 @@
                 } else {
                     this.accessories.push(id);
                 }
+            },
+            updateVariantImage(imageUrl) {
+              const img = document.querySelector('.product_gallery_image');
+              img.setAttribute('src', imageUrl);
+              img.setAttribute('srcset', `${imageUrl} 1x`);
             },
             async addToCart () {
                 this.addingToCart = true;
