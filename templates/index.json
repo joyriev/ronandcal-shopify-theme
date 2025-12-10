@@ -337,18 +337,39 @@
             "mobile_font_size": 24
           }
         },
-        "text_iJp9Dc": {
-          "type": "text",
+        "point_knNJkw": {
+          "type": "point",
           "settings": {
-            "content": "<p>Put your content here</p>",
-            "mobile_content": "",
-            "font_size": 18
+            "icon": "shopify://shop_images/check-svgrepo-com.svg",
+            "heading": "Protects your skin, and your wallet.",
+            "description": "<p>Once you own Nordic Glade, blades cost only <strong>€2–3 per year</strong>. That’s cheaper than a single cartridge head.</p>",
+            "mobile_description": ""
+          }
+        },
+        "point_y3bKn9": {
+          "type": "point",
+          "settings": {
+            "icon": "shopify://shop_images/check-svgrepo-com.svg",
+            "heading": "Designed to last, not to upsell.",
+            "description": "<p>No subscriptions, plastic refills, or overpriced replacements — just long-term performance and lifetime value.</p>",
+            "mobile_description": ""
+          }
+        },
+        "point_YNKbBz": {
+          "type": "point",
+          "settings": {
+            "icon": "shopify://shop_images/check-svgrepo-com.svg",
+            "heading": "A smarter shave at a smarter price.",
+            "description": "<p>Smooth, irritation-free results without burning money on creams, aftershave products, or extra treatments.</p>",
+            "mobile_description": ""
           }
         }
       },
       "block_order": [
         "heading_3xcQed",
-        "text_iJp9Dc"
+        "point_knNJkw",
+        "point_y3bKn9",
+        "point_YNKbBz"
       ],
       "name": "Image and Text",
       "settings": {
