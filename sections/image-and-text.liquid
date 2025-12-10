@@ -81,6 +81,25 @@
                             </div>
                         {% endif %}
                     </div>
+                  {% when 'point' %}
+                    <div class="relative pl-12 text-left" {{ block.shopify_attributes }}>
+                      <img
+                          class="size-8 object-contain object-center absolute top-0 left-0"
+                          src="{{ block.settings.icon |  image_url }}"
+                          alt="{{ block.settings.icon.alt }}"
+                          height=""
+                          width=""
+                      >
+                      <h3 class="text-xl mt-0 mb-2 font-bold">{{ block.settings.heading }}</h3>
+                      <div class="{%  if block.settings.mobile_description != "" %}[display:none] md:block{% endif %} [&>p:first-child]:mt-0 [&>p:last-child]:mb-0 [&>ul]:text-left [&>ul]:pl-6">
+                          {{ block.settings.description }}
+                      </div>
+                      {% if block.settings.mobile_description != "" %}
+                          <div class="md:hidden [&>p:first-child]:mt-0 [&>p:last-child]:mb-0 [&>ul]:text-left [&>ul]:pl-6">
+                              {{ block.settings.mobile_description }}
+                          </div>
+                      {% endif %}
+                    </div>
             {% endcase %}
         {% endfor %}
       </div>
