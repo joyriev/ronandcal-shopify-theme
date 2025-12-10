@@ -423,47 +423,6 @@
         "padding_bottom": 60
       }
     },
-    "bonus_points_gJN4mG": {
-      "type": "bonus-points",
-      "blocks": {
-        "item_VyWawg": {
-          "type": "item",
-          "settings": {
-            "heading": "Protects your skin, and your wallet.",
-            "description": "<p>Once you own Nordic Glade, blades cost only <strong>€2–3 per year</strong>. That’s cheaper than a single cartridge head.</p>"
-          }
-        },
-        "item_7bRziE": {
-          "type": "item",
-          "settings": {
-            "heading": "Designed to last, not to upsell.",
-            "description": "<p>No subscriptions, plastic refills, or overpriced replacements — just long-term performance and lifetime value.</p>"
-          }
-        },
-        "item_kH3UBf": {
-          "type": "item",
-          "settings": {
-            "heading": "A smarter shave at a smarter price.",
-            "description": "<p>Smooth, irritation-free results without burning money on creams, aftershave products, or extra treatments.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_VyWawg",
-        "item_7bRziE",
-        "item_kH3UBf"
-      ],
-      "name": "Bonus Points",
-      "settings": {
-        "background_color": "#ffffff",
-        "image": "shopify://shop_images/nordic_comparison_hp_3.png",
-        "title": "Bonus Points",
-        "button_text": "GET YOUR NORDIC GLADE",
-        "button_link": "shopify://collections",
-        "padding_top": 72,
-        "padding_bottom": 72
-      }
-    },
     "collapsible_content_6R3aiG": {
       "type": "collapsible-content",
       "blocks": {
@@ -751,7 +710,6 @@
     "how_it_works_4t44M9",
     "image_and_text_CV8Emj",
     "home_category_C4RfEt",
-    "bonus_points_gJN4mG",
     "collapsible_content_6R3aiG",
     "blocky_image_video_slider_g6m4NP"
   ]
