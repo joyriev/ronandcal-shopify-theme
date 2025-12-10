@@ -278,6 +278,10 @@
     gap: 12px
 }
 
+.gap-4 {
+    gap: 16px
+}
+
 .gap-y-12 {
     row-gap: 48px
 }
@@ -677,6 +681,14 @@
 
 .\[\&\>br\]\:hidden>br {
     display: none
+}
+
+.\[\&\>p\:first-child\]\:mt-0>p:first-child {
+    margin-top: 0px
+}
+
+.\[\&\>p\:last-child\]\:mb-0>p:last-child {
+    margin-bottom: 0px
 }
 
 .\[\&_br\]\:hidden br {

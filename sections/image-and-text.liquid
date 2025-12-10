@@ -40,7 +40,7 @@
             fetchpriority="{{  fetch_priority }}"
         >
       </div>
-      <div class="{% if section.settings.image_placement == '1' %} md:-order-1 {% endif %}">
+      <div class="{% if section.settings.image_placement == '1' %} md:-order-1 {% endif %} flex flex-col gap-4">
         {% for block in section.blocks %}
             {% case block.type %}
                 {% when 'heading' %}
@@ -48,6 +48,7 @@
                     .block-{{ block.id }}-class {
                         font-size: {{ block.settings.mobile_font_size }}px;
                         font-weight: bold;
+                        margin: 0;
                     }
                     @media screen and (min-width: 750px) {
                         .block-{{ block.id }}-class {
@@ -58,10 +59,10 @@
                 <{{ block.settings.heading_type }} class="block-{{ block.id }}-class" {{ block.shopify_attributes }}>{{ block.settings.content }}</{{ block.settings.heading_type }}>
                 {% when 'text' %}
                 <div style="font-size: {{ block.settings.font_size }}px;" class="block-{{ block.id }}-class" {{ block.shopify_attributes }}>
-                    <div class="{%  if block.settings.mobile_content %}[display:none] md:block{% endif %}">
+                    <div class="{%  if block.settings.mobile_content != "" %}[display:none] md:block{% endif %} [&>p:first-child]:mt-0 [&>p:last-child]:mb-0">
                         {{ block.settings.content }}
                     </div>
-                    {% if block.settings.mobile_content %}
+                    {% if block.settings.mobile_content != "" %}
                         <div class="md:hidden">
                             {{ block.settings.mobile_content }}
                         </div>
@@ -134,7 +135,7 @@
         "type": "range",
         "id": "rows_gap",
         "label": "Rows Gap (Mobile)",
-        "default": 40,
+        "default": 20,
         "min": 0,
         "max": 200,
         "step": 4,
@@ -256,7 +257,8 @@
                 {
                     "type": "richtext",
                     "id": "content",
-                    "label": "Content"
+                    "label": "Content",
+                    "default": "<p>Put your content here</p>"
                 },
                 {
                     "type": "richtext",
