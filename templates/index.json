@@ -137,6 +137,8 @@
         "image_placement": "0",
         "columns_gap": 40,
         "rows_gap": 8,
+        "content_alignment": "center",
+        "blocks_gap": 24,
         "padding_top": 72,
         "padding_bottom": 72,
         "mobile_padding_top": 40,
@@ -159,7 +161,7 @@
           "type": "text",
           "settings": {
             "content": "<p>Traditional razors flex and wobble—digging into your skin with every pass. The result? Razor burn, ingrown hairs, and multiple painful strokes just to get smooth.</p><p>Our blade-support tech keeps the razor firm and stable. You'll feel it immediately: fewer strokes needed, zero tugging, and calm skin from pass one.</p>",
-            "mobile_content": "",
+            "mobile_content": "<p>Traditional razors flex and wobble—digging into your skin with every pass. The result? Razor burn, ingrown hairs, and multiple painful strokes just to get smooth.</p>",
             "font_size": 18
           }
         }
@@ -176,104 +178,94 @@
         "image_placement": "0",
         "columns_gap": 40,
         "rows_gap": 20,
+        "content_alignment": "center",
+        "blocks_gap": 24,
         "padding_top": 72,
         "padding_bottom": 72,
         "mobile_padding_top": 40,
         "mobile_padding_bottom": 40
       }
     },
-    "blocky_image_with_text_mKU9dn": {
-      "type": "blocky-image-with-text",
+    "image_and_text_rwbfUc": {
+      "type": "image-and-text",
       "blocks": {
-        "title_apEgNb": {
-          "type": "title",
-          "settings": {
-            "title": "67% Less Irritation. Scientifically Proven.",
-            "title_size": 40,
-            "title_color": "#000000"
-          }
-        },
-        "body_Rb3zdB": {
-          "type": "body",
-          "settings": {
-            "body_text": "<p><br/>Thermal imaging reveals what your skin already knows—Nordic Glade causes dramatically less irritation than multi-blade razors. Calmer skin from the very first stroke.</p><ul><li>Less tugging from stroke one</li><li>No flexing or unpredictable drag</li><li>Smoother skin, fewer passes</li></ul>",
-            "body_size": 16,
-            "body_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "title_apEgNb",
-        "body_Rb3zdB"
-      ],
-      "name": "Blocky Image and Text",
-      "settings": {
-        "image": "shopify://shop_images/nordic_comparison_square.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "image_fit": "cover",
-        "shadow": true,
-        "layout_style": "1",
-        "background_color": "#ffffff",
-        "layout_2_background_color": "#fcfcfc",
-        "layout": "row-reverse",
-        "desktop_content_position": "center",
-        "desktop_content_alignment": "left",
-        "mobile_layout": "col",
-        "mobile_content_alignment": "left",
-        "text_container_gap": "1.5rem",
-        "page_width": 1200,
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "image_with_text_CJgMq4": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_khV96K": {
+        "heading_EXwEK3": {
           "type": "heading",
           "settings": {
-            "heading": "The calmer shave you can feel — and see.",
-            "heading_size": "h1"
+            "content": "67% Less Irritation. Scientifically Proven.",
+            "heading_type": "h2",
+            "font_size": 40,
+            "mobile_font_size": 24
           }
         },
-        "text_rcathb": {
+        "text_eLye4E": {
           "type": "text",
           "settings": {
-            "text": "<p>Thermal imaging shows 67% less irritation vs. multi-blade razors.<br/>What you can't feel, science can see.<br/>Feel the Difference</p><ul><li>Less tugging from stroke one</li><li>No flexing or unpredictable drag</li><li>Smoother skin, fewer passes</li></ul>",
-            "text_style": "body"
-          }
-        },
-        "button_PeyBje": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "content": "<p>Thermal imaging reveals what your skin already knows—Nordic Glade causes dramatically less irritation than multi-blade razors. Calmer skin from the very first stroke.</p><ul><li>Less tugging from stroke one</li><li>No flexing or unpredictable drag</li><li>Smoother skin, fewer passes</li></ul>",
+            "mobile_content": "",
+            "font_size": 18
           }
         }
       },
       "block_order": [
-        "heading_khV96K",
-        "text_rcathb",
-        "button_PeyBje"
+        "heading_EXwEK3",
+        "text_eLye4E"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "name": "Image and Text",
       "settings": {
-        "image": "shopify://shop_images/rename-nordic.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "background_color": "#fcfbf9",
+        "image": "shopify://shop_images/nordic_comparison_square.png",
+        "rounded_image": true,
+        "image_placement": "1",
+        "columns_gap": 40,
+        "rows_gap": 20,
+        "content_alignment": "center",
+        "blocks_gap": 24,
         "padding_top": 72,
-        "padding_bottom": 72
+        "padding_bottom": 72,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "image_and_text_AcWczx": {
+      "type": "image-and-text",
+      "blocks": {
+        "heading_98f9g7": {
+          "type": "heading",
+          "settings": {
+            "content": "The calmer shave you can feel — and see.",
+            "heading_type": "h2",
+            "font_size": 40,
+            "mobile_font_size": 24
+          }
+        },
+        "text_4yJPDz": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Thermal imaging shows 67% less irritation vs. multi-blade razors.<br/>What you can't feel, science can see.<br/>Feel the Difference</p><ul><li>Less tugging from stroke one</li><li>No flexing or unpredictable drag</li><li>Smoother skin, fewer passes</li></ul>",
+            "mobile_content": "",
+            "font_size": 18
+          }
+        }
+      },
+      "block_order": [
+        "heading_98f9g7",
+        "text_4yJPDz"
+      ],
+      "name": "Image and Text",
+      "settings": {
+        "background_color": "#ffffff",
+        "image": "shopify://shop_images/rename-nordic.jpg",
+        "rounded_image": true,
+        "image_placement": "0",
+        "columns_gap": 40,
+        "rows_gap": 20,
+        "content_alignment": "center",
+        "blocks_gap": 24,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
       }
     },
     "how_it_works_4t44M9": {
@@ -673,8 +665,8 @@
     "popular_products_WBHJW6",
     "image_and_text_zPPtVf",
     "image_and_text_y9imtF",
-    "blocky_image_with_text_mKU9dn",
-    "image_with_text_CJgMq4",
+    "image_and_text_rwbfUc",
+    "image_and_text_AcWczx",
     "how_it_works_4t44M9",
     "home_category_C4RfEt",
     "bonus_points_gJN4mG",
