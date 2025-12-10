@@ -709,6 +709,10 @@
     margin-bottom: 0px
 }
 
+.\[\&\>ul\]\:text-left>ul {
+    text-align: left
+}
+
 .\[\&_br\]\:hidden br {
     display: none
 }
