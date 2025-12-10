@@ -809,7 +809,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/review_02_before_after.png",
+        "image": "shopify://shop_images/nordic_comparison_side_by_side_1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
