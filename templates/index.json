@@ -203,7 +203,7 @@
           "type": "text",
           "settings": {
             "content": "<p>Thermal imaging reveals what your skin already knows—Nordic Glade causes dramatically less irritation than multi-blade razors. Calmer skin from the very first stroke.</p><ul><li>Less tugging from stroke one</li><li>No flexing or unpredictable drag</li><li>Smoother skin, fewer passes</li></ul>",
-            "mobile_content": "",
+            "mobile_content": "<p>Nordic Glade causes dramatically less irritation than multi-blade razors. Calmer skin from the very first stroke.</p>",
             "font_size": 18
           }
         }
@@ -243,7 +243,7 @@
         "text_4yJPDz": {
           "type": "text",
           "settings": {
-            "content": "<p>Thermal imaging shows 67% less irritation vs. multi-blade razors.<br/>What you can't feel, science can see.<br/>Feel the Difference</p><ul><li>Less tugging from stroke one</li><li>No flexing or unpredictable drag</li><li>Smoother skin, fewer passes</li></ul>",
+            "content": "<p>Feel the Difference</p><ul><li>Less tugging from stroke one</li><li>No flexing or unpredictable drag</li><li>Smoother skin, fewer passes</li></ul>",
             "mobile_content": "",
             "font_size": 18
           }
