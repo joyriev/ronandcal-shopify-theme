@@ -467,6 +467,72 @@
     "blocky_image_video_slider_g6m4NP": {
       "type": "blocky-image-video-slider",
       "blocks": {
+        "image_3QYnBA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/nordic_review_7.png",
+            "link": "",
+            "text": "",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "background_color": "#ffffff"
+          }
+        },
+        "image_EpTUdx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/nordic_review_8.png",
+            "link": "",
+            "text": "",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "background_color": "#ffffff"
+          }
+        },
+        "image_THJpEG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/nordic_review_9.png",
+            "link": "",
+            "text": "",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "background_color": "#ffffff"
+          }
+        },
+        "image_yKBge6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/nordic_review_10.png",
+            "link": "",
+            "text": "",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "background_color": "#ffffff"
+          }
+        },
+        "image_YjfRTA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/nordic_review_12.png",
+            "link": "",
+            "text": "",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "background_color": "#ffffff"
+          }
+        },
+        "image_VebDFK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/nordic_review_13.png",
+            "link": "",
+            "text": "",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "background_color": "#ffffff"
+          }
+        },
         "image_8Mfca4": {
           "type": "image",
           "settings": {
@@ -562,6 +628,12 @@
         }
       },
       "block_order": [
+        "image_3QYnBA",
+        "image_EpTUdx",
+        "image_THJpEG",
+        "image_yKBge6",
+        "image_YjfRTA",
+        "image_VebDFK",
         "image_8Mfca4",
         "image_T4JpaX",
         "video_tzxJVH",
