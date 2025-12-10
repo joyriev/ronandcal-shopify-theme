@@ -143,53 +143,43 @@
         "mobile_padding_bottom": 40
       }
     },
-    "image_with_text_zcjEWQ": {
-      "type": "image-with-text",
+    "image_and_text_y9imtF": {
+      "type": "image-and-text",
       "blocks": {
-        "heading_rTr8qb": {
+        "heading_9HzC8H": {
           "type": "heading",
           "settings": {
-            "heading": "Why Your Skin Stays Irritated",
-            "heading_size": "h1"
+            "content": "Why Your Skin Stays Irritated",
+            "heading_type": "h2",
+            "font_size": 40,
+            "mobile_font_size": 24
           }
         },
-        "text_TrT3j4": {
+        "text_kW6n4w": {
           "type": "text",
           "settings": {
-            "text": "<p><br/>Traditional razors flex and wobble—digging into your skin with every pass. The result? Razor burn, ingrown hairs, and multiple painful strokes just to get smooth.<br/><br/>Our blade-support tech keeps the razor firm and stable. You'll feel it immediately: fewer strokes needed, zero tugging, and calm skin from pass one.<br/></p>",
-            "text_style": "body"
-          }
-        },
-        "button_AimWz7": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "content": "<p>Traditional razors flex and wobble—digging into your skin with every pass. The result? Razor burn, ingrown hairs, and multiple painful strokes just to get smooth.<br/><br/>Our blade-support tech keeps the razor firm and stable. You'll feel it immediately: fewer strokes needed, zero tugging, and calm skin from pass one.</p>",
+            "mobile_content": "",
+            "font_size": 18
           }
         }
       },
       "block_order": [
-        "heading_rTr8qb",
-        "text_TrT3j4",
-        "button_AimWz7"
+        "heading_9HzC8H",
+        "text_kW6n4w"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "name": "Image and Text",
       "settings": {
+        "background_color": "#ffffff",
         "image": "shopify://shop_images/13_all_models_lineup.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "rounded_image": true,
+        "image_placement": "0",
+        "columns_gap": 40,
+        "rows_gap": 40,
         "padding_top": 72,
-        "padding_bottom": 72
+        "padding_bottom": 72,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
       }
     },
     "blocky_image_with_text_mKU9dn": {
@@ -682,7 +672,7 @@
     "home_bundle_cols_gEJdUQ",
     "popular_products_WBHJW6",
     "image_and_text_zPPtVf",
-    "image_with_text_zcjEWQ",
+    "image_and_text_y9imtF",
     "blocky_image_with_text_mKU9dn",
     "image_with_text_CJgMq4",
     "how_it_works_4t44M9",
