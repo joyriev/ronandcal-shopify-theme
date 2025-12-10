@@ -530,6 +530,7 @@
     },
     "comparison_section_bWqpcM": {
       "type": "comparison-section",
+      "disabled": true,
       "name": "Comparison Section",
       "settings": {
         "background_color": "#fcfbf9",
