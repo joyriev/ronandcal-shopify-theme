@@ -15,6 +15,7 @@
       "settings": {
         "background_color": "#fcfbf9",
         "background_image": "shopify://shop_images/nordic_header_3.png",
+        "mobile_background_image": "shopify://shop_images/nordic-glade-home-mobile-bg.jpg",
         "title": "Goodbye razor burn. Hello calmer skin.",
         "subtitle": "A precision-engineered razor built for smooth shaves, fewer passes, and zero tugging — even on sensitive skin.",
         "button_text": "GET YOUR NORDIC GLADE",
