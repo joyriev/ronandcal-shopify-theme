@@ -709,8 +709,20 @@
     margin-bottom: 0px
 }
 
+.\[\&\>ul\]\:pl-4>ul {
+    padding-left: 16px
+}
+
+.\[\&\>ul\]\:pl-6>ul {
+    padding-left: 24px
+}
+
 .\[\&\>ul\]\:text-left>ul {
     text-align: left
+}
+
+.\[\&\>url\]\:pl-4>url {
+    padding-left: 16px
 }
 
 .\[\&_br\]\:hidden br {

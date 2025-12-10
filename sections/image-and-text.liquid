@@ -71,11 +71,11 @@
                     {% endif %}
                 {% when 'text' %}
                     <div style="font-size: {{ block.settings.font_size }}px;" class="block-{{ block.id }}-class" {{ block.shopify_attributes }}>
-                        <div class="{%  if block.settings.mobile_content != "" %}[display:none] md:block{% endif %} [&>p:first-child]:mt-0 [&>p:last-child]:mb-0 [&>ul]:text-left">
+                        <div class="{%  if block.settings.mobile_content != "" %}[display:none] md:block{% endif %} [&>p:first-child]:mt-0 [&>p:last-child]:mb-0 [&>ul]:text-left [&>ul]:pl-6">
                             {{ block.settings.content }}
                         </div>
                         {% if block.settings.mobile_content != "" %}
-                            <div class="md:hidden [&>p:first-child]:mt-0 [&>p:last-child]:mb-0 [&>ul]:text-left">
+                            <div class="md:hidden [&>p:first-child]:mt-0 [&>p:last-child]:mb-0 [&>ul]:text-left [&>ul]:pl-6">
                                 {{ block.settings.mobile_content }}
                             </div>
                         {% endif %}
