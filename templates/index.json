@@ -188,7 +188,7 @@
         "title_apEgNb": {
           "type": "title",
           "settings": {
-            "title": "Proven Calmer",
+            "title": "67% Less Irritation. Scientifically Proven.",
             "title_size": 40,
             "title_color": "#000000"
           }
@@ -196,7 +196,7 @@
         "body_Rb3zdB": {
           "type": "body",
           "settings": {
-            "body_text": "<p>Thermal imaging shows 67% less irritation vs. multi-blade razors.<br/>What you can't feel, science can see.<br/>Feel the Difference</p><ul><li>Less tugging from stroke one</li><li>No flexing or unpredictable drag</li><li>Smoother skin, fewer passes</li></ul>",
+            "body_text": "<p><br/>Thermal imaging reveals what your skin already knows—Nordic Glade causes dramatically less irritation than multi-blade razors. Calmer skin from the very first stroke.</p><ul><li>Less tugging from stroke one</li><li>No flexing or unpredictable drag</li><li>Smoother skin, fewer passes</li></ul>",
             "body_size": 16,
             "body_color": "#000000"
           }
