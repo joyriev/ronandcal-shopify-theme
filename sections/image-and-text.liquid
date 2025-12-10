@@ -86,7 +86,7 @@
       </div>
     </div>
     {% if section.settings.button_text != "" %}
-      <div class="text-center">
+      <div class="text-center mt-6 md:mt-12">
         <a href="{{ section.settings.button_url }}" class="button">{{ section.settings.button_text }}</a>
       </div>
     {% endif %}
@@ -341,6 +341,34 @@
                     "unit": "px"
                 }
             ]
+        },
+        {
+          "type": "point",
+          "name": "Point",
+          "settings": [
+            {
+              "type": "image_picker",
+              "id": "icon",
+              "label": "Icon"
+            },
+            {
+              "type": "text",
+              "id": "heading",
+              "label": "Heading",
+              "default": "This is Heading"
+            },
+            {
+              "type": "richtext",
+              "id": "description",
+              "label": "Description",
+              "default": "<p>This is Description</p>"
+            },
+            {
+              "type": "richtext",
+              "id": "mobile_description",
+              "label": "Mobile Description"
+            }
+          ]
         }
     ],
     "presets": [
