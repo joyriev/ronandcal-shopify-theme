@@ -534,6 +534,10 @@
     display: grid
 }
 
+.\[display\:none\] {
+    display: none
+}
+
 .\[grid-area\:search\] {
     grid-area: search
 }
@@ -590,6 +594,10 @@
 
     .md\:-order-1 {
         order: -1
+    }
+
+    .md\:block {
+        display: block
     }
 
     .md\:hidden {

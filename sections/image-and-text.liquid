@@ -56,6 +56,17 @@
                     }
                 </style>
                 <{{ block.settings.heading_type }} class="block-{{ block.id }}-class" {{ block.shopify_attributes }}>{{ block.settings.content }}</{{ block.settings.heading_type }}>
+                {% when 'text' %}
+                <div style="font-size: {{ block.settings.font_size }}px;" class="block-{{ block.id }}-class" {{ block.shopify_attributes }}>
+                    <div class="{%  if block.settings.mobile_content %}[display:none] md:block{% endif %}">
+                        {{ block.settings.content }}
+                    </div>
+                    {% if block.settings.mobile_content %}
+                        <div class="md:hidden">
+                            {{ block.settings.mobile_content }}
+                        </div>
+                    {% endif %}
+                </div>
             {% endcase %}
         {% endfor %}
       </div>
@@ -231,6 +242,32 @@
                     "id": "mobile_font_size",
                     "label": "Mobile Font Size",
                     "default": 24,
+                    "min": 8,
+                    "max": 60,
+                    "step": 2,
+                    "unit": "px"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "name": "Text",
+            "settings": [
+                {
+                    "type": "richtext",
+                    "id": "content",
+                    "label": "Content"
+                },
+                {
+                    "type": "richtext",
+                    "id": "mobile_content",
+                    "label": "Mobile Content"
+                },
+                {
+                    "type": "range",
+                    "id": "font_size",
+                    "label": "Font Size",
+                    "default": 18,
                     "min": 8,
                     "max": 60,
                     "step": 2,
