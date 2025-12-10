@@ -28,8 +28,9 @@
 <div class="section-{{ section.id }}">
   <div class="page-width">
     <div
-    style="column-gap: {{ section.settings.columns_gap }}px; row-gap: {{ section.settings.rows_gap }}px; align-items: {{ section.settings.content_alignment }};"
-    class="[display:grid] grid-cols-1 md:grid-cols-2">
+      style="column-gap: {{ section.settings.columns_gap }}px; row-gap: {{ section.settings.rows_gap }}px; align-items: {{ section.settings.content_alignment }};"
+      class="[display:grid] grid-cols-1 md:grid-cols-2"
+    >
       <div class="{% if section.settings.mobile_image_placement == 'under_heading' %} [display:none] md:block {% endif %}">
         <img
             class="w-full rounded-lg h-auto shadow {% if section.settings.rounded_image %} rounded-xl{% endif %}"
@@ -84,6 +85,11 @@
         {% endfor %}
       </div>
     </div>
+    {% if section.settings.button_text != "" %}
+      <div class="text-center">
+        <a href="{{ section.settings.button_url }}" class="button">{{ section.settings.button_text }}</a>
+      </div>
+    {% endif %}
   </div>
 </div>
 
@@ -189,6 +195,16 @@
         "max": 200,
         "step": 4,
         "unit": "px"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Section Button Text"
+      },
+      {
+        "type": "url",
+        "id": "button_url",
+        "label": "Section Button URL"
       },
       {
         "type": "header",
