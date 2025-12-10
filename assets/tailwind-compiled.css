@@ -141,6 +141,10 @@
     margin-top: auto
 }
 
+.\!mb-6 {
+    margin-bottom: 24px !important
+}
+
 .line-clamp-3 {
     overflow: hidden;
     display: -webkit-box;
@@ -612,6 +616,10 @@
 
     .md\:-order-1 {
         order: -1
+    }
+
+    .md\:\!mb-12 {
+        margin-bottom: 48px !important
     }
 
     .md\:block {

@@ -17,10 +17,10 @@
   class="section-{{ section.id }}-padding bg-cover bg-center"
   style="background-color: {{ section.settings.background_color }}; background-image: url('{{ section.settings.background_image | image_url }}');">
   <div class="page-width">
-    <h2 class="text-3xl md:text-4xl font-black mt-0 !mb-12 text-center">{{ section.settings.title }}</h2>
+    <h2 class="text-3xl md:text-4xl font-black mt-0 !mb-6 md:!mb-12 text-center">{{ section.settings.title }}</h2>
     <div class="grid grid-cols-1 gap-12 md:grid-cols-3">
       {% for block in section.blocks %}
-        <div>
+        <div {{ block.shopify_attributes }}>
           <a class="block mb-3" href="{{ block.settings.button_link }}">
             <div class="ratio bg-light mb-2 ratio-5x4 shadow">
               {% if block.settings.image %}
