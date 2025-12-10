@@ -234,7 +234,7 @@
         "heading_98f9g7": {
           "type": "heading",
           "settings": {
-            "content": "The calmer shave you can feel — and see.",
+            "content": "Smooth, calm shaving you can feel — and see.",
             "heading_type": "h2",
             "font_size": 40,
             "mobile_font_size": 24
@@ -244,7 +244,7 @@
           "type": "text",
           "settings": {
             "content": "<p>Feel the Difference</p><ul><li>Less tugging from stroke one</li><li>No flexing or unpredictable drag</li><li>Smoother skin, fewer passes</li></ul>",
-            "mobile_content": "",
+            "mobile_content": "<ul><li>Gentle stroke, no harsh pressure</li><li>Clean glide with less irritation</li><li>Soft, even results you can see instantly</li></ul>",
             "font_size": 18
           }
         }
