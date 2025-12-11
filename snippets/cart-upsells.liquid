@@ -33,6 +33,7 @@
                 <a href="{{ product.url }}" class="my-0 font-semibold leading-snug block text-black no-underline hover:underline mb-2">{{ product.title }}</a>
                 {% if product.has_only_default_variant %}
                     <div>{{ product.price | money }}</div>
+                    <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                 {% else %}
                 <div>
                     <select
