@@ -379,7 +379,7 @@
         "image_placement": "1",
         "mobile_image_placement": "under_heading",
         "button_text": "GET YOUR NORDIC GLADE",
-        "button_url": "shopify://collections/all",
+        "button_url": "shopify://collections/best-seller",
         "columns_gap": 40,
         "rows_gap": 20,
         "content_alignment": "center",
