@@ -50,13 +50,6 @@
               {%- endif -%}
             </div>
           </div>
-          {%- if settings.cart_drawer_collection != blank -%}
-            <div class="cart-drawer__collection">
-              {% render 'card-collection'
-                , card_collection: settings.cart_drawer_collection
-                , columns: 1 %}
-            </div>
-          {%- endif -%}
         </div>
       {%- endif -%}
       <div class="drawer__header">
@@ -462,6 +455,7 @@
           </div>
           <div id="CartDrawer-CartErrors" role="alert"></div>
         </form>
+        {% render 'cart-upsells' %}
       </cart-drawer-items>
       <div class="drawer__footer">
         {%- if settings.show_cart_note -%}
