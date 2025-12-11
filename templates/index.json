@@ -555,17 +555,6 @@
             "background_color": "#ffffff"
           }
         },
-        "image_8Mfca4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/nordic_review_6.png",
-            "link": "",
-            "text": "",
-            "text_alignment": "center",
-            "text_color": "#000000",
-            "background_color": "#ffffff"
-          }
-        },
         "image_T4JpaX": {
           "type": "image",
           "settings": {
@@ -615,32 +604,10 @@
             "background_color": "#ffffff"
           }
         },
-        "image_NgctDY": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/nordic_review_4.png",
-            "link": "",
-            "text": "",
-            "text_alignment": "center",
-            "text_color": "#000000",
-            "background_color": "#ffffff"
-          }
-        },
         "image_NaeieK": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/nordic_review_5.png",
-            "link": "",
-            "text": "",
-            "text_alignment": "center",
-            "text_color": "#000000",
-            "background_color": "#ffffff"
-          }
-        },
-        "image_yrXpyD": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/nordic_review_2.png",
             "link": "",
             "text": "",
             "text_alignment": "center",
@@ -656,15 +623,12 @@
         "image_yKBge6",
         "image_YjfRTA",
         "image_VebDFK",
-        "image_8Mfca4",
         "image_T4JpaX",
         "video_tzxJVH",
         "video_CkyUaL",
         "video_qkmzBX",
         "image_eVinyE",
-        "image_NgctDY",
-        "image_NaeieK",
-        "image_yrXpyD"
+        "image_NaeieK"
       ],
       "name": "Blocky Image/Video Slider",
       "settings": {
