@@ -932,6 +932,22 @@
     </script>
   </div>
 </product-info>
+<style>
+  [x-cloak] {
+    display: none !important;
+  }
+</style>
+<div x-cloak x-data @click="$store.pdpExtra.showModal = false" class="fixed inset-0 bg-black/50 z-50" x-transition x-show="$store.pdpExtra.showModal">
+    <span></span>
+</div>
+<div x-cloak x-data class="fixed top-0 bottom-0 w-[400px] transition-all duration-300 max-w-full bg-white p-4 z-50" :class="$store.pdpExtra.showModal ? 'right-0' : '-right-[400px]'">
+  <img class="w-full h-auto rounded-xl aspect-video object-cover" :src="$store.pdpExtra.modalImage" :alt="$store.pdpExtra.modalTitle" height="450" width="450">
+  <h3 class="font-semibold my-3" x-text="$store.pdpExtra.modalTitle"></h3>
+  <div class="mb-3" x-html="$store.pdpExtra.modalContent"></div>
+  <div class="flex justify-center">
+    <button class="button" @click="$store.pdpExtra.showModal = false">Close</button>
+  </div>
+</div>
 
 {% schema %}
 {
