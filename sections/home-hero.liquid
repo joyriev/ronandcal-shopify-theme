@@ -22,7 +22,7 @@
     <div class="ml-auto max-w-[500px] md:px-10 text-center md:text-left">
       <h1 class="text-3xl md:text-4xl font-black mt-0">{{ section.settings.title }}</h1>
       {% comment %} <p class="text-lg font-medium">{{ section.settings.subtitle }}</p> {% endcomment %}
-      <p class="text-lg font-medium">Save {{  chosen_product.price | times: 25.85 | round | money_without_trailing_zeros }} over 10 years. No subscriptions. No cartridge</p>
+      <p class="text-lg font-medium">Save {{ chosen_product.price | times: 25.85323165 | round | money_without_trailing_zeros }} over 10 years. No subscriptions. No cartridge</p>
       <a href="{{ section.settings.button_link }}" class="button">Get Yours for {{ chosen_product.price | money_with_currency }}</a>
     </div>
   </div>
