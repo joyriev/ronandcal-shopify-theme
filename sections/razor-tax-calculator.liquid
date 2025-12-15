@@ -130,9 +130,9 @@
 <script>
   (function() {
   // Tunable constants
-  const gilletteMonthlyCost = {{ section.settings.competitor_monthly_cost }};
-  const nordicOneTimeCost = {{ section.settings.our_onetime_cost }};
-  const nordicMonthlyBladeCost = {{ section.settings.our_monthly_cost }};
+  const gilletteMonthlyCost = parseFloat("{{ section.settings.competitor_monthly_cost }}");
+  const nordicOneTimeCost = parseFloat("{{ section.settings.our_onetime_cost }}");
+  const nordicMonthlyBladeCost = parseFloat("{{ section.settings.our_monthly_cost }}");
   const sectionId = "{{ section.id }}";
 
   const yearsEl = document.getElementById(`years-${sectionId}`);
@@ -211,22 +211,22 @@
         "type": "header",
         "content": "Pricing Settings"
       }, {
-        "type": "number",
+        "type": "text",
         "id": "competitor_monthly_cost",
         "label": "Competitor Monthly Cost",
-        "default": 18.33,
+        "default": "18.3333333333",
         "info": "Monthly cost for competitor (e.g., 18.33 = $2,200/year)"
       }, {
-        "type": "number",
+        "type": "text",
         "id": "our_onetime_cost",
         "label": "Our One-Time Cost",
-        "default": 79.99,
+        "default": "79.99",
         "info": "Initial purchase price"
       }, {
-        "type": "number",
+        "type": "text",
         "id": "our_monthly_cost",
         "label": "Our Monthly Blade Cost",
-        "default": 0.43,
+        "default": "0.4334166667",
         "info": "Monthly blade replacement cost"
       }, {
         "type": "header",
