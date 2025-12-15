@@ -1,13 +1,8 @@
-{% comment %}
-  Razor Tax Calculator Section
-  Save this file as: sections/razor-tax-calculator.liquid
-{% endcomment %}
+<section class="py-20 bg-white font-sans">
+  <div class="max-w-3xl mx-auto px-4 text-center">
 
-<section class="razor-tax-section py-24 bg-white font-sans border-b border-gray-100">
-  <div class="max-w-md mx-auto px-4 text-center">
-
-    <h2 class="text-5xl md:text-6xl font-black uppercase leading-[0.85] tracking-tighter mb-8 text-slate-900">
-      Stop Paying<br/>The Razor Tax
+    <h2 class="text-3xl md:text-4xl font-black mt-0">
+      Stop Paying The Razor Tax
     </h2>
 
     <!-- Slider -->
@@ -15,20 +10,15 @@
       <div id="yearsLabel-{{ section.id }}" class="text-xl font-bold uppercase tracking-widest mb-4 font-mono">
         10 YEARS
       </div>
-      <div class="relative h-3 w-full">
-        <!-- Track Background -->
-        <div class="absolute top-0 left-0 w-full h-full bg-gray-200 rounded-full border border-gray-300"></div>
-        <!-- Track Fill -->
+      <div class="relative h-3 w-full md:w-1/2 mx-auto bg-gray-200 rounded-full border border-solid border-gray-300">
         <div
           id="trackFill-{{ section.id }}"
-          class="absolute top-0 left-0 h-full bg-slate-900 rounded-full"
+          class="!block absolute top-0 left-0 h-full bg-slate-900 rounded-full"
           style="width: 100%"></div>
-        <!-- Thumb Visual -->
         <div
           id="thumbVisual-{{ section.id }}"
-          class="absolute top-1/2 -translate-y-1/2 w-6 h-8 bg-white border-2 border-slate-900 rounded-sm shadow-md z-10 transition-all pointer-events-none"
+          class="!block absolute -top-full w-6 h-8 bg-white border-2 border-solid border-slate-900 rounded-sm shadow-md z-10 transition-all pointer-events-none"
           style="left: calc(100% - 12px)"></div>
-        <!-- Actual Input -->
         <input
           id="years-{{ section.id }}"
           type="range"
@@ -42,9 +32,105 @@
     <!-- Cards -->
     <div class="grid grid-cols-2 gap-4 mb-10">
       <!-- Competitor Card -->
-      <div class="bg-red-50 border-2 border-red-500 rounded-xl p-4 shadow-[0_8px_30px_rgba(239,68,68,0.15)] flex flex-col items-center justify-between h-full">
-        <div class="mb-2 transform -rotate-12 bg-white rounded-full p-2 border border-red-100">
-          <span class="text-3xl">🪒</span>
+      <div class="bg-red-50 border-2 border-solid border-red-500 rounded-xl p-4 shadow-[0_8px_30px_rgba(239,68,68,0.15)] flex flex-col items-center justify-between h-full">
+        <div class="w-24 h-24 mb-2 transition-transform hover:scale-105 duration-300">
+          <svg
+            viewBox="0 0 100 100"
+            class="w-full h-full drop-shadow-sm"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <rect
+              x="44"
+              y="45"
+              width="12"
+              height="45"
+              rx="2"
+              fill="#DC2626"
+              stroke="#1F2937"
+              stroke-width="2"></rect>
+            <line
+              x1="44"
+              y1="52"
+              x2="56"
+              y2="52"
+              stroke="#1F2937"
+              stroke-width="1"
+              stroke-opacity="0.4"></line>
+            <line
+              x1="44"
+              y1="58"
+              x2="56"
+              y2="58"
+              stroke="#1F2937"
+              stroke-width="1"
+              stroke-opacity="0.4"></line>
+            <line
+              x1="44"
+              y1="64"
+              x2="56"
+              y2="64"
+              stroke="#1F2937"
+              stroke-width="1"
+              stroke-opacity="0.4"></line>
+            <line
+              x1="44"
+              y1="70"
+              x2="56"
+              y2="70"
+              stroke="#1F2937"
+              stroke-width="1"
+              stroke-opacity="0.4"></line>
+            <line
+              x1="44"
+              y1="76"
+              x2="56"
+              y2="76"
+              stroke="#1F2937"
+              stroke-width="1"
+              stroke-opacity="0.4"></line>
+            <line
+              x1="44"
+              y1="82"
+              x2="56"
+              y2="82"
+              stroke="#1F2937"
+              stroke-width="1"
+              stroke-opacity="0.4"></line>
+            <path
+              d="M46 45 L 42 38 L 58 38 L 54 45 Z"
+              fill="#9CA3AF"
+              stroke="#1F2937"
+              stroke-width="2"
+              stroke-linejoin="round"></path>
+            <rect
+              x="28"
+              y="20"
+              width="44"
+              height="18"
+              rx="3"
+              fill="#E5E7EB"
+              stroke="#1F2937"
+              stroke-width="2"></rect>
+            <line
+              x1="32"
+              y1="29"
+              x2="68"
+              y2="29"
+              stroke="#4B5563"
+              stroke-width="2"></line>
+            <line
+              x1="32"
+              y1="33"
+              x2="68"
+              y2="33"
+              stroke="#4B5563"
+              stroke-width="2"></line>
+            <path
+              d="M32 24 H 68"
+              stroke="#EF4444"
+              stroke-width="3"
+              stroke-linecap="round"></path>
+          </svg>
         </div>
         <div>
           <div class="font-black uppercase text-sm mb-1 tracking-tight text-slate-900">
@@ -53,19 +139,93 @@
           <div class="text-3xl font-black text-red-600 tracking-tighter">
             $<span id="gilletteTotal-{{ section.id }}">2,200</span>
           </div>
-          <div id="competitorLabel-{{ section.id }}" class="text-[9px] uppercase font-bold text-red-400 mt-2">
+          <div id="competitorLabel-{{ section.id }}" class="text-sm uppercase font-bold text-red-400 mt-2">
             Total cost over 10 years
           </div>
         </div>
       </div>
 
       <!-- Our Card -->
-      <div class="bg-green-50 border-2 border-green-500 rounded-xl p-4 shadow-[0_8px_30px_rgba(34,197,94,0.15)] transform scale-105 z-10 flex flex-col items-center justify-between h-full relative">
-        <div class="absolute -top-3 bg-green-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">
+      <div class="bg-green-50 border-2 border-solid border-green-500 rounded-xl p-4 shadow-[0_8px_30px_rgba(34,197,94,0.15)] transform scale-105 z-10 flex flex-col items-center justify-between h-full relative">
+        <div class="absolute -top-3 bg-green-500 text-white text-sm font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">
           Best Value
         </div>
-        <div class="mb-2 transform rotate-12 bg-white rounded-full p-2 border border-green-100">
-          <span class="text-3xl">✨</span>
+        <div class="w-24 h-24 mb-2 transition-transform hover:scale-105 duration-300">
+          <svg
+            viewBox="0 0 100 100"
+            class="w-full h-full drop-shadow-sm"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <rect
+              x="44"
+              y="35"
+              width="12"
+              height="55"
+              rx="2"
+              fill="#D1D5DB"
+              stroke="#1F2937"
+              stroke-width="2"></rect>
+            <line
+              x1="44"
+              y1="45"
+              x2="56"
+              y2="45"
+              stroke="#1F2937"
+              stroke-width="1"
+              stroke-opacity="0.3"></line>
+            <line
+              x1="44"
+              y1="55"
+              x2="56"
+              y2="55"
+              stroke="#1F2937"
+              stroke-width="1"
+              stroke-opacity="0.3"></line>
+            <line
+              x1="44"
+              y1="65"
+              x2="56"
+              y2="65"
+              stroke="#1F2937"
+              stroke-width="1"
+              stroke-opacity="0.3"></line>
+            <line
+              x1="44"
+              y1="75"
+              x2="56"
+              y2="75"
+              stroke="#1F2937"
+              stroke-width="1"
+              stroke-opacity="0.3"></line>
+            <line
+              x1="44"
+              y1="85"
+              x2="56"
+              y2="85"
+              stroke="#1F2937"
+              stroke-width="1"
+              stroke-opacity="0.3"></line>
+            <rect
+              x="46"
+              y="30"
+              width="8"
+              height="5"
+              fill="#9CA3AF"
+              stroke="#1F2937"
+              stroke-width="2"></rect>
+            <path
+              d="M30 30 H 70 V 34 H 30 Z"
+              fill="#9CA3AF"
+              stroke="#1F2937"
+              stroke-width="2"
+              stroke-linejoin="round"></path>
+            <path
+              d="M28 30 C 28 20, 72 20, 72 30 Z"
+              fill="#E5E7EB"
+              stroke="#1F2937"
+              stroke-width="2"
+              stroke-linejoin="round"></path>
+          </svg>
         </div>
         <div>
           <div class="font-black uppercase text-sm mb-1 tracking-tight text-slate-900">
@@ -74,7 +234,7 @@
           <div class="text-3xl font-black text-green-600 tracking-tighter">
             $<span id="nordicTotal-{{ section.id }}">132</span>
           </div>
-          <div id="ourLabel-{{ section.id }}" class="text-[9px] uppercase font-bold text-green-600 mt-2">
+          <div id="ourLabel-{{ section.id }}" class="text-sm uppercase font-bold text-green-600 mt-2">
             Total cost over 10 years
           </div>
         </div>
@@ -83,15 +243,15 @@
 
     <!-- Savings Text -->
     <div class="mb-8">
-      <div class="text-4xl md:text-6xl font-black text-green-600 tracking-tighter leading-none drop-shadow-sm">
+      <div class="text-3xl md:text-4xl font-black text-green-600 tracking-tighter leading-none drop-shadow-sm">
         YOU SAVE: $<span id="youSave-{{ section.id }}">2,068</span>
       </div>
     </div>
 
     <!-- Button -->
-    <button class="w-full bg-blue-600 text-white font-bold text-2xl py-4 rounded-xl shadow-xl shadow-blue-200 hover:bg-blue-700 hover:scale-[1.02] active:scale-95 transition-all uppercase tracking-wide">
+    <a href="/collections/best-seller" class="button">
       Get Yours - $79.99
-    </button>
+    </a>
 
   </div>
 </section>

@@ -104,7 +104,7 @@
     },
     "razor_tax_calculator_LBxmWt": {
       "type": "razor-tax-calculator",
-      "disabled": true,
+      "disabled": false,
       "name": "Razor Tax Calculator",
       "settings": {}
     },
