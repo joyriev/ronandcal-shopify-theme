@@ -26,7 +26,7 @@
     },
     "razor_tax_calculator_LPpHLQ": {
       "type": "razor-tax-calculator",
-      "disabled": true,
+      "disabled": false,
       "name": "Razor Tax Calculator",
       "settings": {
         "heading": "Stop Paying<br>The Razor Tax",

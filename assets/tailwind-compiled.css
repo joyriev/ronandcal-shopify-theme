@@ -647,6 +647,16 @@
     padding-bottom: 16px
 }
 
+.py-16 {
+    padding-top: 64px;
+    padding-bottom: 64px
+}
+
+.py-\[72px\] {
+    padding-top: 72px;
+    padding-bottom: 72px
+}
+
 .pb-0 {
     padding-bottom: 0px
 }
