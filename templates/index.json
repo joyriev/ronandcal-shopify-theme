@@ -24,26 +24,6 @@
         "padding_bottom": 100
       }
     },
-    "razor_tax_calculator_LPpHLQ": {
-      "type": "razor-tax-calculator",
-      "disabled": true,
-      "name": "Razor Tax Calculator",
-      "settings": {
-        "heading": "Stop Paying<br>The Razor Tax",
-        "default_years": 10,
-        "max_years": 10,
-        "competitor_monthly_cost": "18.3333333333",
-        "our_onetime_cost": "79.99",
-        "our_monthly_cost": "0.4334166667",
-        "competitor_name": "Gillette",
-        "competitor_emoji": "🪒",
-        "our_name": "Nordic Glade",
-        "our_emoji": "✨",
-        "badge_text": "Best Value",
-        "button_text": "Get Yours - $79.99",
-        "button_url": ""
-      }
-    },
     "featured_collection_VRWrPQ": {
       "type": "featured-collection",
       "disabled": true,
@@ -684,7 +664,6 @@
   },
   "order": [
     "home_hero_jjpedA",
-    "razor_tax_calculator_LPpHLQ",
     "featured_collection_VRWrPQ",
     "home_bundle_cols_gEJdUQ",
     "popular_products_WBHJW6",
