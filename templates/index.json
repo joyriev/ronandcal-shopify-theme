@@ -102,6 +102,12 @@
         "padding_bottom": 72
       }
     },
+    "razor_tax_calculator_LBxmWt": {
+      "type": "razor-tax-calculator",
+      "disabled": true,
+      "name": "Razor Tax Calculator",
+      "settings": {}
+    },
     "popular_products_WBHJW6": {
       "type": "popular-products",
       "name": "Popular Products",
@@ -666,6 +672,7 @@
     "home_hero_jjpedA",
     "featured_collection_VRWrPQ",
     "home_bundle_cols_gEJdUQ",
+    "razor_tax_calculator_LBxmWt",
     "popular_products_WBHJW6",
     "image_and_text_zPPtVf",
     "image_and_text_y9imtF",
