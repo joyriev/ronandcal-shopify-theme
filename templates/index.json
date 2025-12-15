@@ -164,8 +164,8 @@
         "text_kW6n4w": {
           "type": "text",
           "settings": {
-            "content": "<p>They don't want you to buy once. They want you to buy forever.</p><p>Dull quickly → Force replacement<br/>Clog easily → Reduce Performance<br/>Proprietary cartridges → Lock you in<br/>$4 each → Maximize profit<br/><br/>Planned obsolescence isn't a bug. It's their business model.</p><p>Nordic Glade is different:</p><p>Built to last 40+ years<br/>Uses universal blades ($0.10 each)<br/>Lifetime warranty<br/>Zero planned failure<br/><br/><br/></p>",
-            "mobile_content": "<p>They don't want you to buy once. They want you to buy forever.</p><p>Dull quickly → Force replacement<br/>Clog easily → Reduce Performance<br/><br/>Planned obsolescence isn't a bug. It's their business model.</p><p>Nordic Glade is different:</p><p>Built to last 40+ years<br/>Uses universal blades ($0.10 each)</p>",
+            "content": "<p>They don't want you to buy once. They want you to buy forever.</p><p>Dull quickly → Force replacement<br/>Clog easily → Reduce Performance<br/>Proprietary cartridges → Lock you in<br/>$4 each → Maximize profit<br/><br/>Planned obsolescence isn't a bug. It's their business model.</p><p><strong>Nordic Glade is different:</strong></p><p>Built to last 40+ years<br/>Uses universal blades ($0.10 each)<br/>Lifetime warranty<br/>Zero planned failure<br/><br/><br/></p>",
+            "mobile_content": "<p>They don't want you to buy once. They want you to buy forever.</p><p>Dull quickly → Force replacement<br/>Clog easily → Reduce Performance<br/><br/>Planned obsolescence isn't a bug. It's their business model.</p><p><strong>Nordic Glade is different:</strong></p><p>Built to last 40+ years<br/>Uses universal blades ($0.10 each)</p>",
             "font_size": 18
           }
         }
