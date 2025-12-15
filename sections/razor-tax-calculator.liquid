@@ -1,0 +1,283 @@
+{% comment %}
+  Razor Tax Calculator Section
+  Save this file as: sections/razor-tax-calculator.liquid
+{% endcomment %}
+
+<section class="razor-tax-section py-24 bg-white font-sans border-b border-gray-100">
+  <div class="max-w-md mx-auto px-4 text-center">
+
+    <h2 class="text-5xl md:text-6xl font-black uppercase leading-[0.85] tracking-tighter mb-8 text-slate-900">
+      {{ section.settings.heading | default: "Stop Paying<br/>The Razor Tax" }}
+    </h2>
+
+    <!-- Slider -->
+    <div class="py-4 px-2 mb-8">
+      <div id="yearsLabel-{{ section.id }}" class="text-xl font-bold uppercase tracking-widest mb-4 font-mono">
+        {{ section.settings.default_years }} YEARS
+      </div>
+      <div class="relative h-3 w-full">
+        <!-- Track Background -->
+        <div class="absolute top-0 left-0 w-full h-full bg-gray-200 rounded-full border border-gray-300"></div>
+        <!-- Track Fill -->
+        <div
+          id="trackFill-{{ section.id }}"
+          class="absolute top-0 left-0 h-full bg-slate-900 rounded-full"
+          style="width: 100%"></div>
+        <!-- Thumb Visual -->
+        <div
+          id="thumbVisual-{{ section.id }}"
+          class="absolute top-1/2 -translate-y-1/2 w-6 h-8 bg-white border-2 border-slate-900 rounded-sm shadow-md z-10 transition-all pointer-events-none"
+          style="left: calc(100% - 12px)"></div>
+        <!-- Actual Input -->
+        <input
+          id="years-{{ section.id }}"
+          type="range"
+          min="1"
+          max="{{ section.settings.max_years }}"
+          value="{{ section.settings.default_years }}"
+          class="absolute top-0 left-0 w-full h-full opacity-0 cursor-pointer z-20" />
+      </div>
+    </div>
+
+    <!-- Cards -->
+    <div class="grid grid-cols-2 gap-4 mb-10">
+      <!-- Competitor Card -->
+      <div class="bg-red-50 border-2 border-red-500 rounded-xl p-4 shadow-[0_8px_30px_rgba(239,68,68,0.15)] flex flex-col items-center justify-between h-full">
+        <div class="mb-2 transform -rotate-12 bg-white rounded-full p-2 border border-red-100">
+          <span class="text-3xl">{{ section.settings.competitor_emoji }}</span>
+        </div>
+        <div>
+          <div class="font-black uppercase text-sm mb-1 tracking-tight text-slate-900">
+            {{ section.settings.competitor_name }}
+          </div>
+          <div class="text-3xl font-black text-red-600 tracking-tighter">
+            $<span id="gilletteTotal-{{ section.id }}">2,200</span>
+          </div>
+          <div id="competitorLabel-{{ section.id }}" class="text-[9px] uppercase font-bold text-red-400 mt-2">
+            Total cost over {{ section.settings.default_years }} years
+          </div>
+        </div>
+      </div>
+
+      <!-- Our Card -->
+      <div class="bg-green-50 border-2 border-green-500 rounded-xl p-4 shadow-[0_8px_30px_rgba(34,197,94,0.15)] transform scale-105 z-10 flex flex-col items-center justify-between h-full relative">
+        <div class="absolute -top-3 bg-green-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider">
+          {{ section.settings.badge_text }}
+        </div>
+        <div class="mb-2 transform rotate-12 bg-white rounded-full p-2 border border-green-100">
+          <span class="text-3xl">{{ section.settings.our_emoji }}</span>
+        </div>
+        <div>
+          <div class="font-black uppercase text-sm mb-1 tracking-tight text-slate-900">
+            {{ section.settings.our_name }}
+          </div>
+          <div class="text-3xl font-black text-green-600 tracking-tighter">
+            $<span id="nordicTotal-{{ section.id }}">132</span>
+          </div>
+          <div id="ourLabel-{{ section.id }}" class="text-[9px] uppercase font-bold text-green-600 mt-2">
+            Total cost over {{ section.settings.default_years }} years
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Savings Text -->
+    <div class="mb-8">
+      <div class="text-4xl md:text-6xl font-black text-green-600 tracking-tighter leading-none drop-shadow-sm">
+        YOU SAVE: $<span id="youSave-{{ section.id }}">2,068</span>
+      </div>
+    </div>
+
+    <!-- Button -->
+    {% if section.settings.button_url != blank %}
+      <a href="{{ section.settings.button_url }}" class="block w-full bg-blue-600 text-white font-bold text-2xl py-4 rounded-xl shadow-xl shadow-blue-200 hover:bg-blue-700 hover:scale-[1.02] active:scale-95 transition-all uppercase tracking-wide">
+        {{ section.settings.button_text }}
+      </a>
+    {% else %}
+      <button class="w-full bg-blue-600 text-white font-bold text-2xl py-4 rounded-xl shadow-xl shadow-blue-200 hover:bg-blue-700 hover:scale-[1.02] active:scale-95 transition-all uppercase tracking-wide">
+        {{ section.settings.button_text }}
+      </button>
+    {% endif %}
+
+  </div>
+</section>
+
+<style>
+  /* Custom styles for range input thumb */
+  .razor-tax-section input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 24px;
+    height: 32px;
+    background: white;
+    border: 2px solid #0f172a;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+
+  .razor-tax-section input[type="range"]::-moz-range-thumb {
+    width: 24px;
+    height: 32px;
+    background: white;
+    border: 2px solid #0f172a;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+</style>
+
+<script>
+  (function() {
+  // Tunable constants
+  const gilletteMonthlyCost = {{ section.settings.competitor_monthly_cost }};
+  const nordicOneTimeCost = {{ section.settings.our_onetime_cost }};
+  const nordicMonthlyBladeCost = {{ section.settings.our_monthly_cost }};
+  const sectionId = "{{ section.id }}";
+
+  const yearsEl = document.getElementById(`years-${sectionId}`);
+  const yearsLabel = document.getElementById(`yearsLabel-${sectionId}`);
+  const trackFill = document.getElementById(`trackFill-${sectionId}`);
+  const thumbVisual = document.getElementById(`thumbVisual-${sectionId}`);
+  const gilletteOut = document.getElementById(`gilletteTotal-${sectionId}`);
+  const nordicOut = document.getElementById(`nordicTotal-${sectionId}`);
+  const saveOut = document.getElementById(`youSave-${sectionId}`);
+  const competitorLabel = document.getElementById(`competitorLabel-${sectionId}`);
+  const ourLabel = document.getElementById(`ourLabel-${sectionId}`);
+
+  const money = (n) => Math.round(n).toLocaleString();
+
+  function recalc() {
+    const years = Number(yearsEl.value);
+    const maxYears = Number(yearsEl.max);
+    yearsLabel.textContent = `${years} YEAR${years === 1 ? '' : 'S'}`;
+
+    const gilletteTotal = gilletteMonthlyCost * 12 * years;
+    const nordicTotal = nordicOneTimeCost + (nordicMonthlyBladeCost * 12 * years);
+    const youSave = gilletteTotal - nordicTotal;
+
+    gilletteOut.textContent = money(gilletteTotal);
+    nordicOut.textContent = money(nordicTotal);
+    saveOut.textContent = money(youSave);
+
+    competitorLabel.textContent = `Total cost over ${years} year${years === 1 ? '' : 's'}`;
+    ourLabel.textContent = `Total cost over ${years} year${years === 1 ? '' : 's'}`;
+
+    const percentage = (years / maxYears) * 100;
+    trackFill.style.width = `${percentage}%`;
+    thumbVisual.style.left = `calc(${percentage}% - 12px)`;
+  }
+
+  yearsEl.addEventListener("input", recalc);
+  recalc();
+  })();
+</script>
+
+{% schema %}
+  {
+    "name": "Razor Tax Calculator",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Heading"
+      },
+      {
+        "type": "html",
+        "id": "heading",
+        "label": "Section Heading",
+        "default": "Stop Paying<br/>The Razor Tax"
+      },
+      {
+        "type": "header",
+        "content": "Slider Settings"
+      },
+      {
+        "type": "range",
+        "id": "default_years",
+        "min": 1,
+        "max": 10,
+        "step": 1,
+        "label": "Default Years",
+        "default": 10
+      }, {
+        "type": "range",
+        "id": "max_years",
+        "min": 5,
+        "max": 20,
+        "step": 1,
+        "label": "Maximum Years",
+        "default": 10
+      }, {
+        "type": "header",
+        "content": "Pricing Settings"
+      }, {
+        "type": "number",
+        "id": "competitor_monthly_cost",
+        "label": "Competitor Monthly Cost",
+        "default": 18.33,
+        "info": "Monthly cost for competitor (e.g., 18.33 = $2,200/year)"
+      }, {
+        "type": "number",
+        "id": "our_onetime_cost",
+        "label": "Our One-Time Cost",
+        "default": 79.99,
+        "info": "Initial purchase price"
+      }, {
+        "type": "number",
+        "id": "our_monthly_cost",
+        "label": "Our Monthly Blade Cost",
+        "default": 0.43,
+        "info": "Monthly blade replacement cost"
+      }, {
+        "type": "header",
+        "content": "Competitor Card"
+      }, {
+        "type": "text",
+        "id": "competitor_name",
+        "label": "Competitor Name",
+        "default": "Gillette"
+      }, {
+        "type": "text",
+        "id": "competitor_emoji",
+        "label": "Competitor Emoji",
+        "default": "🪒"
+      }, {
+        "type": "header",
+        "content": "Our Product Card"
+      }, {
+        "type": "text",
+        "id": "our_name",
+        "label": "Our Product Name",
+        "default": "Nordic Glade"
+      }, {
+        "type": "text",
+        "id": "our_emoji",
+        "label": "Our Product Emoji",
+        "default": "✨"
+      }, {
+        "type": "text",
+        "id": "badge_text",
+        "label": "Badge Text",
+        "default": "Best Value"
+      }, {
+        "type": "header",
+        "content": "Call to Action"
+      }, {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button Text",
+        "default": "Get Yours - $79.99"
+      }, {
+        "type": "url",
+        "id": "button_url",
+        "label": "Button URL",
+        "info": "Leave blank for no link"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Razor Tax Calculator"
+      }
+    ]
+  }
+{% endschema %}
