@@ -22,7 +22,7 @@
     <div class="ml-auto max-w-[500px] md:px-10 text-center md:text-left">
       <h1 class="text-3xl md:text-4xl font-black mt-0">{{ section.settings.title }}</h1>
       <p class="text-lg font-medium">{{ section.settings.subtitle }}</p>
-      <a href="{{ section.settings.button_link }}" class="button">Get Yours for {{ chosen_product.price | money }} AUD</a>
+      <a href="{{ section.settings.button_link }}" class="button">Get Yours for {{ chosen_product.price | money_with_currency }}</a>
     </div>
   </div>
 </div>
