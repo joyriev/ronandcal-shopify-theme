@@ -142,57 +142,9 @@
   </div>
 {% endif %}
 
-{% assign accessories = product.metafields.custom.accessories.value %}
-{% if accessories %}
-  <div x-data class="p-4 pb-0">
-    <h3 class="text-lg font-semibold !my-0">Accessories:</h3>
-    <p class="text-base mt-0 !mb-3">Accessories 20% off until {{ 'now' | date: "%s" | plus: 259200 | date: "%b %d" }} - Automatically applies in the cart.</p>
-    {% for item in accessories %}
-      <div class="flex items-center justify-between mb-2">
-        <div class="flex items-center gap-1">
-          <input
-            class="!size-5 m-0"
-            id="{{ item.id }}"
-            type="checkbox"
-            :checked="$store.pdpExtra.accessories.includes('{{ item.selected_or_first_available_variant.id }}')"
-            @change="$store.pdpExtra.addRemoveAccessories('{{ item.selected_or_first_available_variant.id }}')">
-          <label for="{{ item.id }}">{{ item.title }}</label>
-        </div>
-        <div class="flex items-center gap-2">
-          <span class="whitespace-nowrap">+{{ item.price | money }}</span>
-          <button @click="$store.pdpExtra.showModal = true; $store.pdpExtra.modalContentId = '{{ item.title | downcase | replace: ' ', '_' }}'" class="border-0 p-0 bg-transparent flex text-gray-700 cursor-pointer">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="feather feather-help-circle">
-              <circle
-                cx="12"
-                cy="12"
-                r="10"></circle>
-              <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
-              <line
-                x1="12"
-                y1="17"
-                x2="12.01"
-                y2="17"></line>
-            </svg>
-          </button>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-{% endif %}
-
 <button
   x-data
-  class="product-form__submit button button--full-width button--primary rounded-full leading-[50px] !mb-8"
+  class="product-form__submit button button--full-width button--primary rounded-full leading-[50px]"
   @click="$store.pdpExtra.addToCart()"
   :disabled="$store.pdpExtra.addingToCart">
   <span>
@@ -246,6 +198,53 @@
   {%- endform -%}
 </product-form>
 
+{% assign accessories = product.metafields.custom.accessories.value %}
+{% if accessories %}
+  <div x-data class="p-4 pb-6">
+    <h3 class="text-lg font-semibold !my-0">Accessories:</h3>
+    <p class="text-base mt-0 !mb-3">Accessories 20% off until {{ 'now' | date: "%s" | plus: 259200 | date: "%b %d" }} - Automatically applies in the cart.</p>
+    {% for item in accessories %}
+      <div class="flex items-center justify-between mb-2">
+        <div class="flex items-center gap-1">
+          <input
+            class="!size-5 m-0"
+            id="{{ item.id }}"
+            type="checkbox"
+            :checked="$store.pdpExtra.accessories.includes('{{ item.selected_or_first_available_variant.id }}')"
+            @change="$store.pdpExtra.addRemoveAccessories('{{ item.selected_or_first_available_variant.id }}')">
+          <label for="{{ item.id }}">{{ item.title }}</label>
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="whitespace-nowrap">+{{ item.price | money }}</span>
+          <button @click="$store.pdpExtra.showModal = true; $store.pdpExtra.modalContentId = '{{ item.title | downcase | replace: ' ', '_' }}'" class="border-0 p-0 bg-transparent flex text-gray-700 cursor-pointer">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-help-circle">
+              <circle
+                cx="12"
+                cy="12"
+                r="10"></circle>
+              <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+              <line
+                x1="12"
+                y1="17"
+                x2="12.01"
+                y2="17"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
 
 <script>
 
