@@ -1,4 +1,6 @@
-<section class="py-20 bg-white font-sans">
+{% assign chosen_product = all_products['birch'] %}
+
+<div class="py-20 bg-white font-sans">
   <div class="max-w-3xl mx-auto px-4 text-center">
 
     <h2 class="text-3xl md:text-4xl font-black mt-0">
@@ -137,7 +139,9 @@
             Gillette
           </div>
           <div class="text-3xl font-black text-red-600 tracking-tighter">
-            $<span id="gilletteTotal-{{ section.id }}">2,200</span>
+            <span id="gilletteTotal-{{ section.id }}">
+              {{ cart.currency.symbol }} 2,200
+            </span>
           </div>
           <div id="competitorLabel-{{ section.id }}" class="text-sm uppercase font-bold text-red-400 mt-2">
             Total cost over 10 years
@@ -232,7 +236,8 @@
             Nordic Glade
           </div>
           <div class="text-3xl font-black text-green-600 tracking-tighter">
-            $<span id="nordicTotal-{{ section.id }}">132</span>
+            <span id="nordicTotal-{{ section.id }}">
+              {{ cart.currency.symbol }} 132</span>
           </div>
           <div id="ourLabel-{{ section.id }}" class="text-sm uppercase font-bold text-green-600 mt-2">
             Total cost over 10 years
@@ -244,17 +249,19 @@
     <!-- Savings Text -->
     <div class="mb-8">
       <div class="text-3xl md:text-4xl font-black text-green-600 tracking-tighter leading-none drop-shadow-sm">
-        YOU SAVE: $<span id="youSave-{{ section.id }}">2,068</span>
+        YOU SAVE:
+        <span id="youSave-{{ section.id }}">
+          {{ cart.currency.symbol }} 2,068</span>
       </div>
     </div>
 
     <!-- Button -->
     <a href="/collections/best-seller" class="button">
-      Get Yours - $79.99
+      Get Yours - {{ chosen_product.price | money_with_currency }}
     </a>
 
   </div>
-</section>
+</div>
 
 <style>
   /* Custom styles for range input thumb */
@@ -284,9 +291,9 @@
 <script>
   (function() {
   // Tunable constants
-  const gilletteMonthlyCost = 18.3333333333;
-  const nordicOneTimeCost = 79.99;
-  const nordicMonthlyBladeCost = 0.4334166667;
+  const gilletteMonthlyCost = 10.35;
+  const nordicOneTimeCost = 44.99;
+  const nordicMonthlyBladeCost = 0.24;
   const sectionId = "{{ section.id }}";
 
   const yearsEl = document.getElementById(`years-${sectionId}`);
@@ -299,7 +306,30 @@
   const competitorLabel = document.getElementById(`competitorLabel-${sectionId}`);
   const ourLabel = document.getElementById(`ourLabel-${sectionId}`);
 
-  const money = (n) => Math.round(n).toLocaleString();
+  function formatMoney(amount, withFraction = true) {
+    if (
+      !window.Shopify?.currency?.active ||
+      !window.Shopify?.currency?.rate
+    ) {
+      throw new Error("Shopify currency data not found");
+    }
+
+    const rate = Number(window.Shopify.currency.rate);
+    const currency = window.Shopify.currency.active;
+
+    if (Number.isNaN(rate)) {
+      throw new Error("Invalid currency rate");
+    }
+
+    const localAmount = amount * rate;
+
+    return new Intl.NumberFormat(undefined, {
+      style: "currency",
+      currency,
+      minimumFractionDigits: withFraction ? 2 : 0,
+      maximumFractionDigits: withFraction ? 2 : 0,
+    }).format(localAmount);
+  }
 
   function recalc() {
     const years = Number(yearsEl.value);
@@ -310,9 +340,9 @@
     const nordicTotal = nordicOneTimeCost + (nordicMonthlyBladeCost * 12 * years);
     const youSave = gilletteTotal - nordicTotal;
 
-    gilletteOut.textContent = money(gilletteTotal);
-    nordicOut.textContent = money(nordicTotal);
-    saveOut.textContent = money(youSave);
+    gilletteOut.textContent = formatMoney(gilletteTotal, false);
+    nordicOut.textContent = formatMoney(nordicTotal, false);
+    saveOut.textContent = formatMoney(youSave, false);
 
     competitorLabel.textContent = `Total cost over ${years} year${years === 1 ? '' : 's'}`;
     ourLabel.textContent = `Total cost over ${years} year${years === 1 ? '' : 's'}`;
@@ -323,6 +353,7 @@
   }
 
   yearsEl.addEventListener("input", recalc);
+
   recalc();
   })();
 </script>
