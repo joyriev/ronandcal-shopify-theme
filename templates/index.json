@@ -379,7 +379,7 @@
       "name": "Image and Text",
       "settings": {
         "background_color": "#ffffff",
-        "image": "shopify://shop_images/nordic_comparison_hp_3.png",
+        "image": "shopify://shop_images/nordic_comparison_hp_5.png",
         "rounded_image": true,
         "image_placement": "1",
         "mobile_image_placement": "under_heading",
