@@ -169,7 +169,7 @@
         "text_kW6n4w": {
           "type": "text",
           "settings": {
-            "content": "<p>They don't want you to buy once. They want you to buy forever.</p><ul><li>Dull quickly → Force replacement</li><li>Clog easily → Reduce Performance</li><li>Proprietary cartridges → Lock you in</li><li>$4 each → Maximize profit</li></ul><p>Planned obsolescence isn't a bug. It's their business model.</p><p><strong>Nordic Glade is different:</strong></p><ul><li>Built to last 40+ years</li><li>Uses universal blades ($0.10 each)</li><li>Lifetime warranty</li><li>Zero planned failure</li></ul>",
+            "content": "<p>They don't want you to buy once. They want you to buy forever.</p><p>Dull quickly → Force replacement<br/>Clog easily → Reduce Performance<br/>Proprietary cartridges → Lock you in<br/>$4 each → Maximize profit<br/><br/>Planned obsolescence isn't a bug. It's their business model.</p><p><strong>Nordic Glade is different:</strong></p><p>Built to last 40+ years<br/>Uses universal blades ($0.10 each)<br/>Lifetime warranty<br/>Zero planned failure<br/><br/><br/></p>",
             "mobile_content": "<p>They don't want you to buy once. They want you to buy forever.</p><p>Dull quickly → Force replacement<br/>Clog easily → Reduce Performance<br/><br/>Planned obsolescence isn't a bug. It's their business model.</p><p><strong>Nordic Glade is different:</strong></p><p>Built to last 40+ years<br/>Uses universal blades ($0.10 each)</p>",
             "font_size": 18
           }
@@ -182,12 +182,56 @@
       "name": "Image and Text",
       "settings": {
         "background_color": "#ffffff",
-        "image": "shopify://shop_images/Your_Razor_Is_Designed_To_Fail.png",
+        "image": "shopify://shop_images/13_all_models_lineup.png",
         "rounded_image": true,
         "image_placement": "0",
         "mobile_image_placement": "under_heading",
         "button_text": "",
         "button_url": "",
+        "columns_gap": 40,
+        "rows_gap": 20,
+        "content_alignment": "center",
+        "blocks_gap": 24,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "image_and_text_7YFTdT": {
+      "type": "image-and-text",
+      "blocks": {
+        "heading_izjfLE": {
+          "type": "heading",
+          "settings": {
+            "content": "Why 5 BladesIs A Scam.",
+            "heading_type": "h2",
+            "font_size": 40,
+            "mobile_font_size": 24
+          }
+        },
+        "text_9MWth8": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Gillette's original patent expired in 1921. They couldn't charge premium prices anymore.</p><p>So they invented a gimmick: <strong>multi-blade cartridges.</strong></p><p>2 blades. Then 3. Then 5. Now 7.</p><h3><strong>Nordic Glade</strong></h3><p>One precision blade. <strong>$79.99 once.</strong> Lasts 40+ years.</p>",
+            "mobile_content": "",
+            "font_size": 18
+          }
+        }
+      },
+      "block_order": [
+        "heading_izjfLE",
+        "text_9MWth8"
+      ],
+      "name": "Image and Text",
+      "settings": {
+        "background_color": "#fcfbf9",
+        "image": "shopify://shop_images/marketing_gimmik.png",
+        "rounded_image": true,
+        "image_placement": "1",
+        "mobile_image_placement": "under_heading",
+        "button_text": "Stop Paying For Gimmicks",
+        "button_url": "shopify://collections/best-seller",
         "columns_gap": 40,
         "rows_gap": 20,
         "content_alignment": "center",
@@ -225,10 +269,10 @@
       ],
       "name": "Image and Text",
       "settings": {
-        "background_color": "#fcfbf9",
+        "background_color": "#ffffff",
         "image": "shopify://shop_images/nordic_comparison_square.png",
         "rounded_image": true,
-        "image_placement": "1",
+        "image_placement": "0",
         "mobile_image_placement": "under_heading",
         "button_text": "",
         "button_url": "",
@@ -379,7 +423,7 @@
       "name": "Image and Text",
       "settings": {
         "background_color": "#ffffff",
-        "image": "shopify://shop_images/nordic_comparison_hp_5.png",
+        "image": "shopify://shop_images/nordic_comparison_hp_3.png",
         "rounded_image": true,
         "image_placement": "1",
         "mobile_image_placement": "under_heading",
@@ -675,6 +719,7 @@
     "popular_products_WBHJW6",
     "image_and_text_zPPtVf",
     "image_and_text_y9imtF",
+    "image_and_text_7YFTdT",
     "image_and_text_rwbfUc",
     "image_and_text_AcWczx",
     "how_it_works_4t44M9",
